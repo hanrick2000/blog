@@ -1,3 +1,5 @@
+#### Debug script
+- bash -x the_command
 
 #### Math
 - var=$((var+1))

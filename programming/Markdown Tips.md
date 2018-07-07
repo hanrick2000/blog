@@ -20,6 +20,12 @@ Normal Key|Value1
     - Item 1a
 ```
 
+##### [Task(Check) List](https://blog.github.com/2014-04-28-task-lists-in-all-markdown-documents/)
+```markdown
+- [] item incomplete
+- [x] item done
+```
+
 #### [Line breaks in markdown]()
 ```markdown
 <br/>
@@ -65,15 +71,24 @@ Normal Key|Value1
 ##### 2: Use pandoc
 ```bash
 pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso \
--o the_output.html ""${md}"
+-o the_output.html "${md}"
 # rmheadbody.sh removes the not-needed head, body tags
 pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso "${md}" \
 | bash ~/scripts/rmheadbody.sh | pbcopy
 ```
 - then remove no needed head, body tags
 
-#### Atom
-- Plugins: [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)
+#### Atom Plugins
+- [markdown-preview-enhanced](https://atom.io/packages/markdown-preview-enhanced/)
+  - Ctrl+Shift+M: toggle preview
+  - Support Code chunk, presentation
+  - [Presentation](https://shd101wyy.github.io/markdown-preview-enhanced/#/presentation)
+  - [Diagrams](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams)
+    - Support PlantUML, mermaid, flow charts, sequence diagrams
+```markdown
+<!-- slide -->
+```
+- [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)
 
 #### pandoc
 - brew install pandoc

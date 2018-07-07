@@ -11,7 +11,9 @@
 - [Tab Modifier](https://chrome.google.com/webstore/detail/tab-modifier/hcbgadmbdkiilgpifjgcakjehmafcjai)
 - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
 - [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj)
-- Grammarly
+    - Example: Set "Content-Type" in response to application/json
+- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
+    - [Also a standalone Mac App](https://app.grammarly.com/)
 - [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 - [Awesome Screenshot: Screen Video Recorder](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)
 
@@ -31,7 +33,7 @@
 - [Visual Mode](https://github.com/philc/vimium/wiki/Visual-Mode)
     - v or V (line mode)
     - o to swap the anchor and the focus
-    - c to enter caret mode from visual mode
+    - c to enter caret mode from a visual mode
     - vi-like movements: $
 
 ##### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
@@ -50,11 +52,17 @@
 - go to chrome://settings/content/notifications
 - toggle Ask before sending (recommended) to Blocked
 
+##### Print
+- Hide headers and footers
+
 ###### Close Download Bar
 - ⌘ + Shift + j then ⌘ + W
 - [Disable Download Bar](https://chrome.google.com/webstore/detail/disable-download-bar/epnnapjdpplekmodajomjojfpeicclep/related)
 
 <br/>
+
+##### [NET::ERR_CERTIFICATE_TRANSPARENCY_REQUIRED for known safe (intranet) sites](https://kurttappe.com/2017/05/15/whitelisting-unsecure-websites-in-recent-versions-of-chrome-for-macos/)
+- edit /Library/Preferences/com.google.chrome.plist
 
 #### Tips
 |     |     |
@@ -62,6 +70,9 @@
 Drag multiple tabs to new window|hold the Command key
 Open a Search in New Tab|Hold down the Command button and hit return
 Cmd+click|Open link in new tab
+
+##### [One line browser notepad](https://coderwall.com/p/lhsrcq/one-line-browser-notepad)
+- data:text/html, <html contenteditable>
 
 <br/>
 

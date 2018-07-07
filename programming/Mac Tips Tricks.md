@@ -1,4 +1,3 @@
-### Mac
 #### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html#mac-shortcuts)
 #### Change Notification type
 - Preferences > Notifications
@@ -19,6 +18,9 @@
 #### [Enable Touch ID](https://support.apple.com/en-us/HT207054)
 - Preferences > Touch ID
 - Then we can use touch id instead of manually type password
+- [Use Touch ID for sudo](http://osxdaily.com/2017/11/22/use-touch-id-sudo-mac/)
+    - vi nano /etc/pam.d/sudo
+    - add "auth sufficient pam_tid.so" to the top
 
 #### [Change default application for a file type](http://teohm.com/blog/mac-tips-change-default-application-for-a-file-type/)
 - right-click the file, select Get Info and change the application in Open With section.
@@ -37,13 +39,32 @@
 - Preferences > General > New message notifications
 #### [Add users to VIP](https://www.imore.com/how-quickly-add-contact-your-vip-list-mac-mail)
 #### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html#mac-mail)
+
 <br/>
+
+##### Messages App to send/receive SMS
 
 ### iPad
 #### Manually manage music and videos
 To manually copy videos from mac to iPad:
 - Select Summary option from the device’s settings in iTunes, then enable the option
 
+#### brew
+```bash
+brew list -l
+brew cask list
+brew update/upgrade
+brew cleanup
+```
+
+#### Tools
+##### [the-unarchiver](https://theunarchiver.com/)
+- brew cask install the-unarchiver
+- open its preferences and select all the file format
+
+##### [grammarly](https://app.grammarly.com/)
+
 <br/>
 
+#### References
 [Mac Tips & Tricks - 2016](http://lifelongprogrammer.blogspot.com/2016/04/mac-tips-tricks-2016.html)

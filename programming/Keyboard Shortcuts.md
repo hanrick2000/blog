@@ -119,7 +119,7 @@ Cmd+left(right)|go back(forward) in history
 - chrome://extensions/shortcuts
 
 ####
-Install[ Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) for Chrome and then install the ["Auto Close YouTube Ads" script](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
+Install [ Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and then install the ["Auto Close YouTube Ads" script](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
 
 #### Vimium<a name="vimium"></a>
 - [Install from Chrome Webstore](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
@@ -143,6 +143,7 @@ h/j/k/l|scroll left/down/up/right
 **(number+)d(u)** | **half page down(up)**
 yy|copy the current url to the clipboard
 yf|copy a link url to the clipboard
+p/P|search the text in clipboard using search engine   
 ?| help
 
 ##### Customize keys
