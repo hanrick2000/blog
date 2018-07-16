@@ -30,3 +30,6 @@ done
 #### IDE
 - [Atom ide-bash](https://atom.io/packages/ide-bash)
 - [IDEA bashsupport](https://www.plugin-dev.com/project/bashsupport/)
+
+#### References
+- [Bash Scripting Essentials](http://lifelongprogrammer.blogspot.com/2017/10/bash-scripting-essentials.html)

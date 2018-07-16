@@ -13,10 +13,17 @@
 - git log --oneline [--pretty=oneline]
 
 ##### Wipes your unstaged changes
-git checkout <filename or directory>
+- git checkout <filename or directory>
 
+### rebase
 #### Edit your X most recent commits interactively (squash, fixup, reword, drop) 
-git rebase -i HEAD~X
-
+- git rebase -i HEAD~X
+#### [Modify a specific commit](https://stackoverflow.com/questions/1186535/how-to-modify-a-specified-commit-in-git)
+```bash
+git rebase --interactive 'bbc643cd^'
+# change pick to edit, Make your changes and then commit them with the same message
+git commit --all --amend --no-edit
+git rebase --continue
+```
 
 ##### [Symbolic links in Git](http://www.mokacoding.com/blog/symliks-in-git/)

@@ -11,6 +11,12 @@ alias
 ###### Sort files by date then grep
 - ls -rt \*.log | xargs grep -l <pattern>
 
+
+```bash
+# Find which jar contains the class
+find . -name "*.jar" | xargs grep Hello.class
+```
+
 ###### List open files
 - ls -l /proc/${pid}/fd
 - lsof -p ${pid}
@@ -44,6 +50,7 @@ diff -x '*.foo' -x '*.bar' -x '*.baz' -rq /destination/dir/1 /destination/dir/2
 
 
 ##### Misc
+- cd $(dirname ${file_full_path})
 - [tar xfz somefilename.tar.gz](https://www.howtogeek.com/50093/unzip-bunzip2-and-untar-those-tar-gz-or-tar-bz2-files-in-one-step/)
 - [dirname, basename, realpath](https://stackoverflow.com/questions/284662/how-do-you-normalize-a-file-path-in-bash)
 

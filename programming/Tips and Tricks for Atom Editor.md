@@ -64,8 +64,14 @@
 
 ##### [Check Atom Shortcuts at here](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html#atom)
 
-##### Tips
+#### Tips
 - Use Cmd+/ to comment: it know the right syntax for different language
+- Click the file name at the bottom bar to copy the full path
+##### [File/Directory Pattern Syntax](https://flight-manual.atom.io/using-atom/sections/find-and-replace/)
+- Use [minimatch](https://github.com/isaacs/minimatch) and [glob patterns](https://en.wikipedia.org/wiki/Glob_%28programming%29)
+- "globstar" pattern (\*\*) can be used to match arbitrarily many subdirectories: docs/\*\*/\*.md
+- Exclude file types or paths: !
+- Search only java source (exclude test) code: \*\*/src/main/\*\*/\*.java or \*.java,!\*Test.java(this also works in Eclipse)
 
 ##### apm
 ```bash

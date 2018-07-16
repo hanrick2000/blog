@@ -1,4 +1,4 @@
-<!-- http://lifelongprogrammer.blogspot.com/2018/06/chrome-tips-and-tricks.html -->
+<!-- http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html -->
 - Use Mac without a mouse and less fingers
 - My fingers burn when use mac trackpad or touch bar, so try to use key board as possible as I can.
 - Some shortcuts are supported by multiple applications, or we can customize them to use same shortcuts.
@@ -40,7 +40,7 @@ Command+\`|cycle between open windows in selected application
 Command+Option+D|show or hide dock
 Command + Option + Escape|Force Quit Applications
 **Ctrl+F2** |**Access menu, enable it at Keyboard -> Shortcuts -> Keyboard**
-**Shift+Cmd+?** |**Open Help menu and navigate**
+**Cmd+Shift+?** |**Open Help menu and navigate**
 ^+F3|Move focus to dock 
 **^+F8** |**Move focus to status menu, search all actions in menu**
 Command+q|Quit the app
@@ -57,9 +57,10 @@ Shift+Arrow|Select text
 **Fn + up(down)** | **Page up(down)**
 **Cmd+1..8** |**Move tab**
 **Cmd+9** |**Move to last tab**
-**Cmd++(or -)** | **Increase(Decrease) Font Size**
-**[[ or ]]** | **Follow the link labeled previous or \< \| next or \> - not always works**
-**gu(or U)** | **Go up the URL hierarchy or Go to root of current URL hierarchy**
+**Cmd++(-)** | **Increase(Decrease) Font Size**
+**Cmd+Shift+F** | **Enter full screen mode**
+**Cmd+Space bar** | **Open Spotlight**
+
 
 ###### v(visual), c(caret mode), /(find mode)
 ###### vi mode movement
@@ -143,7 +144,9 @@ h/j/k/l|scroll left/down/up/right
 **(number+)d(u)** | **half page down(up)**
 yy|copy the current url to the clipboard
 yf|copy a link url to the clipboard
-p/P|search the text in clipboard using search engine   
+p/P|search the text in clipboard using search engine 
+**[[ or ]]** | **Follow the link labeled previous or \< \| next or \> - not always works**
+**gu(or U)** | **Go up the URL hierarchy or Go to root of current URL hierarchy**
 ?| help
 
 ##### Customize keys
@@ -227,6 +230,7 @@ Ctrl+K|Cut to End of Line
 |     |     |
 | --- | --- |
 Command+3|Quick Access( a lot of things, like switch views)
+Cmd+1|Quick fix  
 Cmd+F8|Switch between perspectives
 Shift+F10|Open context menu
 **Cmd+Option+X +T(J)** |**Run Junit test(Java Application)**
@@ -235,8 +239,12 @@ Cmd+Option+ctrl+left(right)|Previous(next) tab, need manually add them in Pref >
 Cmd+Option+left(right)|Go to previous or next   
 Ctrl+M|Maximize(restore) the editor area
 Cmd+Shift+L|List all shortcuts
-Cmd+I|Show info
-
+Cmd+I|Show info in project explorer
+**Cmd+.** | **Next Error**
+Cmd+E|Get a list of opened editors
+**Ctrl+Option+Left(Right) - Customized** | **Previous (next) editor**
+**Ctrl+U (From [More Unit](https://marketplace.eclipse.org/content/moreunit))** |create test method
+Ctrl+J (From [More Unit](https://marketplace.eclipse.org/content/moreunit))|jump to test method
 ---
 
 #### Quip

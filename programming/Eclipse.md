@@ -1,4 +1,19 @@
 
+
+#### Plugins
+- Sign in Eclipse marketplace and favorite plugins, then we can (re)install our favorites later
+
+
+#### Settings
+- Preferences Synchronization
+- Eclipse 4.8 already sets Number of imports needed for .* andNumber of static imports needed for .* to 99.
+
+- Eclipse persists when we change the size of content assist popup window 
+- [Unable to install breakpoint for CGLIB proxy objects](https://stackoverflow.com/a/45897882/753352)
+  - clicking "Don't tell me again"
+
+##### Absent line number information
+
 #### Templates
 ##### Existing templates
 - syso, syse, instanceof, main, switch, static_final, test, toArray, try_catch, try_finally

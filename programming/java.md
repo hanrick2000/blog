@@ -28,6 +28,8 @@ Comparator.comparing(Person::getName).reversed()
           .thenComparingDouble(Person::getSalary)
 ```
 
+##### [Order of ternary operator is very low, always use parentheses](https://stackoverflow.com/questions/11686398/conditional-operator-in-concatenated-string)
+
 #### Misc
 ```java
 // immutable pair

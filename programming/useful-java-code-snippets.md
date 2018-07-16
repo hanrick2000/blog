@@ -28,7 +28,18 @@ peekFirst, addFirst, removeFirst, pollFirst
 - its default iterator or stream is a queue: fifo
 - Use iterator, for loop to access it, but not support random access like get(i)
 
+#### Stream
 ```java
+// convert map to map
+
+map.forEach((s, integer) ->  map2.put(s, integer));
+map.forEach(map2::put);
+
+Map<String, Integer> map2 =
+    map.entrySet().stream().collect(Collectors.toMap(
+            e -> e.getKey(),e -> Integer.parseInt(e.getValue())
+        ));
+
 // Array to set
 Arrays.stream(wrapperArray).collect(Collectors.toSet())
 Arrays.stream(primitiveArray).boxed().collect(Collectors.toSet())
@@ -65,7 +76,7 @@ int[] array = intStream.mapToInt(i->i).toArray();
 Stream.of(int1, int2, ...).min(Integer::compare).get();
 ```
 
-<span style="color:magenta">Optional</span>
+#### Optional
 ```java
 optional.ifPresentOrElse(action, emptyAction)
 ```
@@ -78,7 +89,7 @@ Optional.of(new Outer())
     .map(Inner::getFoo)
     .ifPresent(System.out::println);
 ```
-[Reference](http://www.deadcoderising.com/2017-02-21-java-8-accumulate-your-streams-using-collectors/)
+- [Reference](http://www.deadcoderising.com/2017-02-21-java-8-accumulate-your-streams-using-collectors/)
 ```java
 // UnModifiable collection
 List.of(1, 2)
