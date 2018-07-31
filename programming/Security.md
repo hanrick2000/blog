@@ -1,3 +1,10 @@
+- default truststore location: $JAVA_HOME/jre/lib/security/cacerts
+
+### keytool
+```bash
+keytool -list -keystore $JAVA_HOME/jre/lib/security/cacerts
+keytool -import -trustcacerts -file /path/to/ca/ca.pem -alias CA_ALIAS -keystore $JAVA_HOME/jre/lib/security/cacerts
+```
 ### Certificate
 #### CSR(Certificate Signing Request)
 

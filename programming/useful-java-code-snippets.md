@@ -46,6 +46,9 @@ Arrays.stream(primitiveArray).boxed().collect(Collectors.toSet())
 // to TreeSet
 strStream.collect(Collectors.toCollection(TreeSet::new))
 
+// Collectors
+.collect(Collectors.joining( "," ))
+
 count.put(word, count.getOrDefault(word, 0) + 1);
 // computeIfAbsent returns latest value, prefer this over putIfAbsent
 map.computeIfAbsent(key, k -> new PriorityQueue()).add(value);
@@ -80,8 +83,7 @@ Stream.of(int1, int2, ...).min(Integer::compare).get();
 ```java
 optional.ifPresentOrElse(action, emptyAction)
 ```
-[Avoid null check](http://winterbe.com/posts/2015/03/15/avoid-null-checks-in-java/
-)
+[Avoid null check](http://winterbe.com/posts/2015/03/15/avoid-null-checks-in-java/)
 ```java
 Optional.of(new Outer())
     .map(Outer::getNested)
@@ -120,8 +122,14 @@ articles.collect(
 // Convert list of Character to String
 listCharacter.stream().map(String::valueOf).collect(Collectors.joining());    
 ```
+#### Collection
+```java
+list.removeIf(i -> i == 2); //Predicate
+```
+
 #### Misc
 ```java
+String.join(delimiter, elements);
 new StringBuilder(word).reverse().toString()
 /* number to char array */
 char[] array = String.valueOf(number).toCharArray();
@@ -165,4 +173,6 @@ Arrays.deepToString(array)/toString(array)
 
 String bits = Integer.toBinaryString(n);
 Integer.bitCount(n)
+
+ManagementFactory.getGarbageCollectorMXBeans()
 ```
