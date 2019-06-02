@@ -29,6 +29,9 @@
 
 #### Know your weakness in communication skills
 
+#### Be concise
+- to-the-point, 
+
 ### Writing
 #### Spell Check
 - Check text in both [Atom](http://massivetechinterview.blogspot.com/2016/01/atom-github-editor.html)
@@ -37,6 +40,10 @@
     - [Also a standalone Mac App](https://app.grammarly.com/)
     - Use this together with Chrome's native spell checker
     - Check on demand: Change "Site access" to "On Click"
+
+### [Ask](https://medium.com/swlh/my-productivity-life-mega-list-29-strategies-243f1b017600)
+<!-- Ask. Ask to create your own options, to uncover solutions, and to learn
+An extension of the last point but a whole point on its own. Just ask. Ask for a little extra, ask for an alternative, ask for an exception, ask the dumb question. If you don’t ask, you won’t know and won’t receive -->
 
 ### How to ask questions
 - provide more info

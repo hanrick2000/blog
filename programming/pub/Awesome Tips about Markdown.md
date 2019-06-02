@@ -4,11 +4,13 @@
   - ~~your text~~
 - Inline code: surround your text with backtick symbols **\`**
   - `you code`
+
 #### [Backslash Escape](https://golem.ph.utexas.edu/~distler/maruku/markdown_syntax.html#autoescape)
 ```markdown
 [\@com.carrotsearch.randomizedtesting.annotations.Repeat(iterations = 5)]
 (https://github.com/randomizedtesting/randomizedtesting/wiki)
 ```
+
 #### [Automatic links](https://daringfireball.net/projects/markdown/syntax#autolink)
 bad word
 - Link without text
@@ -57,7 +59,7 @@ Normal Key|Value1øøøøø
 ```
 - Reference the anchor
 ```markdown
-[Mail's Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html#mac-mail)
+[Mail's Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#mac-mail)
 ```
 
 #### Images
@@ -81,7 +83,7 @@ Normal Key|Value1øøøøø
 
 ### Blogger with markdown
 - Focus on the content, easy to store/edit the content locally
-- Easy to hide text(Cmd+/)
+- Easy to hide(Cmd+/) text, draft, or the text/explanation for you.
 
 #### 1: Use "Copy Html" function from markdown-preview-plus
 - Then paste output

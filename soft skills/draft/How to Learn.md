@@ -19,6 +19,9 @@
 - How people are doing things
 - What they are doing
 
+#### Learn From Yours Or Others Mistake
+- Write down and revisit them
+
 #### Learn from people
 ##### Colleague
 - PRs, 

@@ -1,3 +1,9 @@
+### Explore
+- Common Functions
+- Long Press
+- 3 D touch: hard press
+- More button: ...
+
 ### iPhone
 - [Sync Google Contacts in iPhone](https://www.scrubly.com/blog/how-to-google-contacts/how-to-sync-google-contacts-with-the-iphone/)
   - Add your Gmail account at Settings -> **Passwords & Accounts**
@@ -11,6 +17,22 @@
 - HEIC is not widely supported.
 - Settings -> Camera -> Formats -> Most compatible
 
+<!-- - [Open Links in Chrome Instead of Safari Using the Shortcuts App](https://ios.gadgethacks.com/how-to/open-links-chrome-instead-safari-your-iphone-using-shortcuts-app-0183439/)
+  - Not worth -->
+
+#### Settings -> Screen time
+##### Content and Privacy Restrictions
+- Disable in-app purchase
+- Disable Wallet, CarPlay, Siri at `Allowed Apps`
+- at Content Restrictions
+
+#### Maps and Location
+- [Share a map or directions with others by using the `share` function](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DiOS)
+- [Show others where you are directly within iMessage](https://support.google.com/maps/answer/7300880)
+
+#### [Chrome in Mobile/iPhone](https://lifelongprogrammer.blogspot.com/2018/06/awesome-tips-about-chrome.html)
+- [Read it later (only) in iPhone/iPad](https://support.google.com/chrome/answer/7343019?co=GENIE.Platform%3DiOS&hl=en&oco=2)
+- Long press the history button(<-, ->) to show history of current tab to quickly go to the specific page
 
 ### iPad
 #### Manually manage music and videos

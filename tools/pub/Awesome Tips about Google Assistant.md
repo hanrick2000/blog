@@ -1,8 +1,11 @@
+### Add language
+- Add multiple languages, Google Assistant can atomically detect the language and respond/switch accordingly.
+
 - Search by company name:
   - [Google Inc.](https://assistant.google.com/explore/search?q=Google%20Inc.&hl=en-US)
 
 ### Education for Kids
-- How do you spell xxx
+- [how do you spell xxx?](https://assistant.google.com/services/a/uid/000000e4c6db9440?hl=en-US)
 - How to pronounce xxx
 - [What's the definition of xx](https://assistant.google.com/services/a/uid/000000e3622a1d56)
   - What does xx mean?
@@ -10,6 +13,8 @@
   - Translate "You are beautiful" to Chinese
   - "Thank you" in Chinese
 - [What's 1+1](https://assistant.google.com/services/a/uid/0000003516718522)
+
+
 ### Kids
 - [read me a kid story](https://assistant.google.com/services/a/uid/000000c5881be3a7)
   - Fairytale,   
@@ -85,7 +90,6 @@
 - Find my phone
 - [show me the meaning of xxx](https://www.reddit.com/r/Android/comments/ajccmv/lpt_you_can_spell_words_for_google_assistant/)
   - show me the meaning of p e a r instead
-- [how do you spell xxx?](https://assistant.google.com/services/a/uid/000000e4c6db9440?hl=en-US)
 - [What's this song?|What song is playing?](https://assistant.google.com/services/a/uid/00000024216d4bb8)
 
 ### Suggestions

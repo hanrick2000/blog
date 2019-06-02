@@ -1,6 +1,0 @@
-- extract methods
-- don't forget comparator
-- check is empty or size before poll, get
-- NPE
-- +1, -1, etc
-- 

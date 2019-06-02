@@ -1,5 +1,5 @@
 #### Tips
-- [Expand messages](https://answers.splunk.com/answers/103005/expand-json-messages-by-default.html)
+- [Expand messages to show all fields](https://answers.splunk.com/answers/103005/expand-json-messages-by-default.html)
   - Click `Format` on the top and select `All lines` for the `Max Lines` setting
 
 #### Search syntax

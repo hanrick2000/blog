@@ -11,13 +11,10 @@
 ### Tune Package Configuration
 - After install a new package, read its settings page to configure it, learn its Keybindings etc.
 - Find the package in "Preference -> Packages"
+
 #### Tree View
 #### Command Palette
 - [Select ```Preserve Last Search```](https://github.com/atom/atom/issues/16097)
-#### Fuzzy Finder
-- Select **Preserve Last Search**
-#### AutoSave
-  - select "enabled".
 - Tune settings
   - Enable **Auto Reveal**: link tree view with editor
   - Enable [Hide Ignored Names](https://discuss.atom.io/t/a-way-to-hide-the-ds-store-files-in-the-tree-view/1431), Hide VSS Ignored Files
@@ -25,6 +22,12 @@
 - a, shift-a, m, or delete to add, move or delete files and folders
 - [up/down arrow keys to preview files](https://github.com/atom/tree-view/issues/834)
   - need reload the window
+
+#### Fuzzy Finder
+- Select **Preserve Last Search**
+
+#### AutoSave
+  - select "enabled".
 
 #### Whitespace package
 - uncheck "Ensure Single Trailing Newline" option
@@ -51,12 +54,16 @@
 - [Pending Pane Items](https://flight-manual.atom.io/using-atom/sections/pending-pane-items/)
 - [Open Atom in command line](https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x)
   - Atom >> Install Shell Commands
+
 #### Find Content Fast
+
 |         |                     |
 |:------- |:------------------- |
 | ctrl+F2 | list bookmarks      |
 | cmd+F2  | create bookmark     |
 | cmd+R   | toggle file symbols |
+
+--- 
 
 ### Plugins
 #### Plugins for Everyday's Productivity
@@ -70,7 +77,7 @@
 #### Plugins for Writing
 - [Spell Check: Cmd+Shift+:](https://atom.io/packages/spell-check)
 - [Change Case](https://atom.io/packages/change-case)
-  - change-case:title/upperFirst/snake/constant
+  - change-case:title/kebab/upperFirst/snake/constant
 - [Document Outline](https://atom.io/packages/document-outline)
   - Shortcut: Ctrl-Cmd-T 
   - Uncheck "Show by default" in its settings
@@ -118,6 +125,7 @@
 - [linter](https://atom.io/packages/linter) [link](https://atomlinter.github.io/)
   * [jsonlint](https://atom.io/packages/linter-jsonlint)
 - [atom-beautify](https://atom.io/packages/atom-beautify)
+  - brew install uncrustify
   - Beautify javascript, java, json etc
 - [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
   - Settings: Start in insert mode
@@ -146,8 +154,11 @@
 - [Sublime Style Column Selection](https://atom.io/packages/sublime-style-column-selection)
 <!-- - [teletype: collaborate on code in real time](https://atom.io/packages/teletype) -->
 - [Atom Package Sync - Synchronize between computers using Google account](https://atom.io/packages/atom-package-sync)
+- [Hyperlink Hyperclick: Cmd+click to open link](https://atom.io/packages/hyperlink-hyperclick)
+  - Need also install [Hyperlink](https://atom.io/packages/hyperclick)
+---
 
-### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html#atom)
+### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#atom)
 - Search shortcut at Settings -> Keybindings
 - Shortcuts from [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
 - New File under current folder when select the folder or a file in project panel:  **A**
@@ -159,7 +170,7 @@
 **Command+\\** | **Toggle Tree View**
 **Command+Enter** |**Replace all**
 **Ctrl+Shift+C** | **Copy full path**
-**Cmd+Option++(-)** |  **Increase(decrease) active <kbd>panel</kbd> size**
+**Cmd+Option++(-)** |  **Increase(decrease) active panel size**
 Cmd+Ctrl+G|Select all matching characters
 Shift+Ctrl+M|Markdown Preview
 Cmd+R|File symbol navigation
@@ -167,21 +178,70 @@ Ctrl + g| Go to Line
 **Ctrl+m** | **Go to Matching Bracket**
 **Cmd+Shift+t** | **Bring up the list of corrections (with spell-check extension)**
 **Ctrl+Shift+left(or right)** | **move tab to left(or right)**
-Cmd+k+u | Convert to Upper Case
-Cmd+k+l | Convert to Lower Case
-Ctrl+Shift+k|Delete Line
-Ctrl+K|Cut to End of Line
+
+
+#### Shortcut for Writing
+
+|              |                       |
+|:------------ |:--------------------- |
+| Cmd+k+u      | Convert to Upper Case |
+| Cmd+k+l      | Convert to Lower Case |
+| Ctrl+Shift+k | Delete Line           |
+| Ctrl+K       | Cut to End of Line    |
+|              |                       |
+
+##### New Line Above
+- Space and new line are important when we write with markdown and use Pandoc to convert it to HTML.
+- So we need insert a new line above to fix the format issue: the default `cmd-shift-enter` confits with `maximize-panels:maxmize`
+- To assign `alt-enter` to `newline-above`, add the following in keymap.cson:
+```cson
+"atom-workspace atom-text-editor:not([mini])":
+  "alt-enter": "editor:newline-above"
+  # "alt-enter": "editor:newline",
+```
 
 ### Keymap
-- [How to disable key binding](https://stackoverflow.com/questions/33023349/atom-disable-single-key-binding)
+#### Shortcut doesn't work
+Example: `Ctrl+e` doesn't work: not go to end of line
+- Use `Cmd+.` to open `Key Binding Resolver`
+- Type the shortcut, the `Key Binding Resolver` will show what commands this keybinding resolves to, and which one wins
+- In my case, `Ctrl+e` conflicts with `Emmet: expand abbreviation`
+- To solve it, I can either uninstall Emmet(as I don't really use it)
+- or replace the shortcut with desired function
+  - in the `Key Binding Resolver` click and go to the keymap file and find the keymap definition
+```cson
+'atom-text-editor:not([mini])':
+  'ctrl-e': 'editor:move-to-end-of-line'
+```
+
+#### [How to disable key binding](https://stackoverflow.com/questions/33023349/atom-disable-single-key-binding)
   - Click the clipboard to copy the shortcut definition in **Keybindings** settings
   - replace the function to **unset!** to remove it or change it to another function
+
 #### Solve the conflict between jumpy:toggle and markdown-preview-enhanced:run-code-chunk
-```text
+```cson
 '.editor[data-grammar*="gfm"], .editor[data-grammar*="md"], .editor[data-grammar*="markdown"]':
   'shift-enter': 'jumpy:toggle'
 ```
+
+### [Snippets](https://flight-manual.atom.io/using-atom/sections/snippets/)
+```cson
+'.source.gfm':
+  'TL;DR':
+    'prefix': 'tldr'
+    'body': '### TL;DR'
+```
+
+### Find Replace with regex
+- Add `|` at the beginning (to fix markdown table)
+  - Search for `^(.*)$` and replace with `|$1`
+- find all links that doesn't start with http in markdown: `\]\([^h]`
+- `Only in Selection`
+
 ### Tips
+- Open link in Atom
+  - [ctrl-shift-o	from Atom core](https://github.com/atom/atom/tree/master/packages/link)
+  - Cmd+click from [Hyperlink Hyperclick](https://atom.io/packages/hyperlink-hyperclick) which requires [Hyperclick](https://atom.io/packages/hyperclick)
 - [Use Rename to move files](http://timgthomas.com/2015/04/simple-file-tricks-with-atom/)
 - Find previous: shift + enter in the search dialog
 - Use Cmd+/ to comment: it know the right syntax for different language

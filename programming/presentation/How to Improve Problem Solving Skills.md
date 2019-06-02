@@ -3,23 +3,30 @@
 % April 24, 2019
 
 # Why Problem-solving skills matters
+
+<!-- data-transition="zoom" data-background="#A0C66B" -->
+
 ## Problem Solving and troubleshooting
 - Is fun
 - Is part of daily work
-- Make us solve problem 
-- More efficiently
+- Solve the problem, get things done
+- Work More efficiently
 - With more confidence
 - Less pressure
 - Go home earlier
 
+<!-- data-transition="fade" data-background="#A0C66B" -->
+
 ## Solve the problem when needed
 - no matter whether its related with you
-- It's your responsibility if it blocks you, the team or others
+- It's your responsibility if it blocks you, the team
+- Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+- Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+- [link](#/slide2)
 
 # How to Solve a Problem
 ## Understand the problem/environment first
 - Understand the problem before google search otherwise it may just lead you to totally wrong directions.
-
 - Find related log/data
 - Copy/Save logs/info/findings that may be related
 
@@ -31,13 +38,19 @@
     - -Dcassandra.logdir=/var/log/cassandra
 
 ## Case Study – The Log and Error Message
-### Problem:
-- Failed to talk Cassandra server: 10.10.10.10
+#### Problem: Failed to talk Cassandra server: 10.10.10.10
+
 - Where 10.10.10.10 comes from?
-  - ```gfind . -iname '*.jar' -printf "unzip -c %p | grep -q 10.10.10.10' && echo %p\n"```
-  - or search in corporate github/code base
+  ```bash
+  gfind . -iname '*.jar' -printf "unzip -c %p 
+  | grep -q 10.10.10.10' && echo %p\n"
+  ```
+- or search in corporate github/code base
 - It comes from commons2 project; check what’s the current settings in Github
-- Now the problem and solution is clear: Just upgrade commons2 to latest version
+- Now the problem and solution is clear
+  - Just upgrade commons2 to latest version
+
+<!-- Note: This will only appear in the speaker notes window. -->
 
 ## Source code is always the ultimate truth
 - Find related code in Github
@@ -116,7 +129,7 @@
 
 ## Practice - Iterator vs Iterable
 - What’s the problem in the following Code?
-```java
-@Cacheable(key = "#appName")
-public Iterator<Message> findActiveMessages(final String appName) {}
-```
+  ```java
+  @Cacheable(key = "#appName")
+  public Iterator<Message> findActiveMessages(final String appName) {}
+  ```

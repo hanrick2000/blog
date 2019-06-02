@@ -1,17 +1,20 @@
 
 
 ### Troubleshooting
-|||
-|-|-|
-Init:Error	| An Init Container has failed to execute.
-Init:CrashLoopBackOff	| An Init Container has failed repeatedly.
+|                       |                                          |
+| --------------------- | ---------------------------------------- |
+| Init:Error            | An Init Container has failed to execute. |
+| Init:CrashLoopBackOff | An Init Container has failed repeatedly. |
+
 
 - [Debug Init Containers](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-init-containers/)
   - kubectl describe pod <pod-name>
   - kubectl logs <pod-name> -c <init-container-2>
 - [Display detailed information about the Pod](https://kubernetes.io/docs/tasks/debug-application-cluster/determine-reason-pod-failure/)
   - kubectl get pod --output=yaml
+```bash
 
+```
 
 - master and slaves
 - client and server

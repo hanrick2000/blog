@@ -1,4 +1,4 @@
-### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html#mac-shortcuts)
+### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#mac-shortcuts)
 |                                |                                                                     |
 | ------------------------------ | ------------------------------------------------------------------- |
 | / or Command+Shift+G           | Go to Folder                                                        |
@@ -102,7 +102,13 @@
 - Preferences > General > New message notifications
 
 #### [Add users to VIP](https://www.imore.com/how-quickly-add-contact-your-vip-list-mac-mail)
-#### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts.html#mac-mail)
+#### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#mac-mail)
+
+---
+
+### Chinese Input Tools: Sougou
+- Assign `中英文` to `右Shift`
+- Disable shortcuts for `简繁体`, `中英文标点`, `表情符号`, `斗图` and all others not used.
 
 ---
 
@@ -119,7 +125,15 @@ brew update/upgrade
 brew cleanup
 ```
 
+#### How to Save Memory
+##### [How to Reduce Chrome Memory Usage](2018/06/awesome-tips-about-chrome.html)
+
+
 #### Tools
+##### [Voice Memos](https://www.idownloadblog.com/2018/08/14/howto-voice-memos-mac/)
+- click and hold a memo in the list, then drag it to a folder.
+- [The app is also available in iPhone/Pad](https://www.imore.com/voice-memos)
+
 ##### [the-unarchiver](https://theunarchiver.com/)
 - brew cask install the-unarchiver
 - open its preferences and select all the file format

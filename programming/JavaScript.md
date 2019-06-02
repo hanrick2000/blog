@@ -5,5 +5,10 @@ window.location.search
 var urlParams = new URLSearchParams(window.location.search);
 ```
 
+#### Basic
+```javascript
+
+
+```
 
 

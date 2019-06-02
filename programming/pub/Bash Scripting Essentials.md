@@ -44,9 +44,9 @@ ${string%substring}
 ${string%%substring}
 # Deletes longest match of $substring from back of $string.
 ```
-- Substring Replacement
+- [Substring Replacement](http://mywiki.wooledge.org/BashFAQ/100)
 ```bash
-# Replace first match of $substring with $replacement.
+# Replace first match of $substring with $replacement at $string
 ${string/substring/replacement}
 
 # Replace all matches of $substring with $replacement.
@@ -84,15 +84,20 @@ fi
 
 - [Globs](https://mywiki.wooledge.org/glob)
 ```bash
-for f in *.tar; do ...
+# for f in *.tar; do
 case "$input" in
     [Yy]|'') confirm=1;;
     [Nn]*) confirm=0;;
     *) echo "I don't understand.  Please try again.";;
 esac
-if [[ $output = *[Ee]rror* ]]; then ...
-filename=${path##*/}    # strip leading pattern that matches */ (be greedy)
+# if [[ $output = *[Ee]rror* ]]; then
+# strip leading pattern that matches */ (be greedy)
+filename=${path##*/}
 ```
+
+#### IFS (Internal Field Separator)
+- [The Internal Field Separator that is used for word splitting after expansion ... the default value is <space><tab><newline>](https://stackoverflow.com/questions/2789319/file-content-into-unix-variable-with-newlines)
+- any of those three characters can be used to split your command into individual words. After that, the word separators are gone, all you have left is a list of words
 #### [Read File](https://mywiki.wooledge.org/DontReadLinesWithFor)
 ```bash
 while IFS= read -r line; do

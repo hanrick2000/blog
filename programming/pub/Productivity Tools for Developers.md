@@ -34,13 +34,25 @@ Quotes:
     - Location: Preferences -> Document tab
 - [Hide the Tools pane by default](https://helpx.adobe.com/acrobat/kb/disable-right-hand-pane-in-acrobat-reader.html)
 
+#### Github 
+- [Github Pages](https://pages.github.com/)
+
 #### [GitBook](https://github.com/GitbookIO/gitbook)
 #### [trello.com](trello.com)
+
+#### Writing
+- [Buffer – Queue up content for your social media posts](https://buffer.com)
+  - [unshorten a link](https://faq.buffer.com/article/396-publish-unshorten-link)
+  - [Adjusting timezone](https://faq.buffer.com/article/284-publish-adjust-timezone)
+
+#### Misc
 - [Pocket](https://getpocket.com/)
+  - Install it the [Chrome Extension](https://getpocket.com/chrome/)
+  - Install it on the [mobile devices](https://getpocket.com/add) and [share the link to Pocket](https://help.getpocket.com/article/919-enabling-the-pocket-share-extension-in-ios)
+  - We can add tag, highlight, listen up the post,
 - [feedly](https://feedly.com)
 - [Evernote](https://www.evernote.com)
 
-#### Misc
 ##### Type Less
 - Alias
 ```bash

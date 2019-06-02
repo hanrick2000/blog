@@ -1,3 +1,4 @@
+<!-- https://lifelongprogrammer.blogspot.com/2018/03/tools-troubleshooting-skills.html -->
 #### Linux
 ##### [crash or reboot?](https://serverfault.com/questions/789442/how-can-you-distinguish-between-a-crash-and-a-reboot-on-rhel7)
 ast -n2 -x shutdown reboot
