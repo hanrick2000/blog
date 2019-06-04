@@ -4,8 +4,15 @@
 - Most commonly used  chrome Extensions for developers and productivity.
 - How to reduce memory.
 
+---
+
+### [Awesome Tips about Chrome Series](/search/label/Chrome_Series){target="blank"}
+<script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
 ### [Chrome Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#chrome)
-  - Use [Custom Keyboard Shortcuts](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck) to assgin shortcuts to chrome standard commands if don't use [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html).
+- Use [Shortkeys (Custom Keyboard Shortcuts)](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck) to assgin shortcuts to chrome standard commands if don't use [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html).
 
 |                           |                                                         |
 | ------------------------- | ------------------------------------------------------- |
@@ -19,107 +26,23 @@
 | ⌘ + Option + i            | Open Developer Tools (not Cmd+shift+i: Email this page) |
 | **Cmd+Option+C**          | Open dev tools in inspect mode                          |
 
-### Chrome Extensions
-#### Chrome Extensions For Developer
-- [Chrome Regex Search](https://chrome.google.com/webstore/detail/chrome-regex-search/bpelaihoicobbkgmhcbikncnpacdbknn)
-- [Sight - Syntax Highlighter](https://chrome.google.com/webstore/search/Sight?_category=extensions)
-- [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj)
-    - Example: Set "Content-Type" in response to application/json
+#### If you REALLY don't want to use the `trackpad`
+- [How to leave focus from address bar without mouse or trackpad](http://xavierchow.github.io/2016/03/07/vimium-leave-address-bar/)
+  - We can press the trackpad to leave the address bar (when the mouse is at browser area, usually it's)
+  - I avoid to use trackpad as possible as I can as my fingers hurt when use trackpad.
+  - Luckily, we can add a custom search engine like below at chrome://settings/searchEngines.
+  - Then we can type l then enter to go back to the browser area.
 
-#### Tabs
-- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/)
-  - Force suspend all other tabs in this window
-  - Assign shortcut `Ctrl+Shift+S` to `Suspend selected tabs` at chrome://extensions/shortcuts
-  - Assign shortcut `Ctrl+Shift+A` to `Suspend all other tabs in active window` at chrome://extensions/shortcuts
+| Name                   | keyword | URL                                                                                                 |
+|:---------------------- |:------- | --------------------------------------------------------------------------------------------------- |
+| Leave Address bar      | l       | javascript:                                                                                         | 
 
-- **[Tab Position Customizer 2](https://chrome.google.com/webstore/detail/tab-position-customizer-2/jglbflnkbgbklegdblkohbbbheeeklej?hl=en)**
-  - Open new tab/link on the right of the current tabs
-- [Tab Scissors - split tabs into 2 windows](https://chrome.google.com/webstore/detail/tab-scissors/cdochbecpfdpjobpgnacnbepkgcfhoek/related?hl=en)
-- [Tab Modifier](https://chrome.google.com/webstore/detail/tab-modifier/hcbgadmbdkiilgpifjgcakjehmafcjai)
-- [OneTab - save memory](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall/)
+### Must Have Google Chrome Extensions
+- Read the [Must Have Google Chrome Extensions](/2019/04/must-have-google-chrome-extensions.html)
+- Use [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/) together with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html), the Suspender reduces the memory usage, use [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html) to find and go to specific tab quickly. 
 
-### Chrome Extensions for Writing
-- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
-    - [Also a standalone Mac App](https://app.grammarly.com/)
-    - Use this together with Chrome's native spell checker
-    - Check on demand: Change "Site access" to "On Click"
-- [Buffer](https://chrome.google.com/webstore/detail/buffer/noojglkidnpfjbincgijbaiedldjfbhh/)
-  - Assign shortcut `Ctrl+Shift+B` to `Buffer -> Activate the extension` at chrome://extensions/shortcuts
-
-### Chrome Extensions for Productivity
-- **[Vimium](https://chrome.google.com/webstore/search/Vimium?_category=extensions)**
-- [Clearly](https://chrome.google.com/webstore/detail/clearly/odfonlkabodgbolnmmkdijkaeggofoop)
-  - Assign shortcut `Ctrl+Shift+C` to `Toggle Clearly`
-  - Make `not easy to copy text` easier to copy
-  - Support outline, different themes, fullscreen, text-to-voice
-- [Search Plus](https://chrome.google.com/webstore/detail/search-plus/cdpohbejnbclggljmoijjcpdhbaaijfm)
-  - Search tabs contains specific words
-- [Video Adblocker for Youtube™ Extension](https://chrome.google.com/webstore/detail/video-adblocker-for-youtu/hflefjhkfeiaignkclmphmokmmbhbhik)
-- [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-  * [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
-  * [Wide Github](chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/ask.html?aid=85e76337-bc4b-47c6-8448-176e7da56af0)
-- **[Enable Copy](https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio)**
-- **[Shortkeys](https://chrome.google.com/webstore/detail/shortkeys-custom-keyboard/logpjaacgmcbpdkdchjiaagddngobkck/reviews)**
-  * [Disable command+shift+i(send email), command+shift+f(Always show toolbar in full screen)](https://apple.stackexchange.com/questions/108060/how-to-prevent-command-i-command-shift-i-from-opening-mac-mail-when-in-browser)
-    - Activation Settings -> All Sites
-  <!-- - **[Weava Highlighter - PDF & Web](https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/cbnaodkpfinfiipjblikofhlhlcickei/related)** -->
-- [Click to Remove Element](https://chrome.google.com/webstore/detail/click-to-remove-element/jcgpghgjhhahcefnfpbncdmhhddedhnk)
-- [Simple Allow Copy](https://chrome.google.com/webstore/detail/simple-allow-copy/aefehdhdciieocakfobpaaolhipkcpgc)
-
-- [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
-- [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
-- [Awesome Screenshot: Screen Video Recorder](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)
-  <!-- - [Close download bar: Option+W](https://chrome.google.com/webstore/detail/close-download-bar/bkfclmjddajodogcbpohgfpdkgdecgmg) -->
-  <!-- - [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod) -->
-- [Picture-in-Picture Extension](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg)
-
-### [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html)
-- **[Awesome Tips About Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html)**
-
-### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-- [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
-
-### Change/Assign extension's shortcuts
-- chrome://extensions/shortcuts
-- `Ctrl+Shift+S` to `The Great Suspender > Suspend selected tabs`
-- `Ctrl+Shift+A` to `The Great Suspender > Suspend all other tabs in active window`
-- `Ctrl+Shift+C` to `Toggle Clearly`
-- `Ctrl+Shift+B` to `Buffer -> Activate the extension`
-
-### How To Save Memory
-- [chrome://flags/#disable-best-effort-tasks](https://www.digitaltrends.com/computing/google-chrome-finally-reduce-memory-usage/)
-
-#### The Great Suspender
-- After restart Chrome, the suspended remains suspended, Great!
-- Automatically suspend tabs after: `5 mins`
-- Uncheck `Never suspend active tab in each window`
-- Uncheck `Never suspend tabs that are playing audio`
-
-<!-- -Text Mode or doesn't works
- [This webpage's](https://www.zdnet.com/pictures/free-must-have-google-chrome-extensions) is reduced from 250(max 400mx) to  -->
-
-#### Extensions
-- Check memory used at `More Tools -> Task Manager`
-- Uninstall extensions that are not used any more
-- Temporarily disable  that uses occasionally
-  - like ModHeader, Search Plus, Screenshot
-- Change "Allow this extension to read and change all your data on websites you visit:" to `On click` or `On specific sites`
-- Kill the extensions that uses a lot of memory then reload them
-  - Sometimes, Google Translate uses 600+ memory, just kill and reload it
-
-#### Tabs
-- Kill tabs that uses a lot of memory at `More Tools -> Task Manager`, reload then if needed.
-- **Kill tabs not needed more aggressively**
-  - Install [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html)
-  - `cl` to close left tabs, `cr` to kill right tabs, `co` to kill other tabs
-  - `count + x` to kill right x tabs
-- Use `The Great Suspender` to suspend pages aggressively
-
-##### Reuse Existing Tabs
-- In Chrome search tabs, click `Switch to this tab`
-  - Unfortunately this doesn't work with suspended tabs
-- Use `Shift+t` the [Chrome Vimium Vomnibar](/2019/04/awesome-tips-about-chrome-vimium.html) to search and go to existing tabs instead open a new one
-  - Works well with suspended tabs
+### [How to Speed up Google Chrome]((/2019/03/how-to-speed-up-google-chrome.html))
+- Read the [How to Speed up Google Chrome](/2019/03/how-to-speed-up-google-chrome.html)
 
 ### Chrome Urls
 - chrome://flags/
@@ -138,6 +61,14 @@
 <!-- - [Disable Download Bar](https://chrome.google.com/webstore/detail/disable-download-bar/epnnapjdpplekmodajomjojfpeicclep/related) -->
 
 ---
+
+### Dark Mode
+- [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh/related)
+- Enable Mac's dark mode at Preferences -> General
+
+### Task Manager
+- Find memory(CPU) usage by tabs, extensions, and kill them.
+- [Find all tabs opened](https://superuser.com/questions/290758/ways-to-see-a-list-of-all-the-tabs-open-in-chrome)
 
 ### Tips
 
@@ -164,11 +95,15 @@ data:text/html, <html contenteditable>
 <br/>
 
 #### Auto Sync
+<!-- - Turn on sync at chrome://settings/syncSetup -->
 - [How Do Websites Disable Password Saving?](https://www.maketecheasier.com/remember-username-password-chrome/)
   - autocomplete=off
 - [**Chrome sync keeps pausing and asking me to re-sign-in1**](https://support.google.com/chrome/thread/2320112?msgid=2402417)
-  - chrome://settings/ and scroll down to the "Privacy and security" section and turn "Allow Chrome sign-on" off
+  - chrome://settings/ and scroll down to the "Privacy and security" section and turn "Allow Chrome sign-in" off 
+  <!-- - or on? -->
   - chrome://flags/#account-consistency: Default
+  - Alt: Don't quit Chrome (until you have to), instead use  `The Great Suspender` to  `Ctrl+Shift+K` to `Suspend all tabs in all windows`
+
 
 #### Chrome in Mobile/iPhone
 - [Read it later (only) in iPhone/iPad](https://support.google.com/chrome/answer/7343019?co=GENIE.Platform%3DiOS&hl=en&oco=2)
@@ -207,5 +142,6 @@ data:text/html, <html contenteditable>
 - chrome.contextMenus.create
 - window.getSelection()
 
-#### [Related Posts](/search/label/Chrome)<a name="related"></a>
-<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+---
+#### [Related Posts](/search?q=label:Chrome|label:Google)
+<script src="/feeds/posts/default?q=label:Chrome|label:Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

@@ -1,4 +1,4 @@
-<!-- http://lifelongprogrammer.blogspot.com/2018/05/markdown-tips.html -->
+<!-- /2018/05/markdown-tips.html -->
 ### Syntax
 - Strikethrough: `~~your text~~`
   - ~~your text~~
@@ -59,7 +59,7 @@ Normal Key|Value1øøøøø
 ```
 - Reference the anchor
 ```markdown
-[Mail's Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#mac-mail)
+[Mail's Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#mac-mail)
 ```
 
 #### Images
@@ -73,6 +73,13 @@ Normal Key|Value1øøøøø
 
 #### [Write email with markdown](https://markdown-here.com/)
 - [Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa/related)
+
+#### [Open link in a new window](https://stackoverflow.com/a/50499778/753352)
+  - ex: [How to Improve Problem Solving Skills: the Developer Guide](https://lifelongprogrammer.blogspot.com/2019/06/how-to-improve-problem-solving-skills-developer-guide.html){target="blank"}
+  - use "blank" instead of `_blank` due to the bug at atom: [Wrong syntax highlighting when one line contains a single `*` or `_` ](https://github.com/atom/language-gfm/issues/44)
+```md
+[How to Improve Problem Solving Skills: the Developer Guide](https://lifelongprogrammer.blogspot.com/2019/06/how-to-improve-problem-solving-skills-developer-guide.html){target="blank"}
+```
 
 #### [Share markdown with socrates](http://socrates.io/)
 - <http://socrates.io/>
@@ -127,6 +134,7 @@ pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso "${md}" \
 
 ### [Slides Syntax](https://opensource.com/article/18/5/markdown-slide-generators)
 - [Pandoc Syntax](https://pandoc.org/MANUAL.html#producing-slide-shows-with-pandoc)
+<!-- /2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html -->
 
 #### pandoc
 - brew install pandoc
@@ -148,13 +156,13 @@ pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso "${md}" \
     - when not sure, add empty line
 - It doesn't wrap in code block
 
-#### collapsible markdown?
+#### Collapsible Markdown?
 <details><summary>CLICK ME</summary>
 hidden by default
 </details>
 
 #### Basic Syntax
-```markdown
+```text
 Header 1
 ========
 
@@ -172,3 +180,18 @@ _You **can** combine them_
 // Code span - use `and`
 Type `echo 'Hello World'`
 ```
+
+#### Pandoc Markdown Syntax
+```
+
+```
+
+#### Tips
+- Use Markdown to write email. 
+- Use Markdown Preview to read long email (that roughly )
+
+#### Misc
+- [Use Wordpress Markdown Editor](https://en.support.wordpress.com/wordpress-editor/blocks/markdown-block/#writing-with-markdown)
+
+#### [Related Posts](/search/label/Chrome)
+<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

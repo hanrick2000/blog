@@ -1,5 +1,7 @@
-<!-- Awesome Tips about Google Products -->
-### [Chrome](https://lifelongprogrammer.blogspot.com/2018/06/awesome-tips-about-chrome.html)
+<!-- SD: 
+Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Youtube, Blogger, Google Maps.
+-->
+Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.html) and [Google Blogger](/2019/06/awesome-tips-about-google-blogger.html)
 
 ### Gmail
 - [Write Email Now And Send It Later](https://www.cnet.com/how-to/gmails-scheduling-tool-to-send-emails-later-keeps-you-from-being-an-enormous-jackass/)
@@ -21,7 +23,7 @@
 - [Create email signature](https://webapp.wisestamp.com)
 - **Desktop notifications** at Settings: "Important mail notifications on"
 
-### Delete emails
+#### Delete emails
 - delete all old emails in promotions: `category:promotions older_than:3m`
 - unsubscribe from email directly or change the notification in its service
 - **Select all conversations that match this search**
@@ -67,23 +69,21 @@
   - So now every time you create an account at Phone app in iPhone, it will be synced to Google Contacts.
 
 ### Google Docs
+- use **Ctrl+Option+Z or Option+/(in compact mode)** to search and execute command
+- Click ![](https://lh3.googleusercontent.com/vvhIoImkCw8IkwaKXKWIiYiCUlYihV-c-Igd6GLdeaYBBumgtolgE42VnVXbM_KYAA=w18-h18) or `Cmd+Option+X` in the top left toolbar.
+- Install and enable Grammarly on Google Docs
 #### Compact: Hide the menu mode
 - Click **Hide the menu mode** at top right
   - Ctrl+Shift+F seems not work
-- use **Option+/** to search and execute command
 - How to exit **Hide the menu mode**
   - Click it again, 
   - but some cases, that menu is not visible (bug here)
     1. we can click the explore button at bottom right, then we will be able to see the **Hide the menu mode** icon.
     2. Or type "Full screen" at top left **search the menu** to enter full screen mode, then press **esc** to exit the full screen mode
 
-
-### [Goole Lens](https://lens.google.com/)
-- [Google Tasks](https://support.google.com/a/users/answer/9310341)
-
-### Blogger
+<!-- ### Blogger
 - Add `Custom Redirects` after changed the url
-- [Promote your Content by Creating Index Page and a Custom "Page Not Found"](https://lifelongprogrammer.blogspot.com/2019/05/how-to-promote-your-content-by-creating-sticking-index-page-in-blogger.html)
+- [Promote your Content by Creating Index Page and a Custom "Page Not Found"](/2019/05/how-to-promote-your-content-by-creating-sticking-index-page-in-blogger.html)
 - [Make a Sticky Post in Blogger](https://www.wikihow.com/Make-a-Sticky-Post-in-Blogger)
   - Publish it first then change date to a future date
 - [Multiple Labels Search](https://exde601e.blogspot.com/2012/12/search-operators-for-Blogger-labels.html)
@@ -105,13 +105,14 @@
 - feeds/posts/default/feeds/posts/default/-/THE_LABLE
 - orderby: updated, published
 - [Search Multiple Labels(AND) in Blogger Feeds](http://waltz.blogspot.com/2007/07/search-multiple-labels-in-blogger-feeds.html)
-  - feeds/posts/default/-/<label1>/<label2>/.../<labelN>
+  - feeds/posts/default/-/<label1>/<label2>/.../<labelN> -->
 
 ### Google Maps<a name="google_maps"></a>
 - [Share a map or directions with others by using the `share` function](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DiOS)
 - [Show others where you are directly within iMessage](https://support.google.com/maps/answer/7300880)
 - Add custom search engine to Chrome
   - Go to chrome://settings/searchEngines and add the following
+
 | Name                   | keyword | URL                                                                                                 |
 |:---------------------- |:------- | --------------------------------------------------------------------------------------------------- |
 | **Google maps Search** | gm      | https://www.google.com/maps?q=%s                                                                    |
@@ -131,7 +132,14 @@
 - Use Card view to have a overview and move notes
 - Share with others
 
+### Other Google Products
+#### [Goole Lens](https://lens.google.com/)
+- [Google Tasks](https://support.google.com/a/users/answer/9310341)
 
-#### Misc
+### Misc
 - Report bugs: [issuetracker](https://issuetracker.google.com/)
 - <https://support.google.com>
+
+---
+#### [Related Posts](/search/label/Google)<a name="related"></a>
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 

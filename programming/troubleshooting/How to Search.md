@@ -1,5 +1,10 @@
 
 
+### Search to find info
+Before you tried search:
+- Don't scroll
+
+
 - **archive.org** to find page deleted
   - `https://web.archive.org/web/*/%s`
 - Google Cache
@@ -17,10 +22,11 @@
 | Name                   | keyword | URL                                                                                                 |
 |:---------------------- |:------- | --------------------------------------------------------------------------------------------------- |
 | Site Search            | site    | javascript:location='https://www.google.com/search?num=100&q=site:'+escape(location.hostname)+'+%s' |
-| Site Lucky Search      | sl      | javascript:location='https://duckduckgo.com/?q=!ducky+'+'%s+site:'+escape(location.hostname)        |
+| Lucky Site Search      | sl      | javascript:location='https://duckduckgo.com/?q=!ducky+'+'%s+site:'+escape(location.hostname)        |
 | YouTube Search         | y       | https://www.youtube.com/results?search_query=%s                                                     |
 | **Google maps Search** | gm      | https://www.google.com/maps?q=%s                                                                    |
 | Google Maps - Home     | gh      | https://www.google.com/maps/dir/home/%s                                                             |
+| Leave Address bar      | l       | javascript:                                                                                         | 
 
 ### Google Maps Search
 - Add the custom search engine listed above

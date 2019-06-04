@@ -6,7 +6,7 @@
   * Add ctrl+m for 'Maximize Active View or Editor' in Keys
 
 #### Tips
-- [Run Code Clean Up Manually(Ctrl+Alt+Command+C) + Save Action](https://lifelongprogrammer.blogspot.com/2017/01/eclipse-run-code-cleanup-manually-save-action.html)
+- [Run Code Clean Up Manually(Ctrl+Alt+Command+C) + Save Action](/2017/01/eclipse-run-code-cleanup-manually-save-action.html)
 
 #### Settings
 - Share preferences between multiple workspace
@@ -77,15 +77,15 @@ logger.info("${enclosing_method} {}", Arrays.toString(new Object[] {${enclosing_
   - ClassNotFoundException in Console view etc
 - [A cycle was detected in the build path of project](https://www.eclipse.org/forums/index.php/t/95704/)
   - Preferences -> Java-> Compiler -> Building -> Circular Dependencies, change it from Error to Warning
-- [Find which jar containing the class and the application is using](https://lifelongprogrammer.blogspot.com/2014/12/find-which-jar-containing-class-definition.html)
+- [Find which jar containing the class and the application is using](/2014/12/find-which-jar-containing-class-definition.html)
 ```java
 java.security.CodeSource src = TheType.class.getProtectionDomain().getCodeSource();
 return src.getLocation();
 ```
-- [Breakpoint doesn't work because of multiple versions](https://lifelongprogrammer.blogspot.com/2014/12/find-which-jar-containing-class-definition.html)
+- [Breakpoint doesn't work because of multiple versions](/2014/12/find-which-jar-containing-class-definition.html)
 
 #### Problems View
-- [Only Show Errors/Warnings on Current Project](https://lifelongprogrammer.blogspot.com/2014/04/eclipse-only-show-problems-for-current-project.html)
+- [Only Show Errors/Warnings on Current Project](/2014/04/eclipse-only-show-problems-for-current-project.html)
 - Group by Problem Type
 
 #### Misc

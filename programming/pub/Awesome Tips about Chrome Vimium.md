@@ -2,6 +2,13 @@
 - How to use Chrome Vimium's shortcuts regex search, to navigate the web and Chrome faster.
 - How to customize Vimium's shortcuts and make it work better with other ecosystems like reveal.js.
 
+---
+
+### [Awesome Tips about Chrome Series](/search/label/Chrome_Series){target="blank"}
+<script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
 ### Install
 - [Install from Chrome Webstore](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 - [How to use Vimium](https://github.com/philc/vimium/wiki)
@@ -16,7 +23,7 @@
 | **T**               | **search through your open tabs**                                                               |
 | B                   | Bookmark search                                                                                 |
 | **(number+)r**      | **reload tab(s)**                                                                               |
-| **(number+)f(F)**   | **open/click multiple links in the current(or new) tab or execute multiple action in same tab** |
+| **(number+)f(F)**   | **open/click multiple links in the current(or new) tab or execute multiple actions in same tab** |
 | **(number+)x**      | **close tabs(s)**                                                                               |
 | **^**               | **Go to previously-visited tab**                                                                |
 | **yt**              | **duplicate current tab**                                                                       |
@@ -92,19 +99,24 @@ unmap t
 - We can use **[[ or ]]** to to go to next previous(next) page
 - It may not work for some web sites such as <blogger></blogger>
 - But we can easily customize it at **options**
-- Add "Older Posts,上一章" to **Next patterns**
-- Add "Newer Posts, 下一章" to **Previous patterns**
+- Add "Older Posts,下一章" to **Next patterns**
+  - Usually users land in home page, click next button/shortcut to go older posts. 
+- Add "Newer Posts,上一章" to **Previous patterns**
+  - Space matters.
 
 ### Excluded URLs and keys
-- [reveal.js uses F for Fullscreen and some other shortcuts which conflicts with Vimium](https://github.com/hakimel/reveal.js/wiki/Keyboard-Shortcuts)
+- [reveal.js uses F for Fullscreen and some other shortcuts which conflict with Vimium](https://github.com/hakimel/reveal.js/wiki/Keyboard-Shortcuts)
+- Some shortcuts from Github conflicts with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
+- So add the following at `Excluded URLs and keys` at `Vimium Options`.
 
-| Patterns                           | Keys  |
-|:---------------------------------- |:----- |
+| Patterns                         | Keys          |
+|:-------------------------------- |:------------- |
 | https?://jefferyyuan.github.io/* | f,F,?,O,o,b,B |
+| https?://github.com/*            | b,l,c,g,n,h,p |
 
 ### Misc
 #### Go Back History Doesn't Work (In Blogger Blog Management Page)
-- When we click `cmd+left` or back history button, sometime it doesn't work.
+- When we click `cmd+left` or back history button, sometimes it doesn't work.
 - When this happens, try `2h`: go back 2 pages
 
 ### [Related Posts](/search/label/Chrome)<a name="related"></a>

@@ -1,3 +1,14 @@
+---
+
+### [Awesome Tips about Chrome Series](/search/label/Atom_Series){target="blank"}
+<script src="/feeds/posts/default/-/Atom_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
+<!-- SD: 
+Advanced Tips About Atom Editor: How to Add Custom Command and Add New Functions into Atom.
+-->
+
 ### [Add Command To Move/Select To First Letter](https://discuss.atom.io/t/move-and-select-to-first-letter-a-za-z/65504)
 - Add the command in `init.coffee`
 ```coffee
@@ -39,3 +50,9 @@ atom.commands.add 'atom-text-editor',
     editor = @getModel()
     editor.insertText(new Date().toLocaleString())
 ```
+
+---
+#### [Related Posts](/search?q=label:Markdown|label:"Atom Editor"){target="blank"}
+<script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

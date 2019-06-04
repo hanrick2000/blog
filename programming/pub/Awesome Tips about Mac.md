@@ -1,4 +1,4 @@
-### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#mac-shortcuts)
+### [Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#mac-shortcuts)
 |                                |                                                                     |
 | ------------------------------ | ------------------------------------------------------------------- |
 | / or Command+Shift+G           | Go to Folder                                                        |
@@ -34,6 +34,7 @@
 
 ---
 ### Tips
+- Enable dark mode at Preferences -> General
 - [maximize the window without going full screen](https://www.cultofmac.com/410346/how-to-maximize-your-el-capitan-windows-without-going-full-screen/)
   - **⌥ + Click** on green icon
 
@@ -102,7 +103,7 @@
 - Preferences > General > New message notifications
 
 #### [Add users to VIP](https://www.imore.com/how-quickly-add-contact-your-vip-list-mac-mail)
-#### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#mac-mail)
+#### [Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#mac-mail)
 
 ---
 
@@ -125,9 +126,8 @@ brew update/upgrade
 brew cleanup
 ```
 
-#### How to Save Memory
+#### How to Reduce Memory
 ##### [How to Reduce Chrome Memory Usage](2018/06/awesome-tips-about-chrome.html)
-
 
 #### Tools
 ##### [Voice Memos](https://www.idownloadblog.com/2018/08/14/howto-voice-memos-mac/)
@@ -148,4 +148,8 @@ brew cleanup
     - we can type commands like "show desktop" etc
 
 #### References
-[Mac Tips & Tricks - 2016](http://lifelongprogrammer.blogspot.com/2016/04/mac-tips-tricks-2016.html)
+[Mac Tips & Tricks - 2016](/2016/04/mac-tips-tricks-2016.html)
+
+---
+#### [Related Posts](/search/label/Google)<a name="related"></a>
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 

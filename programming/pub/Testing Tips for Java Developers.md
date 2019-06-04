@@ -122,11 +122,11 @@ public @Rule ExternalResource rule = new ExternalResource() {};
 ---
 
 ### [TestNG]
-  - [Testing with TestNG](http://lifelongprogrammer.blogspot.com/2016/05/testing-with-testng.html)
+  - [Testing with TestNG](/2016/05/testing-with-testng.html)
 
 #### [Spring + JUnit](https://www.mkyong.com/unittest/junit-spring-integration-example/)
 - [docs](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#integration-testing)
-- [JUnit 4.11 does not work with Spring Test framework](http://lifelongprogrammer.blogspot.com/2016/09/initializationerror-when-use-spring.html)
+- [JUnit 4.11 does not work with Spring Test framework](/2016/09/initializationerror-when-use-spring.html)
 
 #### Using REST Assured to test http APIs
 ```java
@@ -145,7 +145,7 @@ assertThat(Boolean.valueOf(importResult.get("success").toString()), is(true));
 ---
 
 ### Eclipse
-- [Eclipse Tips](http://lifelongprogrammer.blogspot.com/2016/02/eclipse-tips-trick-2016.html)
+- [Eclipse Tips](/2016/02/eclipse-tips-trick-2016.html)
 
 #### Plugins
 - [MoreUnit](https://marketplace.eclipse.org/content/moreunit)
@@ -172,7 +172,7 @@ io.restassured.RestAssured
 ```
 
 #### Run Tests across Multiple Projects
-- [Eclipse Tips + Tricks - 2016](http://lifelongprogrammer.blogspot.com/2016/02/eclipse-tips-trick-2016.html)
+- [Eclipse Tips + Tricks - 2016](/2016/02/eclipse-tips-trick-2016.html)
 - <https://github.com/takari/takari-cpsuite>
 
 Create a maven project depending on all the projects you want to test.\

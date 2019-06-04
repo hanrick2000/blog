@@ -1,4 +1,4 @@
-<!-- https://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html -->
+<!-- /2018/05/keyboard-shortcuts-for-developers.html -->
 ### TL;DR
 - Most commonly used shortcut keys for developers in Mac, Chrome, Chrome Vimium, iTerm, Atom Editor, Eclipse, Slack and etc.
 - Use Mac without a mouse
@@ -7,7 +7,7 @@
 - Some shortcuts are supported by multiple applications, or we can customize them to use the same shortcuts.
 
 ### Mac
-- More [Mac Tips](http://lifelongprogrammer.blogspot.com/2016/04/mac-tips-tricks-2016.html)
+- More [Mac Tips](/2016/04/mac-tips-tricks-2016.html)
 
 #### Turn on Full Keyboard Access
 - Keyboard > Shortcuts > All Controls
@@ -130,6 +130,8 @@
 | ⌘ + Shift + j             | Open the Downloads page                                 |
 | ⌘ + Option + i            | Open Developer Tools (not Cmd+shift+i: Email this page) |
 | **Cmd+Option+C**          | Open dev tools in inspect mode                          |
+
+- Use `Cmd+shift+:` to fix spelling and grammer.
 <br/>
 
 #### Change/Assign extension's shortcuts
@@ -209,7 +211,7 @@ unmap t
 ---
 
 ### Atom<a name="atom"></a>
-- [More Atom Tips](http://lifelongprogrammer.blogspot.com/2017/10/tips-and-tricks-for-atom-editor.html)
+- [More Atom Tips](/2017/10/tips-and-tricks-for-atom-editor.html)
 - Search shortcut at Settings -> Keybindings
 
 |                     |                                          |                                                                   |
@@ -237,7 +239,7 @@ unmap t
 ---
 
 ### Eclipse
-- [More Eclipse Tips](http://lifelongprogrammer.blogspot.com/2016/02/eclipse-tips-trick-2016.html)
+- [More Eclipse Tips](/2016/02/eclipse-tips-trick-2016.html)
 
 |                                                                                 |                                                           |
 | ------------------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -306,3 +308,6 @@ unmap t
 | Cmd + =(-)                   | Faster(Slower)                      |
 | Cmd + Up(down)               | Volume up(down)                     |
 | Cmd+Option+P                 | Playlist                            |
+
+### Bonus
+- Use Search to quick find info instead of using the trackpad to scroll

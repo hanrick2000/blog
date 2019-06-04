@@ -1,7 +1,7 @@
 
 ### Gmail
-- More easily create calendar event
-- Detect deadline in mail, offer to create event or remainder
+<!-- - Easier to create calendar event -->
+- Detect deadline in mail, offer to create event or remainder automatically
   - Privacy: default off, user can opt in
 
 ### Calendar
@@ -14,16 +14,19 @@
 ##### Voice Typing
 - There is a bug in the language dropdown of the mic-palette widget.
 - It doesn't scroll to the end of list, so hard to choose languages like `中文`, `日本语`
-- We can easily reproduce it by moving the mic-palette to near the bottom.
+- We can reproduce it by moving the mic-palette to near the bottom.
 
-### Express
-<!-- - Make sure one account per user -->
-- 5% Credit card instead of coupon
+<!-- ### Express
+- Make sure one account per user
+- 5% Credit card instead of coupon -->
 
 ### Blogger
-- Support "search" in "All Labels"
+- [store post.labels as it is(an array) in server side, not alphabetically](https://support.google.com/blogger/thread/6693810?hl=en)
+  - So user can sort labels in a post as importance, may do recommendation based on importance of labels
+<!-- - Support "search" in "All Labels" -->
   <!-- - button, divblog/ -->
 - Support Markdown
+  - even better: sync the markdown and the Compose (WYSIWYG editor), so we can use Grammarly to check the spell and syntax in the Compose.
 
 #### Keep
 - Add multiple places for reminder

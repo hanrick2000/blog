@@ -60,9 +60,10 @@ ${string//substring/replacement}
 - if [[ ! -d "$DIRECTORY" ]]; then
 ```bash
 [[ "$a" == \*pattern ]] # string ends with
-[[ $a == z* ]]   # True if $a starts with an "z" (pattern matching).
-[[ $a == "z*" ]] # True if $a is equal to z* (literal matching).
-[[ abb =~ ab+ ]] # regex pattern matching (Bash 3.1+):
+[[ "$a" == z* ]]   # True if $a starts with an "z" (pattern matching).
+[[ "$a" == "z*" ]] # True if $a is equal to z* (literal matching).
+[[ "$line" =~ ab+ ]] # regex pattern matching (Bash 3.1+):
+[[ ! "$line" =~ ab+ ]] # NOT contain
 ```
 
 ##### [file testing](https://www.cyberciti.biz/tips/find-out-if-file-exists-with-conditional-expressions.html)
@@ -135,4 +136,4 @@ done
   * Example: ./gradlew integrationTest || copyLogsToWorkspaceOnError(this function should exit with error code)
 
 #### References
-- [Bash Scripting Essentials](http://lifelongprogrammer.blogspot.com/2017/10/bash-scripting-essentials.html)
+- [Bash Scripting Essentials](/2017/10/bash-scripting-essentials.html)

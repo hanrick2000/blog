@@ -31,4 +31,4 @@ builder.registerTypeAdapterFactory(RuntimeTypeAdapterFactory
 ```
 
 ### References
-[Jackson Essentials](http://lifelongprogrammer.blogspot.com/2016/03/jackson-essentials-json-libaray.html)
+[Jackson Essentials](/2016/03/jackson-essentials-json-libaray.html)

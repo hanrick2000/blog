@@ -27,9 +27,10 @@ rex field=message ".* 0 (?<time>\d*)" | timechart max(time)
 | table field
 
 #### [(Not) contains a field](https://answers.splunk.com/answers/59305/how-to-find-records-that-do-not-contain-a-certain-field.html)
-NOT fa=*
+- NOT fa=*
+
 #### See all values in a field
-| top a_number SourceName
+- | top a_number SourceName
 
 #### Examples
 ```text
@@ -48,3 +49,7 @@ eval cluster=app+"-"+partition | top 100 cluster, ttl
 - Separate the main message and key/value pairs
 - The main message should be variable-free
 - Use util class (or) to help implement this
+
+---
+#### [Related Posts](/search/label/Troubleshooting)
+<script src="/feeds/posts/default/-/Troubleshooting?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

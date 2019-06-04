@@ -1,4 +1,4 @@
-<!-- http://lifelongprogrammer.blogspot.com/2018/06/working-effectively-with-iterm.html -->
+<!-- /2018/06/working-effectively-with-iterm.html -->
 #### Install iTerm2
 - brew cask install iterm2
 
@@ -7,7 +7,7 @@
 
 ---
 
-#### [Shortcuts](http://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#iterm)
+#### [Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#iterm)
 
 |                  |                               |
 |------------------|-------------------------------|
@@ -106,3 +106,6 @@ Keyboard Shortcut: Option+Right| Action: Send Escape Sequence|Esc+ f
 #### Toolbet
 #### Track long running command
 - Edit > Marks and Annotations > Alert on next mark
+
+#### [Related Posts](/search/label/Chrome)
+<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

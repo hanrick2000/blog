@@ -110,18 +110,6 @@ git ls-remote --tags remote_git_url
 - [Emoji in github](https://www.webfx.com/tools/emoji-cheat-sheet/)
 - :+1:, :thumbsup:, :bug:
 
-### Github
-#### [Expand outdated Github Comments](https://github.com/broadinstitute/gatk/wiki/Expand-outdated-Github-Comments)
-```javascript
-javascript:Array.from(document.getElementsByClassName('outdated-comment')).forEach(l => l.classList.add('open'));
-```
-#### [Search - fork:true/false/only](https://help.github.com/articles/searching-in-forks/)
-
-#### [Github API](https://developer.github.com/v3/)
-- https://api.github.com/repos/apache/lucene-solr/git/refs/heads/branch_7x
-
-- [issues](https://github.com/issues) to track all issue
-- [pulls](https://github.com/pulls) to track all prs
 
 ### Misc
 - [git status - show tracked files only](https://stackoverflow.com/questions/594757/how-do-i-do-a-git-status-so-it-doesnt-display-untracked-files-without-using)

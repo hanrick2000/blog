@@ -72,4 +72,4 @@ gradle :dependencyInsight --configuration compile --dependency jackson-databind
 - gradle -d -r
 
 ##### References
-- [Gradle Tips and Tricks](http://lifelongprogrammer.blogspot.com/2017/10/gradle-tips-and-tricks-2017.html)
+- [Gradle Tips and Tricks](/2017/10/gradle-tips-and-tricks-2017.html)

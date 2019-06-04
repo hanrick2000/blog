@@ -1,6 +1,6 @@
-#### [Chrome Tips && Tricks](http://lifelongprogrammer.blogspot.com/2018/06/chrome-tips-and-tricks.html)
+#### [Chrome Tips && Tricks](/2018/06/chrome-tips-and-tricks.html)
 
-#### [iTerm2](http://lifelongprogrammer.blogspot.com/2018/06/working-effectively-with-iterm.html)
+#### [iTerm2](/2018/06/working-effectively-with-iterm.html)
 
 #### Slack
 - [Threaded Messages](https://www.theverge.com/2017/1/18/14305528/slack-threads-threaded-messages)

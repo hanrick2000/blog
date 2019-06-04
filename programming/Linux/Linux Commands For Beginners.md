@@ -1,3 +1,6 @@
+##### TL;DR
+- Basic Linux commands that we use literally all the time.
+
 ###### alias
 alias grep="grep --color"
 alias 
@@ -23,6 +26,7 @@ find . -name "*.jar" | xargs grep Hello.class
 
 ###### List open files
 - ls -l /proc/${pid}/fd
+  - Use this when lsof is not installed
 - lsof -p ${pid}
 
 ###### watch
@@ -86,3 +90,7 @@ diff -x '*.foo' -x '*.bar' -x '*.baz' -rq /destination/dir/1 /destination/dir/2
 !!:s/find/replace|last command, substitute find with replace
 :p|print the command - !!:p, !!n:p
 
+---
+#### [Related Posts](/search/label/Bash)
+<script src="/feeds/posts/default/-/Bash?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Linux?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

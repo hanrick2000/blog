@@ -1,3 +1,6 @@
+### TL;DR
+- How to use Google Assistant Skills for kids education, productivity and entertainment.
+
 ### Add language
 - Add multiple languages, Google Assistant can atomically detect the language and respond/switch accordingly.
 
@@ -96,3 +99,7 @@
 - Clickable in the UI
   - the category, company name
 <!-- - [MacAssistant](https://github.com/vanshg/MacAssistant) -->
+
+---
+#### [Related Posts](/search/label/Google)<a name="related"></a>
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
