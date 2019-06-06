@@ -1,4 +1,14 @@
-<!-- /2018/06/working-effectively-with-iterm.html -->
+---
+
+#### [Series: Awesome Tips about Mac](/search/label/Mac_Series){target="blank"}
+<script src="/feeds/posts/default/-/Mac_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
+<!-- SD:
+Tips and Tricks about how to use latest iTerm effectively: shortcuts, common settings, etc.
+ -->
+
 #### Install iTerm2
 - brew cask install iterm2
 
@@ -35,10 +45,12 @@
 ---
 
 #### Tips
-- `Cmd+k to clear current buffer` vs `clear`
-  - Use `clear current buffer`, if you don't want `cmd+f` to search old history
+- `Cmd+k` to `clear current buffer` vs `Cmd+r` or the `clear` bash command.
+  - Use `Cmd+k: clear current buffer`, if you don't want `cmd+f` to search old history
 
 ##### Command History - Cmd+Shift+;
+- Type to search, up/down to select
+
 ##### Paste History  - Cmd+Shift+H
 - **Works for multiple-lines command**
 
@@ -107,5 +119,8 @@ Keyboard Shortcut: Option+Right| Action: Send Escape Sequence|Esc+ f
 #### Track long running command
 - Edit > Marks and Annotations > Alert on next mark
 
-#### [Related Posts](/search/label/Chrome)
-<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+---
+#### [Related Posts](/search/label/Mac)<a name="related"></a>
+<script src="/feeds/posts/default/-/Mac_Series?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+<script src="/feeds/posts/default/-/Mac?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 

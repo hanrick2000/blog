@@ -16,28 +16,28 @@
 ### [Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#vimium)
 - [All commands and shortcuts](https://github.com/philc/vimium/blob/master/background_scripts/commands.coffee)
 
-|                     |                                                                                                 |
-| ------------------- | ----------------------------------------------------------------------------------------------- |
-| **(number+)W**      | **move tabs(s) to new window**                                                                  |
-| **(number+)<<(>>)** | **Move tab to the left(right)**                                                                 |
-| **T**               | **search through your open tabs**                                                               |
-| B                   | Bookmark search                                                                                 |
-| **(number+)r**      | **reload tab(s)**                                                                               |
+|                     |                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------ |
+| **(number+)W**      | **move tabs(s) to new window**                                                                   |
+| **(number+)<<(>>)** | **Move tab to the left(right)**                                                                  |
+| **T**               | **search through your open tabs**                                                                |
+| B                   | Bookmark search                                                                                  |
+| **(number+)r**      | **reload tab(s)**                                                                                |
 | **(number+)f(F)**   | **open/click multiple links in the current(or new) tab or execute multiple actions in same tab** |
-| **(number+)x**      | **close tabs(s)**                                                                               |
-| **^**               | **Go to previously-visited tab**                                                                |
-| **yt**              | **duplicate current tab**                                                                       |
-| gE                  | Edit the current URL and open in a new tab                                                      |
-| X                   | restore closed tab (i.e. unwind the 'x' command)                                                |
-| **gi**              | **focus the first (or n-th) text input box on the page**                                        |
-| h/j/k/l             | scroll left/down/up/right                                                                       |
-| **(number+)d(u)**   | **half page down(up)**                                                                          |
-| yy                  | copy the current url to the clipboard                                                           |
-| yf                  | copy a link url to the clipboard                                                                |
-| p/P                 | search the text in clipboard using search engine                                                |
-| **[[ or ]]**        | **Go to next previous(next) page**                                                              |
-| **gu(or U)**        | **Go up the URL hierarchy or Go to root of current URL hierarchy**                              |
-| ?                   | help                                                                                            |
+| **(number+)x**      | **close tabs(s)**                                                                                |
+| **^**               | **Go to previously-visited tab**                                                                 |
+| **yt**              | **duplicate current tab**                                                                        |
+| gE                  | Edit the current URL and open in a new tab                                                       |
+| X                   | restore closed tab (i.e. unwind the 'x' command)                                                 |
+| **gi**              | **focus the first (or n-th) text input box on the page**                                         |
+| h/j/k/l             | scroll left/down/up/right                                                                        |
+| **(number+)d(u)**   | **half page down(up)**                                                                           |
+| yy                  | copy the current url to the clipboard                                                            |
+| **yf**              | **copy a link (hint) url to the clipboard**                                                      | 
+| p/P                 | search the text in clipboard using search engine                                                 |
+| **[[ or ]]**        | **Go to next previous(next) page**                                                               |
+| **gu(or U)**        | **Go up the URL hierarchy or Go to root of current URL hierarchy**                               |
+| ?                   | help                                                                                             |
 
 ### Count + Command
 - number+x-close multiple tabs
@@ -85,8 +85,9 @@ map M toggleMuteTab all
 map X toggleMuteTab other
 map cl closeTabsOnLeft
 map cr closeTabsOnRight
+map n closeTabsOnRight 1
 map co closeOtherTabs
-map fi LinkHints.activateModeToOpenIncognito
+map yi LinkHints.activateModeToOpenIncognito
 unmap J
 unmap K
 unmap t
@@ -119,5 +120,6 @@ unmap t
 - When we click `cmd+left` or back history button, sometimes it doesn't work.
 - When this happens, try `2h`: go back 2 pages
 
-### [Related Posts](/search/label/Chrome)<a name="related"></a>
-<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+---
+#### [Related Posts](/search/label/Chrome){target="blank"}
+<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

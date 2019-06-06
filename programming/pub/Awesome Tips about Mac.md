@@ -1,3 +1,13 @@
+---
+
+### [Series: Awesome Tips about Mac](/search/label/Mac_Series){target="blank"}
+<script src="/feeds/posts/default/-/Mac_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
+<!-- SD:
+Most frequently used shortcuts in Mac, tips for finder, spotlight etc, and how to prevent Mac form overheating
+ -->
 ### [Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#mac-shortcuts)
 |                                |                                                                     |
 | ------------------------------ | ------------------------------------------------------------------- |
@@ -78,10 +88,10 @@
 ---
 #### Spotlight Search
 - Shortcut: Command+space
-- [Reveal the Location](https://www.tekrevue.com/tip/show-spotlight-results-in-finder/)
+- [Reveal the Location with command key](https://www.tekrevue.com/tip/show-spotlight-results-in-finder/)
     - Preview location: with Command key
     - Open the location in Finder: hold the Command key, and press Return
-
+- as a calculator, check stock prices, currency conversion
 ---
 
 ### Safari
@@ -113,6 +123,21 @@
 
 ---
 
+### How to Keep Your Mac from Overheating
+- Don't wait to charge your mac till its power is too low.
+- Close the lid to make Mac sleep as often as possible.
+  - Enable and use [Touch ID](https://support.apple.com/en-us/HT207054) to quickly sign in again. 
+- Kill apps aggressively
+  - e.g. kill [iTerm](/2018/06/working-effectively-with-iterm.html) if not going to use it in next 5 mins.
+  - Configure the app to restore last session: like `Restore last windows after restart` for [iTerm](/2018/06/working-effectively-with-iterm.html).
+- Don't put it Mac directly your lap, put a book underneath, as MacBooks vent from the back edge,
+#### [How to Reduce Chrome Memory Usage](/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
+- Read [here](/2019/03/how-to-speed-up-google-chrome.html){target="blank"} to learn how to free up Chrome's memory usage and still stay productivity.
+  - Use [The Great Suspender, Chrome Vimium and Reader View](/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
+- Read more [awesome tips about chrome](/2018/06/awesome-tips-about-chrome.html){target="blank"}
+
+---
+
 ### Misc
 - Text replacement
   - Preferences > Keyboard > Text
@@ -125,9 +150,6 @@ brew cask list
 brew update/upgrade
 brew cleanup
 ```
-
-#### How to Reduce Memory
-##### [How to Reduce Chrome Memory Usage](2018/06/awesome-tips-about-chrome.html)
 
 #### Tools
 ##### [Voice Memos](https://www.idownloadblog.com/2018/08/14/howto-voice-memos-mac/)
@@ -145,11 +167,11 @@ brew cleanup
 #### Feature Suggestions
 - Quick Access in OS level
   - like "Quick Access" function in Eclipse
-    - we can type commands like "show desktop" etc
-
-#### References
-[Mac Tips & Tricks - 2016](/2016/04/mac-tips-tricks-2016.html)
+  - we can type commands like "show desktop" etc, or with some prefix: `commands: capture screen`
+  - It's hard to remember those commands that are not used often.
 
 ---
-#### [Related Posts](/search/label/Google)<a name="related"></a>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+#### [Related Posts](/search/label/Mac)<a name="related"></a>
+<script src="/feeds/posts/default/-/Mac_Series?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+<script src="/feeds/posts/default/-/Mac?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 

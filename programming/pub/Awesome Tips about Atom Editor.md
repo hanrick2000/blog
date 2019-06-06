@@ -20,7 +20,8 @@
 
 #### Tree View
 #### Command Palette
-- [Select ```Preserve Last Search```](https://github.com/atom/atom/issues/16097){target="blank"}
+- Select [```Preserve Last Search```](https://github.com/atom/atom/issues/16097){target="blank"} at `Packages -> Command Palette`
+  - As we usually call same functions multiple times.
 - Tune settings
   - Enable **Auto Reveal**: link tree view with editor
   - Enable [Hide Ignored Names](https://discuss.atom.io/t/a-way-to-hide-the-ds-store-files-in-the-tree-view/1431){target="blank"}, Hide VSS Ignored Files
@@ -31,6 +32,13 @@
 
 #### Fuzzy Finder
 - Select **Preserve Last Search**
+
+|                |                                                   |
+| -------------- | ------------------------------------------------- |
+| cmd-t or cmd-p | open the file finder                              |
+| cmd-b          | open the list of open buffers                     |
+| cmd-shift-b    | open the list of Git modified and untracked files |
+
 
 #### AutoSave
   - select "enabled".
@@ -49,12 +57,15 @@
 
 ---
 
-### How To Explore Atom Functions
+### How To Explore and Learn Atom Functions<a name='explore'></a>
 - [Command Palette](https://atom.io/packages/command-palette){target="blank"}
-  - Find all commands from one package by starting with the package name
-  LC -> lower case, UP -> change-case:UpperFirst
-- [keybinding-cheatsheet](https://atom.io/packages/keybinding-cheatsheet){target="blank"}
+  - Find all commands from one package by starting with the package name: e.g. Type `Change Case` to know all functions provided
+- Use `Cmd+Shift+?: Search -> Help` to find/explore/call command.
+- After install the package, read its readme, and settings, change them if applied.
+- When you want to figure out how to do xx, or want some features, change some settings, first figure out what package provides the function.
+  - By using `Key Binding Resolver` which shows which package responds to your typing or shortcut.
 
+  <!-- LC -> lower case, UP -> change-case:UpperFirst -->
 ### Functions
 - **Multiple cursors**
   - `cmd++Shift+click`: add new cursors
@@ -92,6 +103,16 @@ Ctrl + g| Go to Line
 **Ctrl+Shift+left(or right)** | **move tab to left(or right)**
 
 
+#### Shortcut for Moving/Selection
+|                          |                                        |
+|:------------------------ |:-------------------------------------- |
+| Option+left(right)       | Move to beginning/end of word          | 
+| Option+Shift+left(right) | Select to beginning/end of word        |
+| Ctrl+A(E)                | Move to first character(end) of Line   |
+| Ctrl+Shift+A(E)          | Select to first character(end) of line |
+| Cmd+up(down)             | Move to top(bottom)                    |
+| Shift+Cmd+up(down)       | Select to top(bottom)                  |
+
 #### Shortcut for Writing
 
 |              |                       |
@@ -111,6 +132,8 @@ Ctrl + g| Go to Line
   "alt-enter": "editor:newline-above"
   # "alt-enter": "editor:newline",
 ```
+
+- [keybinding-cheatsheet](https://atom.io/packages/keybinding-cheatsheet){target="blank"}
 
 ---
 
@@ -169,6 +192,10 @@ Example: `Ctrl+e` doesn't work: not go to end of line
 - find all links that doesn't start with http in markdown: `\]\([^h]`
 - `Only in Selection`
 
+### [Pending Pane Items](https://flight-manual.atom.io/using-atom/sections/pending-pane-items/){target="blank"}
+- single-clicking a file will open it in pending state
+- use this to open files that we don't want to keep and avoid open too many files
+- `Cmd+Shift+F: project find` opens files in pending state.
 ---
 
 ### Tips
@@ -179,9 +206,6 @@ Example: `Ctrl+e` doesn't work: not go to end of line
 - Find previous: shift + enter in the search dialog
 - Use Cmd+/ to comment: it know the right syntax for different language
 - **Click the file name at the bottom bar to copy the full path**
-- [Pending Pane Items](https://flight-manual.atom.io/using-atom/sections/pending-pane-items/){target="blank"}
-  - single-clicking a file will open it in pending state
-  - use this to open files that we don't want to keep and avoid open too many files
 - Use Settings -> Updates to update all extensions
 
 #### [File/Directory Pattern Syntax](https://flight-manual.atom.io/using-atom/sections/find-and-replace/){target="blank"}

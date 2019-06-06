@@ -1,5 +1,5 @@
 <!-- SD:
-How to Speed up Google Chrome, free up its memory usage and stay productivity at same time. Use The Great Suspender and Chrome Vimium.
+How to Speed up Google Chrome, free up its memory usage and stay productivity at same time. Use The Great Suspender, Chrome Vimium and Reader View.
  -->
 ---
 
@@ -9,24 +9,22 @@ How to Speed up Google Chrome, free up its memory usage and stay productivity at
 ---
 
 ### How To Reduce Chrome Memory Usage
-#### The Great Suspender
+#### [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/){target="blank"}
 - Use [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/) together with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html), the Suspender reduces the memory usage, use [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html) to find and go to specific tab quickly. 
-- After restart Chrome, the suspended remains suspended, Great!
+- After restart Chrome, the suspended pages remain suspended, Great!
 - Automatically suspend tabs after: `5 mins`
 - Uncheck `Never suspend active tab in each window`
 - Uncheck `Never suspend tabs that are playing audio`
+- Use `Suspend/Unsuspend active tab` and `Suspend all tabs in all windows` to suspend all pages not working on now.
 
 <!-- -Text Mode or doesn't works
  [This webpage's](https://www.zdnet.com/pictures/free-must-have-google-chrome-extensions) is reduced from 250(max 400mx) to  -->
 
-#### Extensions
-- Check memory used at `More Tools -> Task Manager`
-- Uninstall extensions that are not used any more
-- Temporarily disable  that uses occasionally
-  - like ModHeader, Search Plus, Screenshot
-- Change "Allow this extension to read and change all your data on websites you visit:" to `On click` or `On specific sites`
-- Kill the extensions that uses a lot of memory then reload them
-  - Sometimes, Google Translate uses 600+ memory, just kill and reload it
+#### [Reader View](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)
+- it **reduces the memory usage a LOT** for pages that load a lot of flashes, ads.
+- e.g. reduces this [page](https://www.macworld.co.uk/how-to/mac/should-i-log-out-my-mac-or-just-shut-down-3623615/){target="blank"} from around 450+ mb to 87mb.
+- read [here](/2019/04/must-have-google-chrome-extensions.html ){target="blank"} for more info about Reader View.
+  - The pros and crons, when to use it and the alternatives and other [must-have google chrome extensions](/2019/04/must-have-google-chrome-extensions.html ){target="blank"}
 
 #### Tabs
 - Kill tabs that uses a lot of memory at `More Tools -> Task Manager`, reload then if needed.
@@ -42,9 +40,20 @@ How to Speed up Google Chrome, free up its memory usage and stay productivity at
 - Use `Shift+t` the [Chrome Vimium Vomnibar](/2019/04/awesome-tips-about-chrome-vimium.html) to search and go to existing tabs instead open a new one
   - Works well with suspended tabs
 
+#### Extensions
+- Check memory used at `More Tools -> Task Manager`
+- Uninstall extensions that are not used any more
+- Temporarily disable  that uses occasionally
+  - like ModHeader, Search Plus, Screenshot
+- Change "Allow this extension to read and change all your data on websites you visit:" to `On click` or `On specific sites`
+- Kill the extensions that uses a lot of memory then reload them
+  - Sometimes, Google Translate uses 600+ memory, just kill and reload it
+
+
 #### Chrome Settings
 - [chrome://flags/#disable-best-effort-tasks](https://www.digitaltrends.com/computing/google-chrome-finally-reduce-memory-usage/)
 
 ---
-#### [Related Posts](/search/label/Chrome)
+#### [Related Posts](/search?q=label:Chrome|label:Google){target="blank"}
 <script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

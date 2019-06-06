@@ -6,8 +6,12 @@
 - My fingers burn when using mac trackpad or touch bar, so try to use the keyboard as much as I can.
 - Some shortcuts are supported by multiple applications, or we can customize them to use the same shortcuts.
 
-### Mac
-- More [Mac Tips](/2016/04/mac-tips-tricks-2016.html)
+---
+
+### [Awesome Tips About Mac](/2019/02/awesome-tips-about-mac.html){target="blank"}
+
+---
+
 
 #### Turn on Full Keyboard Access
 - Keyboard > Shortcuts > All Controls
@@ -22,7 +26,8 @@
 - Release the mouse button: . -->
 
 #### Right Click
-<!-- - When Mouse key is on, Fn-Ctrl-I -->
+- When Mouse key is on, Fn-Ctrl-I
+  <!-- - Maybe useful in very limit -->
 - Control + Click
 
 #### Switch input source
@@ -296,6 +301,21 @@ unmap t
 | Command+/            | Keyboard shortcuts         |
 
 ---
+
+### [Youtube](https://support.google.com/youtube/answer/7631406)
+
+|                  |                                                                         |
+|:---------------- |:----------------------------------------------------------------------- |
+| /                | Go to search box.                                                       |
+| f                | Activate full screen                                                    |
+| **Shift+>(<)**   | **decrease/Increase the speed of video playback**                       |
+| **0..9**         | **Seek to specific point in the video (7 advances to 70% of duration)** |
+| **Shift+N(P)**   | **Move to the next(previous) video**                                    |
+| **i**            | **Launch the Miniplayer.**                                              |
+| j/l              | Seek backward/(forward) 10 seconds in player.                           |
+| Left/Right arrow | Seek backward/forward 5 seconds.                                        |
+| **m**            | **mute on/off**                                                         | 
+
 ### VLC Player
 - Preferences > HotKeys
 
@@ -311,3 +331,8 @@ unmap t
 
 ### Bonus
 - Use Search to quick find info instead of using the trackpad to scroll
+
+---
+#### [Related Posts](/search/label/Mac){target="blank"}
+<script src="/feeds/posts/default/-/Mac?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

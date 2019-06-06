@@ -4,8 +4,21 @@
 - [Manage/Use Labels Effectively.](#labels)
 - [Tips about SEO and Promote Posts.](#seo_tips)
 
+---
+
+### [Awesome Tips Series about Google Products](/search/label/Google_Series){target="blank"}
+<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
+### [Awesome Tips Series about Blogger](/search/label/Blogger_Series){target="blank"}
+<script src="/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
 ### Change Date And Time To Promote/Move Posts<a name="change_date_time"></a>
 Chrome uses `published data` to decide where the post is shown in `Blog Archive` or feed, we can change the `published data` after publish to move the post.
+
 - when set published date to future:
   - Update the exiting one: this will not change the date and time in the url but will change where it's put at `Blog Archive`
   - Publish a new one or again: this will schedule the post to publish it in the future
@@ -18,6 +31,8 @@ Chrome uses `published data` to decide where the post is shown in `Blog Archive`
 - Revert it to draft
 - Change date time to past then publish it again
 - ex: [Awesome Tips about Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html) was added on 5/30/2019 and changed its date time to `April 08, 2019`
+
+---
 
 ### Manage/Use Labels Effectively<a name="labels"></a>
 - [Multiple Labels Search](https://exde601e.blogspot.com/2012/12/search-operators-for-Blogger-labels.html)
@@ -45,9 +60,12 @@ Chrome uses `published data` to decide where the post is shown in `Blog Archive`
   - and query: [feeds/posts/default/-/<label1>/<label2>/.../<labelN>](/feeds/posts/default/-/Dev Tips/Chrome?orderby=updated)
   - or query: [/feeds/posts/default?q=label:label1|label:label2](/feeds/posts/default?q=label:Chrome|label:Markdown)
 
+---
+
 ### Tips about SEO and Promote Posts<a name="seo_tips"></a>
 - [Show Post Title Before Blog Title](https://masterblogging.com/post-title-before-blog-title/)
-- [Add `search description`](https://makingamark.blogspot.com/2012/05/how-to-create-search-description-for.html)
+- [Add `search description`](https://xomisse.com/blog/enable-search-description-blogger)
+  - You have to add content to the box, if it's empty or you delete the description in the future, the `search description` function will be gone/
   - [It appears in Google Search or when we share it to Linkedin, Facebook, Twitter](https://www.techprevue.com/post-search-description-blogger-seo/)
 - Custom the url at `Links -> Permalink` to make it more readable
 
@@ -62,6 +80,8 @@ Chrome uses `published data` to decide where the post is shown in `Blog Archive`
 - ex: [home](/2019/05/home.html)
 
 #### [How To Promote Posts Based On Labels And Recency](/2019/03/how-to-promote-posts-based-on-label-and-recency-in-blogger.html)
+
+---
 
 ### Tips
 - [Remove the automatically added code: Dir="Ltr" Trbidi="On"](https://www.howbloggerz.com/2016/07/remove-ltr-trbidi-code-from-blogger-posts.html)
@@ -82,5 +102,6 @@ Chrome uses `published data` to decide where the post is shown in `Blog Archive`
 #### XML Code -->
 
 ---
-#### [Related Posts](/search/label/Blogger)
+#### [Related Posts](/search?q=label:Blogger|label:Google){target="blank"}
 <script src="/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

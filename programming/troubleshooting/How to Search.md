@@ -1,9 +1,15 @@
 
+- `Where results open`
+  - Unselect `Open each selected result in a new browser window`
+  - Previously , I choose yes, but now, I choose no, and use [chrome vimium extension](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"} to decide I want to open in new tab or current tab.
+
 
 ### Search to find info
-Before you tried search:
-- Don't scroll
+- Search first, 
+  - not to scroll first
 
+### Search Tips
+- add `blog`
 
 - **archive.org** to find page deleted
   - `https://web.archive.org/web/*/%s`

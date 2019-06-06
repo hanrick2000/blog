@@ -1,4 +1,14 @@
-<!-- /2018/05/markdown-tips.html -->
+---
+
+### [Series: Awesome Tips about Markdown](/search/label/Markdown_Series){target="blank"}
+<script src="/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
+<!-- SD:
+Frequently used markdown syntax.
+-->
+
 ### Syntax
 - Strikethrough: `~~your text~~`
   - ~~your text~~
@@ -88,55 +98,15 @@ Normal Key|Value1øøøøø
 - Functions: export as html, save to google drive, blogger, github, dropbox etc
 - alternatives: <https://dillinger.io/>
 
-### Blogger with markdown
-- Focus on the content, easy to store/edit the content locally
-- Easy to hide(Cmd+/) text, draft, or the text/explanation for you.
-
-#### 1: Use "Copy Html" function from markdown-preview-plus
-- Then paste output
-```
-<div dir="ltr" style="text-align: left;" trbidi="on">
-<div style="font-size: large;">
-     _copy_html_output_from_markdown-preview-plus_
-</div></div>
-```
-#### 2: Use pandoc
-```bash
-pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso \
--o the_output.html "${md}"
-# rmheadbody.sh removes the not-needed head, body tags
-pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso "${md}" \
-| bash ~/scripts/rmheadbody.sh | pbcopy
-```
-- then remove no needed head, body tags
-
-### Atom Plugins
-- [Document Outline](https://atom.io/packages/document-outline)
-  - Only uses h4 or above for markdown
-- [Markdown Writer](https://atom.io/packages/markdown-writer)
-- [Markdown Table Editor](https://atom.io/packages/markdown-table-editor)
-  - Hit tab to move to the next cell
-- [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced)
-  - Ctrl+Shift+M: toggle preview
-  - Support Code chunk, [Presentation](https://shd101wyy.github.io/markdown-preview-enhanced/#/presentation)
-  - [Diagrams](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams)
-    - Support PlantUML, mermaid, flow charts, sequence diagrams
-- [markdown-preview-plus](https://atom.io/packages/markdown-preview-plus)
-  - Ctrl+Shift+M: toggle preview
-  - Copy html: convert markdown to html and copy the output to clipboard
-  - Enable "Preview Position Synchronization behavior"
-  - support pandoc syntax
-- [atom-csv-markdown](https://atom.io/packages/atom-csv-markdown)
-
-```markdown
-<!-- slide -->
-```
+### [Writing in Atom with Markdown](/2019/03/must-have-atom-editor-packages.html){target="blank"}
+- Check [here](/2019/03/must-have-atom-editor-packages.html){target="blank"} for [must-have atom editor packages](/2019/03/must-have-atom-editor-packages.html){target="blank"}
+- [Writing Blog with Markdown, Atom Editor, Pandoc and Github](/2019/06/writing-blog-with-markdown-atom-editor-pandoc-and-github.html){target="blank"}
+- [building presentations with reveal.js, markdown and github pages](/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html){target="blank"}
 
 ### [Slides Syntax](https://opensource.com/article/18/5/markdown-slide-generators)
 - [Pandoc Syntax](https://pandoc.org/MANUAL.html#producing-slide-shows-with-pandoc)
-<!-- /2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html -->
 
-#### pandoc
+<!-- #### pandoc
 - brew install pandoc
 - Add **eval "$(pandoc --bash-completion)"** to ${HOME}/.bash_profile
 - generate pdf: -o output.df
@@ -146,7 +116,7 @@ pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso "${md}" \
 - pandoc --list-output-formats
 
 #### [remark](https://github.com/gnab/remark)
-- in-browser, markdown-driven slideshow tool
+- in-browser, markdown-driven slideshow tool -->
 
 #### Gotcha
 - Space matters:
@@ -174,6 +144,9 @@ _italic_
 __bold__
 _You **can** combine them_
 
+# kbd tag
+<kbd>Ctrl</kbd> 
+
 > This is a blockquote
 // horizontal rule tag (<hr />) 
 ---
@@ -181,17 +154,24 @@ _You **can** combine them_
 Type `echo 'Hello World'`
 ```
 
-#### Pandoc Markdown Syntax
+<!-- #### Pandoc Markdown Syntax
 ```
 
-```
+``` -->
 
 #### Tips
+##### Markdown for Email
 - Use Markdown to write email. 
+  - Write Markdown directly in Chrome by using [Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa)
+
 - Use Markdown Preview to read long email (that roughly )
+- Not used syntax: self anchor link, summary, detail.
 
 #### Misc
 - [Use Wordpress Markdown Editor](https://en.support.wordpress.com/wordpress-editor/blocks/markdown-block/#writing-with-markdown)
 
-#### [Related Posts](/search/label/Chrome)
-<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+---
+#### [Related Posts](/search?q=label:Markdown|label:"Atom Editor")
+<script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

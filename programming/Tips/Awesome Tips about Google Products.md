@@ -1,7 +1,20 @@
 <!-- SD: 
 Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Youtube, Blogger, Google Maps.
 -->
-Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.html) and [Google Blogger](/2019/06/awesome-tips-about-google-blogger.html)
+
+### What's New in Google
+#### 06/2019
+- [faster, on-device voice dictation](https://www.xda-developers.com/gboard-on-device-voice-dictation-pixel-phones/)
+  - also in iOs, pretty amazing
+
+---
+
+### [Awesome Tips Series about Google Products](/search/label/Google_Series){target="blank"}
+<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
+<!-- Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.html) and [Google Blogger](/2019/06/awesome-tips-about-google-blogger.html) -->
 
 ### Gmail
 - [Write Email Now And Send It Later](https://www.cnet.com/how-to/gmails-scheduling-tool-to-send-emails-later-keeps-you-from-being-an-enormous-jackass/)
@@ -32,11 +45,27 @@ Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.ht
   - it will filter message based on sender or `Has the words`
 - unwatch git repo if not interested
 
+---
+
 ### Youtube
 - Use different accounts for work/skills, entertainment
 - Click **Switch account** in the top right corner
   - Not easy/intuitive as other google apps
 - [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads), install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) first
+
+|                  |                                                                         |
+|:---------------- |:----------------------------------------------------------------------- |
+| /                | Go to search box.                                                       |
+| f                | Activate full screen                                                    |
+| **Shift+>(<)**   | **decrease/Increase the speed of video playback**                       |
+| **0..9**         | **Seek to specific point in the video (7 advances to 70% of duration)** |
+| **Shift+N(P)**   | **Move to the next(previous) video**                                    |
+| **i**            | **Launch the Miniplayer.**                                              |
+| j/l              | Seek backward/(forward) 10 seconds in player.                           |
+| Left/Right arrow | Seek backward/forward 5 seconds.                                        |
+| **m**            | **mute on/off**                                                         | 
+
+---
 
 ### GBoard
 - [**Use the Spacebar as a Trackpad to move pointer faster**](https://ios.gadgethacks.com/how-to/20-tips-help-you-master-gboard-for-iphone-0182301/)
@@ -62,16 +91,22 @@ Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.ht
 - Search Emoji/Gif by name
 - Share search/location/youtube
 
-### Google Contacts
-- [Sync Google Contacts in iPhone](https://www.scrubly.com/blog/how-to-google-contacts/how-to-sync-google-contacts-with-the-iphone/)
-  - Add your Gmail account at Settings -> **Passwords & Accounts**
-  - Change to your Gmail account at Settings -> Contacts -> Default Account
-  - So now every time you create an account at Phone app in iPhone, it will be synced to Google Contacts.
+
+### Voice Typing
+- [Punctuation Commands for Dictation](http://thedroidlawyer.com/2018/02/punctuation-commands-for-dictation-in-voice-to-text-for-android/)
+  - Support: period, comma, question mark, exclamation point, apostrophe, enter or new line, new paragraph, tab key, colon, dash, ellipsis or dot dot dot, ampersand, asterisk, at sign, backslash, forward slash, open/close bracket, open(close) parenthesis.
+
+---
+
+### [Awesome Tips About Google Blogger](/2019/06/awesome-tips-about-google-blogger.html){target="blank"}
+
+---
 
 ### Google Docs
 - use **Ctrl+Option+Z or Option+/(in compact mode)** to search and execute command
 - Click ![](https://lh3.googleusercontent.com/vvhIoImkCw8IkwaKXKWIiYiCUlYihV-c-Igd6GLdeaYBBumgtolgE42VnVXbM_KYAA=w18-h18) or `Cmd+Option+X` in the top left toolbar.
 - Install and enable Grammarly on Google Docs
+
 #### Compact: Hide the menu mode
 - Click **Hide the menu mode** at top right
   - Ctrl+Shift+F seems not work
@@ -81,31 +116,7 @@ Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.ht
     1. we can click the explore button at bottom right, then we will be able to see the **Hide the menu mode** icon.
     2. Or type "Full screen" at top left **search the menu** to enter full screen mode, then press **esc** to exit the full screen mode
 
-<!-- ### Blogger
-- Add `Custom Redirects` after changed the url
-- [Promote your Content by Creating Index Page and a Custom "Page Not Found"](/2019/05/how-to-promote-your-content-by-creating-sticking-index-page-in-blogger.html)
-- [Make a Sticky Post in Blogger](https://www.wikihow.com/Make-a-Sticky-Post-in-Blogger)
-  - Publish it first then change date to a future date
-- [Multiple Labels Search](https://exde601e.blogspot.com/2012/12/search-operators-for-Blogger-labels.html)
-  - and query: search/label/LABEL1+LABEL2
-  - Or Query: search/?q=label:LABEL1|label:LABEL2
-- [Add more Labels to an Existing Post](http://9jaonpointed.blogspot.com/2015/06/how-to-add-more-labels-to-existing-post.html)
-- [Bulk remove labels](https://www.makingdifferent.com/how-to-change-remove-labels-at-once-in-blogger/)
-  - [Just click the label to be removed at the label action](https://www.youtube.com/watch?v=PfNJRTadzMI)
-- [Remove the automatically added code: Dir="Ltr" Trbidi="On"](https://www.howbloggerz.com/2016/07/remove-ltr-trbidi-code-from-blogger-posts.html)
-  - Disable this by turn off "Enable transliteration" in **Language and formatting settings**
-  - If "Enable transliteration" is on, blogger will automatically add this code whenever it detects it's not there
-  - if you have custom javascript code in your post, this behavior will break the js code.
-
-#### Sitemap web pages
-- [Generate Sitemap html page including all labels](https://www.howbloggerz.com/2017/03/generate-html-sitemap-page-blogger.html)
-- [Generate Sitemap html page including (multiple) specific labels](https://mybloggeraide.blogspot.com/2017/07/create-html-sitemap-for-specific-label.html)
-
-#### [Blogger Feeds API](https://www.exeideas.com/2016/02/parameters-in-blogspot-feed.html)
-- feeds/posts/default/feeds/posts/default/-/THE_LABLE
-- orderby: updated, published
-- [Search Multiple Labels(AND) in Blogger Feeds](http://waltz.blogspot.com/2007/07/search-multiple-labels-in-blogger-feeds.html)
-  - feeds/posts/default/-/<label1>/<label2>/.../<labelN> -->
+---
 
 ### Google Maps<a name="google_maps"></a>
 - [Share a map or directions with others by using the `share` function](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DiOS)
@@ -119,9 +130,11 @@ Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.ht
 - Type `gm` in Chrome address bar, then `type home to here` etc
 - Query:
   - here, home, 
-  - costco near home
+  - Costco near home
 
-#### Keep
+----
+
+### Keep
 - Remind based on place
   - `Store address` for the shopping list
   - It only support one address, it would be great to support multiple address as we go shopping to different stores even for same brand(like Costco)
@@ -131,6 +144,12 @@ Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.ht
 - Use list view to show all content
 - Use Card view to have a overview and move notes
 - Share with others
+
+### Google Contacts
+- [Sync Google Contacts in iPhone](https://www.scrubly.com/blog/how-to-google-contacts/how-to-sync-google-contacts-with-the-iphone/)
+  - Add your Gmail account at Settings -> **Passwords & Accounts**
+  - Change to your Gmail account at Settings -> Contacts -> Default Account
+  - So now every time you create an account at Phone app in iPhone, it will be synced to Google Contacts.
 
 ### Other Google Products
 #### [Goole Lens](https://lens.google.com/)

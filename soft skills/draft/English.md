@@ -4,7 +4,7 @@
 - [Thank you for your help with X, but we are still having problems with it and...](https://english.stackexchange.com/questions/38867/more-formal-way-of-saying-sorry-to-bug-you-again-about-this-but)
 
 
-### Acronym
+<!-- ### Acronym
 - SGTM(Sound good to me), LGTM
 - BTW, ATTN=attention
 - RSVP: please respond
@@ -12,7 +12,7 @@
 - OOO: Out of office
 - FYI: For Your Information
 - ICYMI: In Case You Missed It
-- approx.
+- approx. -->
 
 ### Writing
 #### Spell Check
