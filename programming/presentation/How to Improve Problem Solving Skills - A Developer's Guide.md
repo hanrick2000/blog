@@ -1,7 +1,7 @@
 ---
 title: "How to Improve Problem Solving Skills"
-author: 
-- Jeffery Yuan 
+author:
+- Jeffery Yuan
 date: "April 24, 2019"
 ---
 
@@ -16,8 +16,8 @@ date: "April 24, 2019"
 - Go home earlier
 
 ## Solve the Problem when Needed
-<!-- - Doesn't matter whether its related with you -->
 - It's your responsibility if it blocks you, the team
+<!-- - Doesn't matter whether its related with you -->
 
 # How to Solve a Problem
 ## Understand the Problem/environment First
@@ -37,7 +37,7 @@ date: "April 24, 2019"
 
 - Where 10.10.10.10 comes from?
   ```bash
-  gfind . -iname '*.jar' -printf "unzip -c %p 
+  gfind . -iname '*.jar' -printf "unzip -c %p
   | grep -q 10.10.10.10' && echo %p\n"
   ```
 - or search in corporate github/code base
@@ -46,7 +46,7 @@ date: "April 24, 2019"
   - Just upgrade commons2 to latest version
 
 ## Source code is always the ultimate truth
-<!-- TODOP -->
+<!-- TODO -->
 - Find related code in Github
 - Find examples/working code
 - Understand how/why the code works by running and debug the code
@@ -80,7 +80,7 @@ date: "April 24, 2019"
   - history | grep kubectl | awk '{$1="";print}' | sort -u
 
 ## [Find Information Effectively Cont.](https://lifelongprogrammer.blogspot.com/2016/04/search-more-effectively-programmer.html){target="blank"}
-- Know company’s internal resource 
+- Know company’s internal resource
   - where to find them
 - Know some experts (in company) you can ask help from
 
@@ -101,14 +101,14 @@ date: "April 24, 2019"
 - When help others
   - Ask what related change they have done
 - Ask help from others.
-  - Try to understand the problem and fix it by yourself first. 
+  - Try to understand the problem and fix it by yourself first.
 Provide log or any information that may help others understand the problem.
 -->
 
 
-## Ask for help
+# Ask for help
 ## Before
-- Try to understand the problem and fix it by yourself first 
+- Try to understand the problem and fix it by yourself first
   - If this applies: not urgent
 
 ## Where and Who
@@ -116,17 +116,17 @@ Provide log or any information that may help others understand the problem.
 - Involve more people: the team, related teams
 - Stackoverflow
 - Specific forums
-  - [Solr Forum](http://lucene.472066.n3.nabble.com/Solr-f472067.html){target="blank"}
 - Google Groups
 - Github issues
 - Ask in multiple channels
+<!-- - [Solr Forum](http://lucene.472066.n3.nabble.com/Solr-f472067.html){target="blank"} -->
 
 ## How to Ask Help
 <!-- TODO: p -->
 - Provide **more** context and info
   - log, stack trace or any information that may help others understand the problem
 - Provide what you have found, tried
-- Ask help once for same/similar/related issues 
+- Ask help once for same/similar/related issues
 <!-- not many times -->
 <!-- - then you know how to do it -->
 
@@ -134,7 +134,7 @@ Provide log or any information that may help others understand the problem.
 - Ask free time for not urgent issues -->
 
 ## Learn more
-- The knowledge: root cause, etc 
+- The knowledge: root cause, etc
 <!-- - Learn the knowledge itself -->
 - Learn their thinking process
   - how they approach this problem (logs, code), tools
@@ -143,6 +143,7 @@ Provide log or any information that may help others understand the problem.
 - People make same mistakes in different places
   - Example: `GetMapping(value = "/config/{name:.+}")`
 
+# Knowledge & Tools
 ## Knowledge
 - Be prepared
 - Learn how to debug/troubleshooting
@@ -160,7 +161,7 @@ Provide log or any information that may help others understand the problem.
  - mvn dependency:tree  
  - mvn dependency:tree -Dverbose -Dincludes=com.amazonaws:aws-java-sdk-core
 
-# Tools
+<!-- # Tools -->
 ## Tools - Eclipse
 - [Use Conditional Breakpoint to Execute Arbitrary Code (and automatically)](https://lifelongprogrammer.blogspot.com/2013/10/use-eclipse-conditional-breakpoint-to.html){target="blank"}
 - [Use Display View to Execute Arbitrary Code](https://lifelongprogrammer.blogspot.com/2013/10/use-eclipse-display-view-while-debugging.html){target="blank"}
@@ -171,7 +172,7 @@ Provide log or any information that may help others understand the problem.
 
 ## [Practice - Connect to the remote data in local dev](https://lifelongprogrammer.blogspot.com/2016/03/solr-tips-and-tricks.html){target="blank"}
 - Create a tunnel to zookeeper and solr nodes
-- Add a conditional breakpoint at 
+- Add a conditional breakpoint at
 `CloudSolrClient.sendRequest(SolrRequest, String)`
   - before `LBHttpSolrClient.Req req = new LBHttpSolrClient.Req(request, theUrlList);`
 ```java
@@ -291,13 +292,8 @@ org.mockito.ArgumentMatchers
 io.restassured.RestAssured
 ```
 
-
 ---
 
-- [This presentation was built using Reveal.js, Markdown and Github Pages](https://lifelongprogrammer.blogspot.com/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html){target="blank"}
+# The End
+## [This presentation was built using Reveal.js, Markdown and Github Pages](https://lifelongprogrammer.blogspot.com/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html){target="blank"}
 <!-- SD: How to Improve Problem Solving Skills: Why, How to Solve a Problem, Tools, Post Mortem. -->
-
---- 
-
-#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Problem Solving){target="blank"}
-<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Problem Solving?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

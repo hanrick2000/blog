@@ -1,4 +1,4 @@
-- Reverse 
+- Reverse
 - 反面答案
 
 #### Simplify
@@ -8,7 +8,6 @@
 
 - [LeetCode 542 - 01 Matrix](https://leetcode.com/articles/01-matrix/)
   - In one iteration from top to bottom, we can check left and top directions, and we need another iteration from bottom to top to check for right and bottom direction
-- 
 
 - row based -> col based
   - [LeetCode 861 - Score After Flipping Matrix](https://leetcode.com/articles/score-after-flipping-matrix/)
@@ -28,7 +27,7 @@
 - [LeetCode 300 - Longest Increasing Subsequence](https://leetcode.com/articles/longest-increasing-subsequence/)
   - o(nlogn)
 
-#### 
+####
 - [LeetCode 828 - Unique Letter String](https://leetcode.com/problems/unique-letter-string/discuss/172041/Very-simple-O(N)-with-Prev-and-Next)
   - [prevIndex, nextIndex for same element:  ans += (i - left[i]) * (right[i] - i);](https://leetcode.com/problems/unique-letter-string/discuss/172041/Very-simple-O(N)-with-Prev-and-Next)
   - [dp: dp[i] = dp[i-1] + (i-f) - (f-s), first/secondIndex[]](https://leetcode.com/problems/unique-letter-string/discuss/158378/Concise-DP-O(n)-solution)
@@ -117,7 +116,7 @@ public int maxCoins(int[] iNums) {
         for (int left = 0; left < n - k; ++left) {
             int right = left + k;
             for (int i = left + 1; i < right; ++i)
-                dp[left][right] = Math.max(dp[left][right], 
+                dp[left][right] = Math.max(dp[left][right],
                 nums[left] * nums[i] * nums[right] + dp[left][i] + dp[i][right]);
         }
     return dp[0][n - 1];
@@ -144,9 +143,9 @@ public TreeNode inorderHelper(int start, int end){
 	return treenode;
 }
 ```
-### Data range 1 to n
+#### Data range 1 to n
 
-### Put Ai to i and keep swapping or change Ai index to negative
+#### Put Ai to i and keep swapping or change Ai index to negative
 - keep swapping swap(num[i],num[num[i]]) until they are same
 - result may be num[i] or index+1
 - LeetCode 41 - First Missing Positive
@@ -179,11 +178,11 @@ int firstMissingPositive(int A[], int n)
   for(int i = 0; i < n; ++ i)
       while(A[i] > 0 && A[i] <= n && A[A[i] - 1] != A[i])
           swap(A[i], A[A[i] - 1]);
-  
+
   for(int i = 0; i < n; ++ i)
       if(A[i] != i + 1)
           return i + 1;
-  
+
   return n + 1;
 }
 public int firstMissingPositive(int[] nums) {
@@ -216,6 +215,14 @@ private int positiveNumber(int[] nums) {
     return p;
 }
 ```
+- [LintCode 196 - Find the Missing Number I](https://www.kancloud.cn/kancloud/data-structure-and-algorithm-notes/73113)
+```text
+Given an array contains N numbers of 0 .. N, find which number doesn't exist in the array.
+Example
+Given N = 3 and the array [0, 1, 3], return 2.
+```
+  - [XOR](https://www.kancloud.cn/kancloud/data-structure-and-algorithm-notes/73113)
+  - [Put Ai to i and keep swapping](https://zhengyang2015.gitbooks.io/lintcode/find_the_missing_number_196.html)
 
 - [LeetCode 581 - Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/discuss/103066/Ideas-behind-the-O(n)-two-pass-and-one-pass-solutions)
   - sort or O(n)
@@ -284,7 +291,7 @@ public int wordsTyping(String[] sentence, int rows, int cols) {
             }
         }
     }
-    
+
     return start / s.length();
 }
 ```

@@ -1,69 +1,14 @@
-<!-- SD: 
+<!-- SD:
 Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Youtube, Blogger, Google Maps.
 -->
 
-### What's New in Google
+<!-- ### What's New in Google
 #### 06/2019
 - [faster, on-device voice dictation](https://www.xda-developers.com/gboard-on-device-voice-dictation-pixel-phones/)
-  - also in iOs, pretty amazing
+  - also in iOs, pretty amazing -->
 
----
-
-### [Awesome Tips Series about Google Products](/search/label/Google_Series){target="blank"}
+### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
 <script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
-
----
-
-<!-- Check here for Awesome Tips about [Chrome](/2018/06/awesome-tips-about-chrome.html) and [Google Blogger](/2019/06/awesome-tips-about-google-blogger.html) -->
-
-### Gmail
-- [Write Email Now And Send It Later](https://www.cnet.com/how-to/gmails-scheduling-tool-to-send-emails-later-keeps-you-from-being-an-enormous-jackass/)
-  - `Schedule Send`
-- [Create an event directly from Gmail](https://www.lifewire.com/create-a-google-calendar-event-from-a-message-in-gmail-1172093)
-  - Click 3dot icon then click "Create Event"
-  - to track deadline, follow up etc
-- [Create an account or schedule an event directly from Gmail](https://webapps.stackexchange.com/questions/11699/in-gmail-how-do-i-create-a-contact-from-a-recipient-of-an-email)
-  - Hover the mouse cursor over the recipient's name until a pop-up card appears
-  - Click **Add to contacts** or **schedule an event**
-- **Smart Compose**
-  - Enable `Enable experimental access` in Settings.
-  - **Autocomplete the recipient name to avoid embarrassing typo**
-    - `Hi` then space, it will autocomplete the name, but `Hi,` then space will not (disappointedly).
-- [Snooze emails until later](https://support.google.com/mail/answer/7622010)
-  - We can find all snoozed emails at `Snoozed folder`
-- [Confidential mode: self destructing and require sms code](https://techcrunch.com/2018/04/13/google-is-testing-self-destructing-emails-in-new-gmail/)
-- Move emails to other categories and "Do this for future messages"
-- [Create email signature](https://webapp.wisestamp.com)
-- **Desktop notifications** at Settings: "Important mail notifications on"
-
-#### Delete emails
-- delete all old emails in promotions: `category:promotions older_than:3m`
-- unsubscribe from email directly or change the notification in its service
-- **Select all conversations that match this search**
-  - this will show after you select all in current page
-- **Filter message like this**
-  - it will filter message based on sender or `Has the words`
-- unwatch git repo if not interested
-
----
-
-### Youtube
-- Use different accounts for work/skills, entertainment
-- Click **Switch account** in the top right corner
-  - Not easy/intuitive as other google apps
-- [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads), install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) first
-
-|                  |                                                                         |
-|:---------------- |:----------------------------------------------------------------------- |
-| /                | Go to search box.                                                       |
-| f                | Activate full screen                                                    |
-| **Shift+>(<)**   | **decrease/Increase the speed of video playback**                       |
-| **0..9**         | **Seek to specific point in the video (7 advances to 70% of duration)** |
-| **Shift+N(P)**   | **Move to the next(previous) video**                                    |
-| **i**            | **Launch the Miniplayer.**                                              |
-| j/l              | Seek backward/(forward) 10 seconds in player.                           |
-| Left/Right arrow | Seek backward/forward 5 seconds.                                        |
-| **m**            | **mute on/off**                                                         | 
 
 ---
 
@@ -98,11 +43,34 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 
 ---
 
-### [Awesome Tips About Google Blogger](/2019/06/awesome-tips-about-google-blogger.html){target="blank"}
+### Google Photos
+- Add photos to a shared album or an existing album
+  - Select (multiple) photo(s) -> choose the `+(add to or create new)` button at top right
+    - Choose `Shared album` to add to a shared album
+    - Choose `Album` to add to an existing album
+- Label the people to make it easier to search and integrate with other systems like Google Assistant.
+- Merge two faces
+  - Give the first one a name, then go to the other face group, click `add a name`, choose the already existing one, Google Photos will suggest you to merge them.
+- [Create live album including old photos or not](https://www.pcmag.com/feature/345998/30-tricks-to-master-google-photos/27)
+- Archive an image: it doesn't show but we can still check it at /archive
+- [Create an album from search result](https://webapps.stackexchange.com/questions/97647/how-do-i-turn-a-google-photos-search-result-into-an-album)
+  - Select all images (select the first one, hold the shift key then choose the last one), then click `+` at the top right to create an album.
+- Quick Urls: /unsaved, /people, /archive, /albums
 
----
+#### Search at Google Photos
+- Explore what Photos can search by clicking the `Show more` at search page
+- by name, place, time: (last week/year)
+- Specific Day Search: 2019-01-01
+- Specific Month Search: January(Jan) 2019
+- #videos, #AutoAwesome, #mobile
+- pano,
+- `The_Kid_Name year_when_he/she_is_a_baby`
 
-### Google Docs
+#### Embed Google Photo into Website
+- Create a shareable link of that image and paste the link to [ctrlq.org/google/photos](https://ctrlq.org/google/photos/). It will download the page and parse it to get the direct link from google.
+- The link would be `https://lh3.googleusercontent.com/the_big_id=w2400`, we can change the width and height by change it to something like: `=w$the_width-h$the_height`
+
+### Google Drive/Docs
 - use **Ctrl+Option+Z or Option+/(in compact mode)** to search and execute command
 - Click ![](https://lh3.googleusercontent.com/vvhIoImkCw8IkwaKXKWIiYiCUlYihV-c-Igd6GLdeaYBBumgtolgE42VnVXbM_KYAA=w18-h18) or `Cmd+Option+X` in the top left toolbar.
 - Install and enable Grammarly on Google Docs
@@ -111,10 +79,29 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 - Click **Hide the menu mode** at top right
   - Ctrl+Shift+F seems not work
 - How to exit **Hide the menu mode**
-  - Click it again, 
+  - Click it again,
   - but some cases, that menu is not visible (bug here)
     1. we can click the explore button at bottom right, then we will be able to see the **Hide the menu mode** icon.
     2. Or type "Full screen" at top left **search the menu** to enter full screen mode, then press **esc** to exit the full screen mode
+
+#### [Embedding a PDF From Drive into a Blog](http://www.benschersten.com/blog/2014/04/embedding-a-pdf-from-drive-into-a-blog/)
+```markdown
+<iframe src="https://docs.google.com/viewer?srcid=[put your file id here]&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="580px" height="480px"></iframe>
+```
+
+#### [Embedding a DPF from internet into a Blog]
+```Markdown
+<iframe src="https://drive.google.com/viewerng/viewer?url=https%3A//www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_coding_skills_-_v6.pdf&amp;embedded=true" allowfullscreen="" frameborder="0" scrolling="no"></iframe>
+```
+
+#### Embed Images from Google Drive into Website
+- Get a shareable link from the image in Google drive and replace the id `https://drive.google.com/uc?export=view&id={fileId}`
+- [This link seems to be subject to quotas. So not ideal for public/massive sharing.](https://stackoverflow.com/questions/10311092/displaying-files-e-g-images-stored-in-google-drive-on-a-website)
+
+![](http://drive.google.com/uc?export=view&id=1HfeI-lL69kP9gexkV3VoajLLWDp_riCu)
+
+#### Related:
+- [Embedding PDFs without using JavaScript with embed, iframe, object](https://pdfobject.com/static/)
 
 ---
 
@@ -129,21 +116,34 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 | **Google maps Search** | gm      | https://www.google.com/maps?q=%s                                                                    |
 - Type `gm` in Chrome address bar, then `type home to here` etc
 - Query:
-  - here, home, 
+  - here, home,
   - Costco near home
 
-----
+---
+
+#### Tips, Tricks about More Google Products
+- [How to Google Search Like a Pro](https://lifelongprogrammer.blogspot.com/2019/06/how-to-google-search-like-pro.html){target="blank"}
+- [Awesome Tips about Chrome](https://lifelongprogrammer.blogspot.com/2018/06/awesome-tips-about-chrome.html){target="blank"}
+- [Tips, Tricks about Youtube](https://lifelongprogrammer.blogspot.com/2019/06/tips-tricks-about-youtube.html){target="blank"}
+- [Awesome Tips, Tricks about Gmail](https://lifelongprogrammer.blogspot.com/2019/06/awesome-tips-tricks-about-gmail.html){target="blank"}
+- [Awesome Tips About Google Blogger](https://lifelongprogrammer.blogspot.com/2019/06/awesome-tips-about-google-blogger.html){target="blank"}
+
+---
 
 ### Keep
 - Remind based on place
   - `Store address` for the shopping list
   - It only support one address, it would be great to support multiple address as we go shopping to different stores even for same brand(like Costco)
-- Pin a note
+- How to add new items to the top?
+  - Uncheck the Settings: `Add new items to the bottom`
+- Checked items will be moved to the bottom by default.
+- `Pin a note`
 - Grab image text from attached image or drawing
-- Turn any note into a list by 
+<!-- - Turn any note into a list by -->
 - Use list view to show all content
 - Use Card view to have a overview and move notes
 - Share with others
+- Make `Google Keep` easier to find in mobile.
 
 ### Google Contacts
 - [Sync Google Contacts in iPhone](https://www.scrubly.com/blog/how-to-google-contacts/how-to-sync-google-contacts-with-the-iphone/)
@@ -155,10 +155,23 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 #### [Goole Lens](https://lens.google.com/)
 - [Google Tasks](https://support.google.com/a/users/answer/9310341)
 
+### Google Music
+- Select the genres that you like
+- Select the artists that you like
+
+- Search by music type, musician, add it to library.
+
 ### Misc
 - Report bugs: [issuetracker](https://issuetracker.google.com/)
 - <https://support.google.com>
 
+### Feature Requests
+#### Google Photos
+- Create a slideshow from search result
+- Create live album that must contain all of the people
+
 ---
-#### [Related Posts](/search/label/Google)<a name="related"></a>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Google)<a name="related"></a>
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

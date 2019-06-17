@@ -1,4 +1,4 @@
-- [@HARD LeetCode 793 - Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/discuss/117821/Four-binary-search-solutions-based-on-different-ideas)
+- [HARD LeetCode 793 - Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function/discuss/117821/Four-binary-search-solutions-based-on-different-ideas)
   - Let f(x) be the number of zeroes at the end of x!. Given K, find how many non-negative integers x have the property that f(x) = K.
   - bisection on functions
 ```java

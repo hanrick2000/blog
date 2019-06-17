@@ -24,7 +24,7 @@
 
 #### Learn from people
 ##### Colleague
-- PRs, 
+- PRs,
 - What they are doing, how they are doing,
 - What tools/languages/IDE they are using
 
@@ -36,10 +36,11 @@
     - ML
 
 #### What?
-- ML: 
+- ML:
 - kubernetes
 - Gradle, Git internal
 
-
+### Knowledge
+- Knowledge that we learned may also work in other software, cases.
 
 

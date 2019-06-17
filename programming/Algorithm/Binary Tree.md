@@ -25,7 +25,7 @@ public boolean dfs(TreeNode node, int[] v) {
 }
 ```
 
-- [@HARD LeetCode 834 - Sum of Distances in Tree](http://www.programmersought.com/article/1793330558/)
+- [HARD LeetCode 834 - Sum of Distances in Tree](http://www.programmersought.com/article/1793330558/)
   - count[i] counts all nodes in the subtree i
   - res[i] counts sum of distance in subtree i
   - Post order dfs traversal, update count and res: count[root] = sum(count[i]) + 1; res[root] = sum(res[i]) + sum(count[i])

@@ -176,7 +176,7 @@ public int[] maxSumOfThreeSubarrays(int[] nums, int k, int n) {
     return ret;
 }
 ```
-- [@HARD LeetCode 962 - Maximum Width Ramp](https://www.acwing.com/solution/LeetCode/content/672/)
+- [HARD LeetCode 962 - Maximum Width Ramp](https://www.acwing.com/solution/LeetCode/content/672/)
   - [pre-sort with element index](https://leetcode.com/articles/maximum-width-ramp/)
   - [TreeMap](https://leetcode.com/problems/maximum-width-ramp/discuss/209060/TreeMap-O(nlogn)-8-lines-of-Java)
   - [monotonic stack stores candidates then scan original data from end](https://www.acwing.com/solution/LeetCode/content/672/)

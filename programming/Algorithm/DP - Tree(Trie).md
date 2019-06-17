@@ -90,7 +90,7 @@ public int[] helper(TreeNode root){
 }
 ```
 
-- [@HARD LeetCode 968 -  Binary Tree Cameras](https://leetcode.com/articles/binary-tree-cameras/)
+- [HARD LeetCode 968 -  Binary Tree Cameras](https://leetcode.com/articles/binary-tree-cameras/)
   - [greedy](https://leetcode.com/problems/binary-tree-cameras/discuss/211180/JavaC%2B%2BPython-Greedy-DFS)
 ```java
 public int minCameraCover(TreeNode root) {

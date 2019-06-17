@@ -44,11 +44,18 @@ public List<List<Integer>> subsets(int[] nums) {
 ```
 - [LeetCode 90 - Subsets II - Contains duplicates](https://discuss.leetcode.com/topic/12706/java-solution-using-bit-manipulation)
 
-### Examples
-- [LeetCode 320 - Generalized Abbreviation](http://www.cnblogs.com/grandyang/p/5261569.html)
-  - For each char c[i], either abbreviate it or not.
-  - [append the character when corresponding bit is 0, otherwise accumulate the count](http://www.cnblogs.com/grandyang/p/5261569.html)
-  - [dfs](http://www.cnblogs.com/grandyang/p/5261569.html)
+#### Examples
+##### [LeetCode 320 - Generalized Abbreviation](http://www.cnblogs.com/grandyang/p/5261569.html)
+```text
+Write a function to generate the generalized abbreviations of a word.
+Example:
+Given "word"
+Return the following list (order does not matter):
+["word", "1ord", "w1rd", "wo1d", "wor1", "2rd", "w2d", "wo2", "1o1d", "1or1", "w1r1", "1o2", "2r1", "3d", "w3", "4"]
+```
+- For each char c[i], either abbreviate it or not.
+- [Bit String: append the character when corresponding bit is 0, otherwise accumulate the count](http://www.cnblogs.com/grandyang/p/5261569.html)
+- [dfs](http://www.cnblogs.com/grandyang/p/5261569.html)
 ```java
 private String abbr(String word, int x) {
     StringBuilder builder = new StringBuilder();
@@ -65,6 +72,7 @@ private String abbr(String word, int x) {
     return builder.toString();
 }
 ```
+
 ### DP - Bit Mask
 - See TSP
 - [LeetCode 473 - Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/discuss/95746/C%2B%2B-bit-masking-%2B-DP-solution-with-detailed-comments)

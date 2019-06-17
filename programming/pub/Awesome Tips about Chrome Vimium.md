@@ -1,19 +1,19 @@
 ### TL;DR
-- How to use Chrome Vimium's shortcuts regex search, to navigate the web and Chrome faster.
+- How to use Chrome Vimium's shortcuts, regex search to navigate the web and Chrome faster.
 - How to customize Vimium's shortcuts and make it work better with other ecosystems like reveal.js.
 
 ---
 
-### [Awesome Tips about Chrome Series](/search/label/Chrome_Series){target="blank"}
+### [Awesome Tips about Chrome Series](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
 <script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
 ### Install
 - [Install from Chrome Webstore](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
-- [How to use Vimium](https://github.com/philc/vimium/wiki)
+- [Chrome Vimium Official Wiki](https://github.com/philc/vimium/wiki)
 
-### [Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#vimium)
+### [Shortcuts](https://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#vimium)
 - [All commands and shortcuts](https://github.com/philc/vimium/blob/master/background_scripts/commands.coffee)
 
 |                     |                                                                                                  |
@@ -33,9 +33,10 @@
 | h/j/k/l             | scroll left/down/up/right                                                                        |
 | **(number+)d(u)**   | **half page down(up)**                                                                           |
 | yy                  | copy the current url to the clipboard                                                            |
-| **yf**              | **copy a link (hint) url to the clipboard**                                                      | 
+| **yf**              | **copy a link (hint) url to the clipboard**                                                      |
 | p/P                 | search the text in clipboard using search engine                                                 |
 | **[[ or ]]**        | **Go to next previous(next) page**                                                               |
+| **gi or i**          | **Focus the first text input on the page**                                                       |
 | **gu(or U)**        | **Go up the URL hierarchy or Go to root of current URL hierarchy**                               |
 | ?                   | help                                                                                             |
 
@@ -59,7 +60,7 @@
 ### [Vomnibar search](https://github.com/philc/vimium/wiki/Search-Engines)
 - Type `o Or O` to open URL, bookmark or history entry
 - Add `Custom search engines` at Options
-- Useful: `y` for Youtube, `m` for Google Maps, 
+- Useful: `y` for Youtube, `m` for Google Maps,
 
 <!-- - [Visual Mode](https://github.com/philc/vimium/wiki/Visual-Mode)
     - v or V (line mode)
@@ -67,10 +68,20 @@
     - c to enter caret mode from a visual mode
     - vi-like movements: $ -->
 
-### Customize keys
-- [source 1](https://avilpage.com/2014/04/useful-custom-key-maps-for-vimium-to.html)
-- [All commands and shortcuts](https://github.com/philc/vimium/blob/master/background_scripts/commands.coffee)
+### [Custom Key Mappings](https://github.com/philc/vimium#custom-key-mappings)
+#### Special Keys
+- `<c-*>`, `<a-*>`, `<m-*>` for ctrl, alt, and meta (command on Mac) respectively with any key. Replace `*`
+  with the key of choice.
+- `<left>`, `<right>`, `<up>`, `<down>` for the arrow keys.
+- `<f1>` through `<f12>` for the function keys.
+- `<space>` for the space key.
+- `<tab>`, `<enter>`, `<delete>`, `<backspace>`, `<insert>`, `<home>` and `<end>` for the corresponding non-printable keys (version 1.62 onwards).
+
+#### [source 1](https://avilpage.com/2014/04/useful-custom-key-maps-for-vimium-to.html)
+#### [All commands and shortcuts](https://github.com/philc/vimium/blob/master/background_scripts/commands.coffee)
 ```text
+map <left> goPrevious
+map <right> goNext
 map i focusInput
 map .. nextTab
 map ,, previousTab
@@ -93,33 +104,41 @@ unmap K
 unmap t
 ```
 
----
-
 ### Tips
-#### Customize Previous(Next) patterns	
-- We can use **[[ or ]]** to to go to next previous(next) page
-- It may not work for some web sites such as <blogger></blogger>
-- But we can easily customize it at **options**
-- Add "Older Posts,下一章" to **Next patterns**
-  - Usually users land in home page, click next button/shortcut to go older posts. 
-- Add "Newer Posts,上一章" to **Previous patterns**
+- `i or gi` to focus to the first text input box, when there are multiple input areas, use `f or F`: the LinkHints feature.
+- [Don't let pages steal the focus on load](https://superuser.com/questions/692960/how-to-disable-auto-input-focus-in-vimium)
+
+#### Customize Previous(Next) patterns
+- We can use **[[ or ]]** to go to next previous(next) page.
+- We can also map left and right arrow key to go  to next previous(next) page.
+```text
+map <left> goPrevious
+map <right> goNext
+```
+- By default, it doesn't not work for some web sites such as <blogger></blogger>, but we can easily customize it at **options**
+- Add `Older Posts,下一章,下一页` to **Next patterns**
+  - Usually users land in home page, click next button/shortcut to go older posts.
+- Add `Newer Posts,上一章,上一页` to **Previous patterns**
   - Space matters.
 
 ### Excluded URLs and keys
 - [reveal.js uses F for Fullscreen and some other shortcuts which conflict with Vimium](https://github.com/hakimel/reveal.js/wiki/Keyboard-Shortcuts)
-- Some shortcuts from Github conflicts with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
+- Some shortcuts from Github conflicts with [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
 - So add the following at `Excluded URLs and keys` at `Vimium Options`.
 
-| Patterns                         | Keys          |
-|:-------------------------------- |:------------- |
-| https?://jefferyyuan.github.io/* | f,F,?,O,o,b,B |
-| https?://github.com/*            | b,l,c,g,n,h,p |
+| Patterns                         | Keys            |
+|:-------------------------------- |:--------------- |
+| https?://jefferyyuan.github.io/* | f,F,?,O,o,b,B   |
+| https?://github.com/*            | ?blgnhp         |
+| https?://www.youtube.com/*       | ?/f<>0123456789 |
 
-### Misc
-#### Go Back History Doesn't Work (In Blogger Blog Management Page)
-- When we click `cmd+left` or back history button, sometimes it doesn't work.
+#### Go Back History Doesn't Work (for example in Blogger's Management Page)
+- When we click `cmd+left` or back history button or `h`, sometimes it doesn't work.
 - When this happens, try `2h`: go back 2 pages
 
----
-#### [Related Posts](/search/label/Chrome){target="blank"}
+<!-- ### Vimium C
+Open the New Tab page
+  - Vimium C is controlling this setting -->
+
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Chrome){target="blank"}
 <script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

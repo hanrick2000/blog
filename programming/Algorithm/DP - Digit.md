@@ -78,7 +78,7 @@ public int A(int m, int n) {
   - int dfs(int pos,int sta,bool lead,bool limit); if(!limit && !lead ) dp[pos][sta]=ans;
 
 ### dp[i] from dp[i/10] dp[i%10]
-- [@HARD LeetCode 788 - Rotated Digits](https://leetcode.com/problems/rotated-digits/discuss/117975/Java-dp-solution-9ms)
+- [HARD LeetCode 788 - Rotated Digits](https://leetcode.com/problems/rotated-digits/discuss/117975/Java-dp-solution-9ms)
   - how many numbers X from 1 to N are good?
   - [brute force](https://leetcode.com/problems/rotated-digits/discuss/116547/Easily-Understood-Java-Solution)
   - [log10(n)](https://leetcode.com/problems/rotated-digits/discuss/116674/O(log10(N))-Easy-to-understand-Java-solution)

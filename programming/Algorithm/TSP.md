@@ -1,9 +1,14 @@
+#### [How to Succeed in Algorithms Interview Series](https://lifelongprogrammer.blogspot.com/search/label/Algorithm Series){target="blank"}
+<script src="/feeds/posts/default/-/Algorithm Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
 ### DP - Bit masking
 - use bit masks to track state: allMask
 - cases: include ith or not
 - mask and index may be different thing
 
-### WHen to use
+### Applications of TSP
 - assign problems, best route including all nodes
 
 ### Implementation Detail
@@ -15,35 +20,35 @@
 - [Count ways to assign unique cap to every person](https://www.geeksforgeeks.org/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person/)
   - dp[i][j] tells the number ways we assign j caps to mask i such that none of them wears the same cap
 ```java
-static long countWaysUtil(int mask, int i) 
-{ 
-    // If all persons are wearing a cap so we 
-    // are done and this is one way so return 1 
-    if (mask == allmask) return 1; 
-    // If not everyone is wearing a cap and also there are no more 
-    // caps left to process, so there is no way, thus return 0; 
-    if (i > 100) return 0; 
-    // If we already have solved this subproblem, return the answer. 
-    if (dp[mask][i] != -1) return dp[mask][i]; 
-    // Ways, when we don't include this cap in our arrangement 
-    // or solution set. 
-    long ways = countWaysUtil(mask, i+1); 
-    // size is the total number of persons having cap with id i. 
-    int size = capList[i].size(); 
-    // So, assign one by one ith cap to all the possible persons 
-    // and recur for remaining caps. 
-    for (int j = 0; j < size; j++) 
-    { 
-        // if person capList[i][j] is already wearing a cap so continue as 
-        // we cannot assign him this cap 
-        if ((mask & (1 << capList[i].get(j))) != 0) continue; 
-        // Else assign him this cap and recur for remaining caps with 
-        // new updated mask vector 
-        else ways += countWaysUtil(mask | (1 << capList[i].get(j)), i+1); 
-        ways %= MOD; 
-    } 
-    // Save the result and return it. 
-    return dp[mask][i] = (int) ways; 
+static long countWaysUtil(int mask, int i)
+{
+    // If all persons are wearing a cap so we
+    // are done and this is one way so return 1
+    if (mask == allmask) return 1;
+    // If not everyone is wearing a cap and also there are no more
+    // caps left to process, so there is no way, thus return 0;
+    if (i > 100) return 0;
+    // If we already have solved this subproblem, return the answer.
+    if (dp[mask][i] != -1) return dp[mask][i];
+    // Ways, when we don't include this cap in our arrangement
+    // or solution set.
+    long ways = countWaysUtil(mask, i+1);
+    // size is the total number of persons having cap with id i.
+    int size = capList[i].size();
+    // So, assign one by one ith cap to all the possible persons
+    // and recur for remaining caps.
+    for (int j = 0; j < size; j++)
+    {
+        // if person capList[i][j] is already wearing a cap so continue as
+        // we cannot assign him this cap
+        if ((mask & (1 << capList[i].get(j))) != 0) continue;
+        // Else assign him this cap and recur for remaining caps with
+        // new updated mask vector
+        else ways += countWaysUtil(mask | (1 << capList[i].get(j)), i+1);
+        ways %= MOD;
+    }
+    // Save the result and return it.
+    return dp[mask][i] = (int) ways;
 }
 ```
 
@@ -77,7 +82,6 @@ public double solve( int bitmask, int pos )
     return dp[ bitmask ][ pos ] = minDistance;
 }
 ```
-
 - [LeetCode 943 - Find the Shortest Superstring](https://leetcode.com/articles/find-the-shortest-superstring/)
   - starting point: length after merge 2 words
 ```java
@@ -143,7 +147,6 @@ private int calc(String a, String b) {
     return b.length();
 }
 ```
-
 - [LeetCode 996 - Number of Squareful Arrays](https://leetcode.com/articles/number-of-squareful-arrays/)
   - create edge when ai+aj is a square
   - [dp[s][i] := # of ways to reach state s (binary mask of nodes visited) that ends with node i](https://leetcode.com/problems/number-of-squareful-arrays/discuss/238871/Java-DP-7ms)
@@ -230,7 +233,6 @@ public int numSquarefulPerms(int[] a) {
   return ans;
 }
 ```
-
 - [LeetCode 980 - Unique Paths III](https://leetcode.com/articles/unique-paths-iii/)
 ```java
 int ans;
@@ -283,8 +285,7 @@ public Integer dp(int r, int c, int todo) {
   return ans;
 }
 ```
-
-- [@HARD LeetCode 847 - Shortest Path Visiting All Nodes](https://leetcode.com/articles/shortest-path-visiting-all-nodes/)
+- [HARD LeetCode 847 - Shortest Path Visiting All Nodes](https://leetcode.com/articles/shortest-path-visiting-all-nodes/)
   - [BFS: visited = new boolean[n][1 << n], queue stores node and all visied nodes](https://github.com/cherryljr/LeetCode/blob/master/Shortest%20Path%20Visiting%20All%20Nodes.java)
   - [BFS: dist = new int[1<<N][N] stores the step](https://leetcode.com/articles/shortest-path-visiting-all-nodes/)
   - [dp + bit masks](https://leetcode.com/articles/shortest-path-visiting-all-nodes/)

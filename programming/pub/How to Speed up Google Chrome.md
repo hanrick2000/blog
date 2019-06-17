@@ -9,8 +9,10 @@ How to Speed up Google Chrome, free up its memory usage and stay productivity at
 ---
 
 ### How To Reduce Chrome Memory Usage
+- `Cmd+Shift+A` to suspend all tabs in current window, `Cmd+Shift+R` to open the current tab in `Reader View`.
+
 #### [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/){target="blank"}
-- Use [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/) together with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html), the Suspender reduces the memory usage, use [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html) to find and go to specific tab quickly. 
+- Use [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/) together with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html), the Suspender reduces the memory usage, use [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html) to find and go to specific tab quickly.
 - After restart Chrome, the suspended pages remain suspended, Great!
 - Automatically suspend tabs after: `5 mins`
 - Uncheck `Never suspend active tab in each window`
@@ -52,6 +54,17 @@ How to Speed up Google Chrome, free up its memory usage and stay productivity at
 
 #### Chrome Settings
 - [chrome://flags/#disable-best-effort-tasks](https://www.digitaltrends.com/computing/google-chrome-finally-reduce-memory-usage/)
+
+---
+
+### Bonus: [How to Keep Your Mac from Overheating](/2019/02/awesome-tips-about-mac.html){target="blank"}
+- Don't wait to charge your mac till its power is too low.
+- Close the lid to make Mac sleep as often as possible.
+  - Enable and use [Touch ID](https://support.apple.com/en-us/HT207054) to quickly sign in again.
+- Kill apps aggressively
+  - e.g. kill [iTerm](/2018/06/working-effectively-with-iterm.html) if not going to use it in next 5 mins.
+  - Configure the app to restore last session: like `Restore last windows after restart` for [iTerm](/2018/06/working-effectively-with-iterm.html).
+- Don't put it Mac directly your lap, put a book underneath, as MacBooks vent from the back edge,
 
 ---
 #### [Related Posts](/search?q=label:Chrome|label:Google){target="blank"}

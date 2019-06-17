@@ -1,5 +1,6 @@
 Add these sites in [feedly.com](https://feedly.com)
 
+- dev.to
 - infoq.com/presentations  
 - dzone.com/java
 - martinfowler.com
@@ -7,6 +8,10 @@ Add these sites in [feedly.com](https://feedly.com)
 #### System Design, Software Architecture
 - highscalability.com
 - bravenewgeek.com
+
+#### Blog
+- <https://yihui.name/en/>
+- [Irrational Exuberance!](https://lethain.com)
 
 #### Programming
 <!-- - henrikwarne.com
@@ -55,3 +60,5 @@ Add these sites in [feedly.com](https://feedly.com)
 #### Submit
 - news.ycombinator.com
 - https://linkedin.com
+
+https://www.freecodecamp.org

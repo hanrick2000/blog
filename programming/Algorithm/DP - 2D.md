@@ -63,7 +63,7 @@ public int maxCoins(int[] iNums) {
         for (int left = 0; left < n - k; ++left) {
             int right = left + k;
             for (int i = left + 1; i < right; ++i)
-                dp[left][right] = Math.max(dp[left][right], 
+                dp[left][right] = Math.max(dp[left][right],
                 nums[left] * nums[i] * nums[right] + dp[left][i] + dp[i][right]);
         }
     return dp[0][n - 1];
@@ -74,7 +74,7 @@ public int maxCoins(int[] iNums) {
   - dp[l][r][k]: the max score of subarray box[l] ~ box[r] with k boxes after box[r] that have the same color as box[r]
   - dp[l][r][k] = max(dp[l][r-1][0] + (k + 1)X(k + 1),  # case 1 dp[l][i][k+1] + dp[i+1][r-1][0])  # case 2
 ```java
-// "ABACA|AAAA" 
+// "ABACA|AAAA"
 // case 1: dp("ABAC") + score("AAAAA") drop j and the tail.
 // case 2: box[i] == box[r], l <= i < r, try all break points
 // max({dp("A|AAAAA") + dp("BAC")}, {dp("ABA|AAAAA") + dp("C")})
@@ -185,12 +185,12 @@ public int numDistinct(String S, String T) {
   - [dp[i][j] = max(dp[i - 1][k] + days[j][i]) (if we can go from city k to city j)](https://www.jianshu.com/p/a76ada51ac9e)
 
 
-  #### LIS
-  - [Longest subsequence such that difference between adjacents is one](http://www.geeksforgeeks.org/longest-subsequence-such-that-difference-between-adjacents-is-one/)
-    - dp[i] be the length of the longest subsequence (wit differences one) ending at index i such that arr[i]  is the last element of the subsequence
-    - dp[i] = 1 + max(dp[j]) where 0 < j < i and [arr[j] = arr[i] -1  or arr[j] = arr[i] + 1]
-    - answers: max{dp[i]}
-- []
+#### LIS
+- [Longest subsequence such that difference between adjacents is one](http://www.geeksforgeeks.org/longest-subsequence-such-that-difference-between-adjacents-is-one/)
+  - dp[i] be the length of the longest subsequence (wit differences one) ending at index i such that arr[i]  is the last element of the subsequence
+  - dp[i] = 1 + max(dp[j]) where 0 < j < i and [arr[j] = arr[i] -1  or arr[j] = arr[i] + 1]
+  - answers: max{dp[i]}
+
 ### Hard
 - [Crazy Numbers](http://techieme.in/crazynumbers-dynamic-programming/)
   - [dp(i,j) where "i" denotes the number of digits in the number and "j" denotes the last digit of that number](https://www.hackerearth.com/practice/algorithms/dynamic-programming/2-dimensional/practice-problems/algorithm/crazy-numbers-1/editorial/)

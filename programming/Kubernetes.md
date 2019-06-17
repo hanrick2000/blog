@@ -13,7 +13,8 @@
 - [Display detailed information about the Pod](https://kubernetes.io/docs/tasks/debug-application-cluster/determine-reason-pod-failure/)
   - kubectl get pod --output=yaml
 ```bash
-
+kubectl get events --sort-by='{.firstTimestamp}'
+kubectl get events --sort-by='{.lastTimestamp}'
 ```
 
 - master and slaves
@@ -51,4 +52,13 @@ kubectl get nodes
 kubectl config use-context
 kubectl --use-contexts= get ingress
 kubectl config get-contexts
+```
+
+
+### Start multiple commands
+```yaml
+command: ["/bin/bash", "-c"]
+args:
+  - bash b1.sh
+    bash b2.sh
 ```

@@ -1,31 +1,32 @@
 <!-- SD:
-Awesome Tips about GitHub Shortcuts, Search Syntax, Wide Github Chrome Extension, Github Pages and Markdown. 
+Awesome Tips about GitHub Shortcuts, Search Syntax, Wide Github Chrome Extension, Github Pages and Markdown.
 -->
-#### [Shortcut](https://help.github.com/en/articles/using-keyboard-shortcuts)
+#### [Shortcuts](https://help.github.com/en/articles/using-keyboard-shortcuts)
+- Type `?` to check keyboard shortcuts.
 
-|         |                                                                                  |
-|:------- |:-------------------------------------------------------------------------------- |
-| **s**  or / | Focus the search bar                                                             |
-| g n     | Go to your notifications                                                         |
-| g p     | Go to the Pull requests tab at Repositories                                      |
-| g w     | Go to the Wiki tab                                                               | 
-| t       | Activates the file finder  or Open the list of changed files in the pull request |
-| w       | Switch to a new branch or tag                                                    |
-| l       | Jump to a line in your code                                                      |
+  |         |                                                                                  |
+  |:------- |:-------------------------------------------------------------------------------- |
+  | **s**  or / | Focus the search bar                                                             |
+  | g n     | Go to your notifications                                                         |
+  | g p     | Go to the Pull requests tab at Repositories                                      |
+  | g w     | Go to the Wiki tab                                                               |
+  | t       | Activates the file finder  or Open the list of changed files in the pull request |
+  | w       | Switch to a new branch or tag                                                    |
+  | l       | Jump to a line in your code                                                      |
 
 
 ##### `Excluded URLs and keys` in [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
 - Some shortcuts from Github conflicts with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
 - So add the following at `Excluded URLs and keys` at `Vimium Options`.
 
-| Patterns                         | Keys          |
-|:-------------------------------- |:------------- |
-| https?://github.com/*            | b,l,c,g,n,h,p |
+  | Patterns                         | Keys          |
+  |:-------------------------------- |:------------- |
+  | https?://github.com/*            | b,l,c,g,n,h,p |
 
 ---
 
 #### [Search Syntax](https://help.github.com/en/articles/searching-code)
-- filename:FILENAME	
+- filename:FILENAME
 - in:file, in:path
 - key_word in:file,path matches code where "key_word" appears in the file contents or the file path.
 - Search by file location
@@ -34,10 +35,17 @@ Awesome Tips about GitHub Shortcuts, Search Syntax, Wide Github Chrome Extension
 - user:the_user, repo:the_repo
 - [fork:true/false/only](https://help.github.com/articles/searching-in-forks/)
 
- 
 #### [Wide Github](https://openuserjs.org/scripts/xthexder/Wide_Github)
 - Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) first.
 - Add `@include     *github.your_company.com*` at `Installed userscripts -> Wide Github -> Editor` to make it work with GitHub Enterprise.
+
+#### Chrome Extensions
+- [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
+  - Easy-to-navigate code tree, just like in IDEs
+- [GitZip for github](https://chrome.google.com/webstore/detail/gitzip-for-github/ffabmkklhbepgcgfonabamgnfafbdlkn)
+  - It can make the sub-directories and files of github repository as zip and download it; You DO NOT have to download the whole project just for those few files/dirs you need.
+- [Enhanced GitHub](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)
+
 
 #### [Expand outdated Github Comments](https://github.com/broadinstitute/gatk/wiki/Expand-outdated-Github-Comments)
 ```javascript
@@ -58,6 +66,9 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 - [pulls](https://github.com/pulls) to track all prs
 
 
+#### Use Github to Host Files and Share Online
+
+
 <!-- - We can use `t` to find files quickly, just one caveat: the first one maybe not one you are looking for, even you use the exact file name.  when the file path is too long, we can't really see  -->
 
 #### [Github Pages](https://pages.github.com/)
@@ -71,9 +82,10 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 - https://api.github.com/repos/apache/lucene-solr/git/refs/heads/branch_7x -->
 
 #### Markdown
-- Use Markdown in pr, comments, check here about some [awesome tips about markdown](/2018/05/awesome-tips-about-markdown.html){target="blank"}
+- Use Markdown in PR, comments, check here about some [awesome tips about markdown](/2018/05/awesome-tips-about-markdown.html){target="blank"}
+- **Quote reply** to get the markdown source of PRs and comments
 - To type long markdown: PR template, use [Atom](https://atom.io/) with [markdown-writer](https://atom.io/packages/markdown-writer) [Markdown Enhanced Preview](https://atom.io/packages/markdown-preview-enhanced).
-  - check more 
+  - check more
   - (/2017/10/awesome-tips-about-atom-editor.html){target="blank"}
 
 ---
@@ -84,12 +96,21 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 ---
 
 #### Misc
+- [Use Gist to host code](https://gist.github.com)
 - [Pin repos](https://help.github.com/en/articles/pinning-items-to-your-profile)
 - [Emoji in github](https://www.webfx.com/tools/emoji-cheat-sheet/)
 - :+1:, :thumbsup:, :bug:
 - Saved replies
 
+<!--
+https://github.com/zhaoolee/ChineseBQB
+
+
+
+ -->
+
 ---
 #### [Related Posts](/search?q=label:Github|label:Markdown){target="blank"}
 <script src="/feeds/posts/default?q=label:Github|label:Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
 <script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+

@@ -120,7 +120,7 @@ articles.collect(
     Collectors.summingInt(Article::getWordCount)));
 
 // Convert list of Character to String
-listCharacter.stream().map(String::valueOf).collect(Collectors.joining());    
+listCharacter.stream().map(String::valueOf).collect(Collectors.joining());
 ```
 #### Collection
 ```java

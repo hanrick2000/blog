@@ -1,3 +1,10 @@
+---
+
+### [Awesome Tips Series about Google Products](/search/label/Google_Series){target="blank"}
+<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
 ### TL;DR
 - How to use Google Assistant Skills for kids education, productivity and entertainment.
 
@@ -46,7 +53,8 @@
   - Send a text to Bob saying we'll be 10 minutes late
 - [Email](https://assistant.google.com/services/a/uid/000000a4618d362f)
   - What time is my next flight?
-  - When does my package arrive?
+  - **When does my package arrive?**, where is my package from Walmart?
+    - We can also find this info from the Assistant Card.
   - When is my bill due?
   - Send an email to xx
 - [Calendar](https://assistant.google.com/services/a/uid/0000000553572ba4)
@@ -64,7 +72,9 @@
   - Remember my mom's name is Sally
   - What's my favorite sports team?
 - [Timers and Alarms](https://assistant.google.com/services/a/uid/0000005d8a63d90c)
-  - What are my timers/alarms?
+  - `Wake me up after 1 hour`
+  - **What are my timers/alarms?**, show me my alarms/reminders.
+  - Cancel all my alarms.
   - Countdown 5 minutes/Set a timer for 10 mins
   - Set a daily alarm
 - [Google Play Music](https://assistant.google.com/services/a/uid/000000d8bfc5c546)
@@ -95,6 +105,11 @@
   - show me the meaning of p e a r instead
 - [What's this song?|What song is playing?](https://assistant.google.com/services/a/uid/00000024216d4bb8)
 
+### Tips
+- [How to cancel wether subscription](https://support.google.com/assistant/thread/1841677)
+  - Go to https://assistant.google.com/services/a/uid/0000004d5731f294, Scroll to bottom of web page and select **Stop Weather from remembering me**
+
+
 ### Suggestions
 - Clickable in the UI
   - the category, company name
@@ -102,4 +117,4 @@
 
 ---
 #### [Related Posts](/search/label/Google)<a name="related"></a>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

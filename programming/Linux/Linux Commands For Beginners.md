@@ -3,7 +3,7 @@
 
 ###### alias
 alias grep="grep --color"
-alias 
+alias
 
 ###### ps
 - print pid: ps -C {program-name} -o pid=
@@ -67,7 +67,7 @@ diff -x '*.foo' -x '*.bar' -x '*.baz' -rq /destination/dir/1 /destination/dir/2
 ###### [Get current working directory of a process](https://unix.stackexchange.com/questions/94357/find-out-current-working-directory-of-a-running-process)
 - pwdx <PID>
 - lsof -p <PID> | grep cwd
-- readlink -e /proc/<PID>/cwd 
+- readlink -e /proc/<PID>/cwd
 ##### [View a range of bash history]
 - fl -l ${start} ${end}
 - history | sed '${start},${end}p'
@@ -89,6 +89,9 @@ diff -x '*.foo' -x '*.bar' -x '*.baz' -rq /destination/dir/1 /destination/dir/2
 !pattern|most recent command matching pattern
 !!:s/find/replace|last command, substitute find with replace
 :p|print the command - !!:p, !!n:p
+
+#### [find my external IP Address from the command line](https://apple.stackexchange.com/questions/20547/how-do-i-find-my-ip-address-from-the-command-line)
+- `wget -qO - http://ipecho.net/plain; echo`{.bash}
 
 ---
 #### [Related Posts](/search/label/Bash)

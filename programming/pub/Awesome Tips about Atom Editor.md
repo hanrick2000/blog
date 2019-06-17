@@ -1,6 +1,6 @@
 ---
 
-### [Awesome Tips about Chrome Series](/search/label/Atom_Series){target="blank"}
+### [Awesome Tips about Atom Series](https://lifelongprogrammer.blogspot.com/search/label/Atom_Series){target="blank"}
 <script src="/feeds/posts/default/-/Atom_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
@@ -29,6 +29,7 @@
 - a, shift-a, m, or delete to add, move or delete files and folders
 - [up/down arrow keys to preview files](https://github.com/atom/tree-view/issues/834){target="blank"}
   - need reload the window
+- [toggle focus between the tree view and the editor panes by pressing Ctrl+0](https://discuss.atom.io/t/toggle-tree-view-lose-focus/10055)
 
 #### Fuzzy Finder
 - Select **Preserve Last Search**
@@ -74,14 +75,14 @@
 - [Open Atom in command line](https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x){target="blank"}
   - Atom >> Install Shell Commands
 
---- 
+---
 
-### [Must Have Atom Editor Packages](/2019/03/must-have-atom-editor-packages.html){target="blank"}
-- [The Must Have Atom Packages for Productivity, Developers, Writing, Writing with Markdown and etc.](/2019/03/must-have-atom-editor-packages.html){target="blank"}
+### [Must-Have Atom Editor Packages](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"}
+- [The Must Have Atom Packages for Productivity, Developers, Writing, Writing with Markdown and etc.](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"}
 
 ---
 
-### [Shortcuts](/2018/05/keyboard-shortcuts-for-developers.html#atom){target="blank"}
+### [Shortcuts](https://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#atom){target="blank"}
 - Search shortcut at Settings -> Keybindings
 - Shortcuts from [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus){target="blank"}
 - New File under current folder when select the folder or a file in project panel:  **A**
@@ -102,16 +103,19 @@ Ctrl + g| Go to Line
 **Cmd+Shift+t** | **Bring up the list of corrections (with spell-check extension)**
 **Ctrl+Shift+left(or right)** | **move tab to left(or right)**
 
+---
 
 #### Shortcut for Moving/Selection
 |                          |                                        |
 |:------------------------ |:-------------------------------------- |
-| Option+left(right)       | Move to beginning/end of word          | 
+| Option+left(right)       | Move to beginning/end of word          |
 | Option+Shift+left(right) | Select to beginning/end of word        |
 | Ctrl+A(E)                | Move to first character(end) of Line   |
 | Ctrl+Shift+A(E)          | Select to first character(end) of line |
 | Cmd+up(down)             | Move to top(bottom)                    |
 | Shift+Cmd+up(down)       | Select to top(bottom)                  |
+
+---
 
 #### Shortcut for Writing
 
@@ -207,6 +211,7 @@ Example: `Ctrl+e` doesn't work: not go to end of line
 - Use Cmd+/ to comment: it know the right syntax for different language
 - **Click the file name at the bottom bar to copy the full path**
 - Use Settings -> Updates to update all extensions
+- [Reset to Factory Defaults](https://flight-manual.atom.io/hacking-atom/sections/debugging/#reset-to-factory-defaults): `mv ~/.atom ~/.atom-backup`
 
 #### [File/Directory Pattern Syntax](https://flight-manual.atom.io/using-atom/sections/find-and-replace/){target="blank"}
 - Use [minimatch](https://github.com/isaacs/minimatch){target="blank"} and [glob patterns](https://en.wikipedia.org/wiki/Glob_%28programming%29){target="blank"}
@@ -221,7 +226,7 @@ Example: `Ctrl+e` doesn't work: not go to end of line
 
 ### apm
 ```bash
-# To see all packages installed
+apm list --installed --enabled
 apm list --installed --bare
 apm upgrade --no-confirm
 apm uninstall ${packagename}
@@ -231,7 +236,7 @@ apm uninstall ${packagename}
 - [Atom Flight Manual](https://flight-manual.atom.io/){target="blank"}
 
 ---
-#### [Related Posts](/search?q=label:Markdown|label:"Atom Editor"){target="blank"}
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Markdown|label:"Atom Editor"){target="blank"}
 <script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
 <script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
 <script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

@@ -22,6 +22,71 @@
 - [LeetCode 229 - Majority Number II: the majority number is the number that occurs more than 1/3 of the size of the array](https://leetcode.com/problems/majority-element-ii/discuss/174987/topic)
   - [Boyer-Moore Voting](https://leetcode.com/problems/majority-element-ii/discuss/174987/topic)
   - [generalized n /k case](https://leetcode.com/problems/majority-element-ii/discuss/63524/Java-solution-for-generalized-n-k-case)
+```java
+public int majorityNumber(ArrayList<Integer> nums) {
+    int candidate1 = 0, candidate2 = 0;
+    int count1, count2;
+    count1 = count2 = 0;
+    for (int i = 0; i < nums.size(); i++) {
+        if (candidate1 == nums.get(i)) {
+            count1 ++;
+        } else if (candidate2 == nums.get(i)) {
+            count2 ++;
+        } else if (count1 == 0) {
+            candidate1 = nums.get(i);
+            count1 = 1;
+        } else if (count2 == 0) {
+            candidate2 = nums.get(i);
+            count2 = 1;
+        } else {
+            count1--;
+            count2--;
+        }
+    }
+    count1 = count2 = 0;
+    for (int i = 0; i < nums.size(); i++) {
+        if (nums.get(i) == candidate1) {
+            count1++;
+        } else if (nums.get(i) == candidate2) {
+            count2++;
+        }
+    }    
+    return count1 > count2 ? candidate1 : candidate2;
+}
+
+public List<Integer> majorityElement(int[] nums) {
+    if(nums == null || nums.length == 0) return new ArrayList<>();
+    return helper(nums, 3);
+}
+public List<Integer> helper(int[] nums, int k){
+    Map<Integer, Integer> majorities = new HashMap<>();
+    List<Integer> ret = new ArrayList<>();
+    for(int num : nums){
+        if(majorities.containsKey(num)) majorities.put(num, majorities.get(num) + 1);
+        else if(majorities.keySet().size() < k - 1) majorities.put(num, 1);
+        else{
+            Iterator<Map.Entry<Integer, Integer>> ite = majorities.entrySet().iterator();
+            while(ite.hasNext()){
+                Map.Entry<Integer, Integer> entry = ite.next();
+                int val = entry.getValue();
+                if(val == 1) ite.remove();
+                else entry.setValue(val - 1);
+            }
+        }
+    }
+    for(Integer i : majorities.keySet()){
+        majorities.put(i, 0);
+    }
+    for(int num : nums){
+        if(majorities.containsKey(num)) majorities.put(num, majorities.get(num) + 1);
+    }
+    int target = nums.length / k;
+    for(Integer i : majorities.keySet()){
+        if(majorities.get(i) > target) ret.add(i);
+    }
+    return ret;
+}
+```
 
 
 ### Examples
@@ -135,7 +200,7 @@ public ListNode plusOne(ListNode head) {
 ```java
 public boolean validTicTacToe(String[] board) {
     int turns = 0;
-    boolean xwin = false; 
+    boolean xwin = false;
     boolean owin = false;
     int[] rows = new int[3];
     int[] cols = new int[3];
@@ -154,11 +219,11 @@ public boolean validTicTacToe(String[] board) {
             }
         }
     }
-    xwin = rows[0] == 3 || rows[1] == 3 || rows[2] == 3 || 
-           cols[0] == 3 || cols[1] == 3 || cols[2] == 3 || 
+    xwin = rows[0] == 3 || rows[1] == 3 || rows[2] == 3 ||
+           cols[0] == 3 || cols[1] == 3 || cols[2] == 3 ||
            diag == 3 || antidiag == 3;
-    owin = rows[0] == -3 || rows[1] == -3 || rows[2] == -3 || 
-           cols[0] == -3 || cols[1] == -3 || cols[2] == -3 || 
+    owin = rows[0] == -3 || rows[1] == -3 || rows[2] == -3 ||
+           cols[0] == -3 || cols[1] == -3 || cols[2] == -3 ||
            diag == -3 || antidiag == -3;
     if (xwin && turns == 0 || owin && turns == 1) {
         return false;
@@ -218,7 +283,7 @@ public void getDepthAndParent(TreeNode root, int x, int y, int depth, TreeNode p
         yDepth = depth;
     } else {       
         getDepthAndParent(root.left, x, y, depth + 1, root);
-        getDepthAndParent(root.right, x, y, depth + 1, root); 
+        getDepthAndParent(root.right, x, y, depth + 1, root);
    }
 }
 public static boolean isCousins(TreeNode root, int x, int y) {
@@ -244,7 +309,7 @@ public static boolean isCousins(TreeNode root, int x, int y) {
            if(xParent != null && yParent != null) break;
        }
        if(xParent != null && yParent != null) return xParent != yParent;
-       if((xParent != null && yParent == null) || 
+       if((xParent != null && yParent == null) ||
           (xParent == null && yParent != null)) return false;       
    }
    return false;

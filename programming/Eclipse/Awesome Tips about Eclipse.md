@@ -6,7 +6,9 @@
   * Add ctrl+m for 'Maximize Active View or Editor' in Keys
 
 #### Tips
+- [Use Dark Mode](https://www.eclipse.org/community/eclipse_newsletter/2018/june/darktheme.php)
 - [Run Code Clean Up Manually(Ctrl+Alt+Command+C) + Save Action](/2017/01/eclipse-run-code-cleanup-manually-save-action.html)
+
 
 #### Settings
 - Share preferences between multiple workspace
@@ -14,7 +16,7 @@
 - Preferences Synchronization
 - Eclipse 4.8 already sets Number of imports needed for .* andNumber of static imports needed for .* to 99.
 
-- Eclipse persists when we change the size of content assist popup window 
+- Eclipse persists when we change the size of content assist popup window
 - [Unable to install breakpoint for CGLIB proxy objects](https://stackoverflow.com/a/45897882/753352)
   - clicking "Don't tell me again"
 - [Add default vm arguments to JRE](https://stackoverflow.com/questions/36041510/eclipse-junit-how-to-default-vm-args-without-editing-jre)
@@ -25,7 +27,7 @@
   - General > Editors > Autosave > check Enable autosave for dirty editors
 - Search dialog(ctrl+h)
   - Customize... -> `Remember last used page`
-  
+
 ##### [Java -> Compiler -> Errors/Warnings]
 - Set error for:
   - unlikely argument type for equals() java
@@ -96,3 +98,5 @@ return src.getLocation();
 #### Plugins
 - [OS X Eclipse Launcher](http://marketplace.eclipse.org/content/osx-eclipse-launcher#.UGWfRRjCaHk)
   - Open a workspace in a new instance
+
+<!-- TODOP -->

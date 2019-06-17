@@ -21,7 +21,7 @@
 - rate limit based on seats
 - Query reservation status
   - put reservation_id and status in cache
-- reservation_id: user_id+concert_id+timestamp 
+- reservation_id: user_id+concert_id+timestamp
 - Reservation
   - id(primary_key),created_at(timestamp),concert_id(foreign key),user_id(foreign key),tickets_count(int),status(int)
 - Ticket
@@ -61,3 +61,4 @@
 
 
 
+<!-- TODOP -->

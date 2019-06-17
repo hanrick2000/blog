@@ -72,7 +72,7 @@ int [] sifter (int N) //Get Array of Minimum Prime Factors
 }
 ```
 
-- [@HARD LeetCode 952 - Largest Component Size by Common Factor](https://leetcode.com/articles/largest-component-size-by-common-factor/)
+- [HARD LeetCode 952 - Largest Component Size by Common Factor](https://leetcode.com/articles/largest-component-size-by-common-factor/)
   - [union find](https://leetcode.com/problems/largest-component-size-by-common-factor/discuss/200959/Simplest-Solution-(Union-Find-only)-No-Prime-Calculation)
   - connect/union value with same factors
   - No need to store all index with same factor, only need one, others are union-ed together

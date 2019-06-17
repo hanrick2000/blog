@@ -166,14 +166,14 @@ public List<int[]> kSmallestPairs(int[] nums1, int[] nums2, int k) {
         if(j+1<nums2.length) {
             minQ.offer(new int[]{i, j+1});
         }
-        if(j==0 && i+1<nums1.length){ 
+        if(j==0 && i+1<nums1.length){
             minQ.offer(new int[] {i+1, 0});
         }
     }
     return res;
 }
-
 ```
+
 #### Starting point: last ops
 - [LeetCode 651 - 4 Keys Keyboard: the maximum numbers of 'A' you can print](http://reeestart.me/2018/12/09/LeetCode-651-4-Keys-Keyboard/)
   - starting/turning point: last ops are always paste

@@ -1,15 +1,21 @@
-<!-- /2019/05/how-to-promote-your-content-by-creating-sticking-index-page-in-blogger.html  -->
+---
+
+### [Awesome Tips Series about Blogger](https://lifelongprogrammer.blogspot.com/search/label/Blogger_Series){target="blank"}
+<script src="/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+
+---
+
 #### TL;DR
 - How to create a page which includes posts you would like to promote.
 - Stick it in your blogger.
 - Create a Custom "Page Not Found" to promote Posts.
 
-#### Create an automatically updated index page 
+#### Create an automatically updated index page
 - Include Sections about **New Posts**, **Recently Updated Posts**, **New Posts based on Labels**
 
 ##### The Implementation
 - Based on the code from [here](https://www.howbloggerz.com/2017/03/generate-html-sitemap-page-blogger.html)
-```html
+``` {.html .numberLines .lineAnchors}
 <script type="text/javascript">
   //<![CDATA[  
   const newPublishedPosts = new Set();
@@ -69,20 +75,8 @@
 #### [Make a Sticky Post in Blogger](https://www.wikihow.com/Make-a-Sticky-Post-in-Blogger)
 - Publish the post first then change date to a future date
 
-#### Create a Custom "Page Not Found" to promote Posts<a name="page_not_found"><a/>
-- At Settings -> Search Preferences -> Under "Errors and Redirections" click the option to "Edit" Custom Page Not Found
-- Paste the above HTML code and add the following text before **New Posts**
-```html
-<style>
-.status-msg-body {
-  text-align: left
-}
-</style>
-<br /><br /><br />
-<h3>Sorry, the page you were looking for in this blog does not exist. </h3>
-<h3>Start exploring here:</h3>
-```
-- ex: [N/A](/na)
+#### [Create a Custom "Page Not Found" to promote Posts]((https://lifelongprogrammer.blogspot.com/2019/06/promote-your-content-by-creating-a-custom-page-not-found-in-blogger.html){target="blank"})<a name="page_not_found"></a>
+- Check [here for more detail](https://lifelongprogrammer.blogspot.com/2019/06/promote-your-content-by-creating-a-custom-page-not-found-in-blogger.html){target="blank"}
 
 #### Resources
 - [How To Generate HTML Sitemap Page On Blogger](https://www.howbloggerz.com/2017/03/generate-html-sitemap-page-blogger.html)
@@ -90,4 +84,5 @@
 ---
 
 #### [Related Posts](/search/label/Blogger)<a name="related"></a>
-<script src="/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script> 
+<script src="/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

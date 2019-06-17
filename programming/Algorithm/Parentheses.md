@@ -5,7 +5,7 @@
 ### Left/right count
 - [LeetCode 22 – Generate Parentheses](https://leetcode.com/problems/generate-parentheses/discuss/10100/Easy-to-understand-Java-backtracking-solution)
   - [dfs](https://leetcode.com/problems/generate-parentheses/discuss/10100/Easy-to-understand-Java-backtracking-solution)
-  - 
+  -
 ```java
 public List<String> generateParenthesis(int n) {
      List<String> res = new ArrayList<>();
@@ -21,7 +21,7 @@ private void helper(List<String> res, StringBuilder sb, int open, int close, int
         sb.append("(");
         helper(res, sb, open+1, close, n);
         sb.setLength(sb.length()-1);
-    } 
+    }
     if(close < open) {
         sb.append(")");
         helper(res, sb, open, close+1, n);
@@ -67,13 +67,10 @@ public int scoreOfParentheses(String S) {
 }
 ```
 
-### 
+### Examples
 - LeetCode 22 – Generate Parentheses
-
 - [LeetCode 339 - Nested List Weight Sum](https://www.programcreek.com/2014/05/leetcode-nested-list-weight-sum-java/)
   - recursion or bfs
-
-
 - [LeetCode 20 - Valid Parentheses](https://leetcode.com/problems/valid-parentheses/discuss/9178/Short-java-solution)
   - [stack](https://leetcode.com/problems/valid-parentheses/discuss/9178/Short-java-solution)
 - [LeetCode 678 - Valid Parenthesis String](https://leetcode.com/articles/valid-parenthesis-string/)
@@ -111,12 +108,12 @@ public boolean checkValidString(String s) {
             if (leftID.isEmpty() && starID.isEmpty())   return false;
             if (!leftID.isEmpty())
                 leftID.pop();
-            else 
+            else
                 starID.pop();
         }
     }
     while (!leftID.isEmpty() && !starID.isEmpty()) {
-        if (leftID.pop() > starID.pop()) 
+        if (leftID.pop() > starID.pop())
             return false;
     }
     return leftID.isEmpty();

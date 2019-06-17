@@ -1,0 +1,7 @@
+
+
+
+- [Preload A Webpage to Speed Up Your Website](https://edgetalk.net/preload-a-webpage-to-speed-up-your-website/)
+```js
+<script src="//instant.page/1.1.0" type="module" integrity="sha384-EwBObn5QAxP8f09iemwAJljc+sU+eUXeL9vSBw1eNmVarwhKk2F9vBEpaN9rsrtp"></script>
+```

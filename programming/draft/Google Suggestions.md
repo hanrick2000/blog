@@ -1,8 +1,11 @@
+#### Google Photos
+- Create a slideshow from search result
+- Create live album that must contain all of the people
 
 ### Gmail
 <!-- - Easier to create calendar event -->
 - Detect deadline in mail, offer to create event or remainder automatically
-  - Privacy: default off, user can opt in
+  - Privacy: turned off by default, user can opt in.
 
 ### Calendar
 - Desktop notification only works when have calendar open in browser
@@ -33,3 +36,9 @@
   - It only support one address, it would be great to support multiple address as we go shopping to different stores even for same brand(like Costco)
 - Voice typing doesn't support non-english (at least not Chinese)
 
+
+#### Small Detail
+- https://www.linkedin.com/pulse/google-next-federal-holiday-independence-day-2024-yun-yuan
+  - Search next holiday, Google shows: The next federal holiday is Independence Day, which is correct, but it shows the holidays at 2024.
+
+<!-- TODP -->
