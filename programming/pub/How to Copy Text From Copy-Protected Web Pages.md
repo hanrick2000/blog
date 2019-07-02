@@ -12,6 +12,8 @@ How to copy text from copy-protected web pages by using proxy sites or chrome re
 #### The Problem
 Sometimes we want to copy some text/code from a website, but find out that it disables copy text or even completely disables right click, right context menu. It's annoying, but we can fix it easily.
 
+Let's take [techiedelight](https://www.techiedelight.com) as example.
+
 #### Using Proxy Sites
 - [hidester](https://hidester.com/proxy/)
   - javascript is disabled by default.

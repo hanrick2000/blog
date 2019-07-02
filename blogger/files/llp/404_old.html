@@ -1,0 +1,133 @@
+<style>
+.status-msg-body {
+  text-align: left
+}
+</style>
+<br /><br /><br />
+<h3>Sorry, the page you were looking for in this blog does not exist. </h3>
+<h3>Start exploring here:</h3>
+<br />
+<script type="text/javascript">
+  //<![CDATA[
+  function redirectIfNeeded() {
+    var redirectMap = new Map();
+    redirectMap.set("/2018/06/mac-tips-and-tricks.html", "/2019/02/awesome-tips-about-mac.html");
+    redirectMap.set("/2018/06/chrome-tips-and-tricks.html", "/2018/06/awesome-tips-about-chrome.html");
+    redirectMap.set("/2018/06/chrome-tips-and-tricks.html", "/2018/06/awesome-tips-about-chrome.html");
+    redirectMap.set("/2018/05/markdown-tips.html", "/2018/05/awesome-tips-about-markdown.html");
+    redirectMap.set("/2019/06/how-to-keep-mac-from-overheating.html", "/2019/02/how-to-keep-mac-from-overheating.html");
+    redirectMap.set("/2019/06/awesome-tips-about-pandoc.html", "/2019/01/awesome-tips-about-pandoc.html");
+    redirectMap.set("/2019/06/must-have-google-chrome-extensions.html", "/2019/04/must-have-google-chrome-extensions.html");
+    redirectMap.set("/2019/06/how-to-speed-up-google-chrome.html", "/2019/03/how-to-speed-up-google-chrome.html");
+    redirectMap.set("/2019/06/building-presentations-with-revealjs.html", "/2019/03/building-presentations-with-revealjs.html");
+    redirectMap.set("/2018/05/markdown-tips.html", "/2018/05/awesome-tips-about-markdown.html");
+    redirectMap.set("/2018/05/keyboard-shortcuts.html", "/2018/05/keyboard-shortcuts-for-developers.html");
+    redirectMap.set("/2016/10/system-design-learning-from-existing.html", "/2016/10/system-design-learning-from-existing-products.html");
+    redirectMap.set("/2019/04/must-have-google-chrome-extensions.html", "/2019/05/best-google-chrome-extensions.html");
+    redirectMap.set("/2008/10/iterators-algorithms.html", "/2018/02/implementing-iterator-how-to-succeed-in-algorithms-interview.html");
+    redirectMap.set("/2008/11/merge-sort-algorithms.html", "/2018/01/merge-sort-how-to-succeed-in-algorithms-interview.html");
+    redirectMap.set("/2008/07/using-trie-algorithm.html", "/2018/01/trie-how-to-succeed-in-algorithms-interview.html");
+    redirectMap.set("/2008/07/using-union-find-algorithm.html", "/2018/01/union-find-disjoint-set-how-to-succeed-in-algorithms-interview.html");
+    redirectMap.set("/2008/07/palindrome-algorithm.html", "/2018/02/palindrome-how-to-succeed-in-algorithms-interview.html");
+    redirectMap.set("/2008/07/graph-algorithms.html", "/2018/02/graph-algorithm-how-to-succeed-in-algorithms-interview.html");
+    redirectMap.set("/2008/07/bit-algorithm.html", "/2017/12/bit-algorithm-how-to-succeed-in-algorithms-interview-series.html");
+redirectMap.set("/2019/01/best-way-to-style-markdown-with-pandoc.html", "/2019/01/how-to-style-markdown-with-css.html");
+redirectMap.set("/2019/01/how-to-add-css-styles-in-pandoc-markdown.html", "/2019/01/how-to-style-markdown-with-css.html");
+redirectMap.set("/2014/09/java-using-sublist.html", "/2018/08/java-sublist-tips-and-traps.html");
+
+    var redirect = redirectMap.get(window.location.pathname);
+    if (redirect) {
+      window.location.pathname = redirect;
+    }
+  }
+
+  function search(){
+    var url = window.location.pathname;
+    var fileName = url.split("/").slice(-1)[0];
+
+
+  }
+
+  redirectIfNeeded();
+  var newPublishedPostsIn404 = new Set();
+
+  function showNewPosts(json) {
+    var toIgnoreSet = new Set();
+    showPostsImpl(json, 20, toIgnoreSet, newPublishedPostsIn404)
+  }
+  function showUpdatedPosts(json) {
+    var toIgnoreSet = newPublishedPostsIn404;
+    showPostsImpl(json, 10, toIgnoreSet);
+  }
+  function showPosts(json, totalposts, toIgnoreSet, addedSet) {
+    showPostsImpl(json, 1000);
+  }
+  function showPostsImpl(json, totalposts, toIgnoreSet, addedSet) {
+    for (var count = 0, publishedCount=0; publishedCount < totalposts && count< json.feed.entry.length ; count++) {
+      var entry = json.feed.entry[count];
+      var postTitle = entry.title.$t;
+      var posturl;
+      // if (count == json.feed.entry.length) break;
+      for (var b = 0; b < entry.link.length; b++) {
+        if (entry.link[b].rel == 'alternate') {
+          posturl = entry.link[b].href;
+          break;
+        }
+      }
+      //
+      if(postTitle.toLowerCase() == "home page") continue;
+      if(postTitle.toLowerCase().startsWith("draft")) continue;
+      if(toIgnoreSet && toIgnoreSet.has(postTitle)) continue;
+      if(addedSet) addedSet.add(postTitle)
+      publishedCount++;
+      document.write('<li>');
+      document.write(postTitle.link(posturl));
+      document.write('</li>');
+    }
+  }
+  //]]>
+</script>
+
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/p/archives.html">Archives</a></h3>
+<li><a href="https://lifelongprogrammer.blogspot.com/p/archives.html">Archives</a></li>
+<br/>
+<h3>
+New Posts</h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/?orderby=published&amp;alt=json-in-script&amp;callback=showNewPosts&amp;max-results=21"></script>
+<h3>
+Updated Posts</h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/?orderby=updated&amp;alt=json-in-script&amp;callback=showUpdatedPosts&amp;max-results=31"></script>
+<h2>
+  Soft Skills</h2>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Troubleshooting">Troubleshooting</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Troubleshooting?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Problem%20Solving">Problem Solving</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Problem Solving?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Soft%20Skills">Soft Skills</a><a href="https://www.blogger.com/null"></a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Soft Skills?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h2>
+  Development</h2>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Dev%20Tips">Dev Tips</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=20"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Eclipse">Eclipse</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Eclipse?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Testing">Testing</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Testing?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Java">Java</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Java?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h2>
+  Design Skills</h2>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/System%20Design">System Design</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/System Design?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Design">Design</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Design?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>

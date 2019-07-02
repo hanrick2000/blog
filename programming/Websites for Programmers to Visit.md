@@ -46,6 +46,10 @@ Add these sites in [feedly.com](https://feedly.com)
 - [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/)
   - [Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
 
+#### Java
+- [javarevisited](https://javarevisited.blogspot.com/)
+- [hollischuang - Chinese](https://www.hollischuang.com/)
+
 #### Podcasts
 - [Software Engineering Daily](https://play.google.com/music/listen?authuser&u=0#/ps/Imt7rx7yailrim3zsbghezphkky)\
 - [WSJ Tech News Briefing](https://play.google.com/music/listen?authuser&u=0#/ps/Idi4wnaf74mhfxtfuudlawj7epe)\

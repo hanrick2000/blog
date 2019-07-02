@@ -1,6 +1,4 @@
----
-
-### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
+##### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
 <script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
@@ -43,7 +41,7 @@ blockquote {
 - We can find all snoozed emails at `Snoozed folder`
 
 #### Draft Emails
-- Create a draft email to save context (we decide to reply it or do sth later we receive/check one email we are walking etc)
+- Create a draft email to save context: for example we receive one email we need handle and reply later, but no time to do now, we can create one draft email.
 - We need type something to create a draft email. If we click reply then click cancel, it will not create a draft email as the content is empty.
 - Clean old drafts: **in:draft older_than:4m**
 
@@ -73,7 +71,12 @@ Select all conversations that match this search`
   - Select text and right click -> `Print` to print
   - `Cmd+P` then in the print dialog: `More Settings` -> Check `Selection only`
 
----
+#### Canned Responses
+- We can create Canned Responses as template in case like to reply recruiter etc.
+- Enable **Canned Responses** at Settings -> Advanced
+- Create a draft email and save it as a template.
+![](https://img.purch.com/o/aHR0cDovL3d3dy5sYXB0b3BtYWcuY29tL2ltYWdlcy93cC9wdXJjaC1hcGkvaW5jb250ZW50LzIwMTYvMTEvbmV3LXJlc3BvbnNlLmpwZw==)
+- Use the template when reply or create new email.
 
 ### [Gmail Search Tips](https://support.google.com/mail/answer/7190)
 - from, to, cc, bcc, subject, -, label:, filename:,

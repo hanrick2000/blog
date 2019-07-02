@@ -12,3 +12,5 @@ https://www.sovrn.com/support/how-to-select-display-ad-sizes-for-your-site-layou
 - check CPM at /#earnings
 
 <script src="//ap.lijit.com/www/delivery/fpi.js?z=619679&width=728&height=90"></script>
+
+https://www.sovrn.com/support/header-adaptor-implementation-guide/

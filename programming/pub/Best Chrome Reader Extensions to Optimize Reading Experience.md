@@ -1,15 +1,12 @@
 ---
-
-### [Awesome Tips about Chrome Series](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
-<script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
-
+description: Best Chrome Reader Extensions to Optimize Reading Experience: Dark Reader, Reader View, Just Read, Clearly.
 ---
 
-<!-- SD:
-Best Chrome Reader Extensions to Optimize Reading Experience: Dark Reader, Reader View, Just Read, Clearly.
--->
+##### [Awesome Tips about Chrome Series](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
+<script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+---
 
-### Why to Use Chrome Reader Extension for Reading
+### Why Use Chrome Reader Extension for Reading?
 - Declutter: remove ads, left/right sidebar, header, footer and focus on content
 - Make the content much easier to read
 - Reduce memory and other resources (network, CPU)
@@ -17,6 +14,7 @@ Best Chrome Reader Extensions to Optimize Reading Experience: Dark Reader, Reade
 - Copy text from copy-protected webpages
   - Some websites disabled copy completely, or in some websites, the copied text only includes raw text (no formatting, no images) and add extra texts. There are many ways to fix it, one simple way is to just open it in reader view mode using extensions mentioned here.
 - Copy text when it's not easy to copy
+  - For example: [techiedelight](https://www.techiedelight.com)
 <!--  - For example, to copy text from title  -->
 
 ### Chrome Extensions for Reading
@@ -42,6 +40,8 @@ Read here for more [must-have google chrome extensions](https://lifelongprogramm
   - `Cmd+down` to scroll to the end of page first to make sure the page load completes.
 - **[It adds the page url to the first line from there we can copy the page url](https://github.com/rNeomy/reader-view/issues/41)**
 
+<script>inlineAds=true</script>
+<script src="//ap.lijit.com/www/delivery/fpi.js?z=332935&width=728&height=90"></script>
 
 #### [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)
 - Able to change theme(dark or light), width, font size and save the config.

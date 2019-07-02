@@ -1,0 +1,133 @@
+<style>
+.red {color: red;}
+.column-left-inner {margin-left: -50px}
+#TOC ul {
+    margin: 0;
+}
+#TOC ul li {
+    margin: 0;
+}
+#TOC > ul > li > a[href='#section'] { display: none; }
+</style>
+<script>
+  function removeNotLoadedAds(...adsIds) {
+    adsIds.forEach(adsId => {
+      var sovrn_ad_unit = document.getElementById("sovrn_ad_unit_" + adsId + "_async");
+      if (sovrn_ad_unit) {
+        var servedTag = sovrn_ad_unit.contentWindow["served" + adsId];
+        if (typeof servedTag !== "undefined") {
+          sovrn_ad_unit.parentNode.removeChild(sovrn_ad_unit);
+        }
+      }
+    });
+  }
+var maxRelatedPostsCount = 10;
+var maxPopularPostsCount = 20;
+var publisedPopulars = new Set();
+var publisedRelateds = new Set();
+var maxPopularTrendingCount = 20;
+var publisedTrednings = new Set();
+
+function weightedRandomPopularPosts(json) {
+  document.write('<li>', "<a class='home-link' href='/2019/06/archives.html'>Archives</a>", '</li>');
+  weightedRandomImpl(json, publisedPopulars, maxPopularPostsCount);
+}
+function weightedRandomTredningPosts(json) {
+  document.write('<li>', "<a class='home-link' href='/2019/06/archives.html'>Archives</a>", '</li>');
+  weightedRandomImpl(json, publisedTrednings, maxPopularTrendingCount);
+}
+
+function weightedRandomRelatedPosts(json) {
+  weightedRandomImpl(json, publisedRelateds, maxRelatedPostsCount);
+}
+
+function weightedRandomRelatedPostsAddToParent(json) {
+  var parentNode = document.getElementById("related_posts_content");
+  weightedRandomImpl(json, publisedRelateds, maxRelatedPostsCount, parentNode);
+}
+// TODO random or order? get all or not
+function weightedRandomImpl(json, publisedPosts, maxCount, parentNode) {
+  var weightedPosts = getPosts(json);
+  if(weightedPosts ==null) return;
+  while (publisedPosts.size < maxCount) {
+    var picked = pickOne(weightedPosts);
+    if (picked == null) break;
+    if (publisedPosts.has(picked.post)) break;
+
+    publisedPosts.add(picked.post);
+    weightedPosts.delete(picked);
+    if (parentNode) {
+      var li = document.createElement("li");
+      li.innerHTML = picked.post;
+      parentNode.appendChild(li);
+    } else {
+      document.write('<li>');
+      document.write(picked.post);
+      document.write('</li>');
+   }
+  }
+}
+
+function getPosts(json) {
+  var weightedPosts = new Set();
+  if(json.feed.entry == null) return;
+  var totalCount = json.feed.entry.length;
+  for (var count = 0; count < totalCount; count++) {
+    var entry = json.feed.entry[count];
+    var postTitle = entry.title.$t;
+    var posturl;
+    for (var b = 0; b < entry.link.length; b++) {
+      if (entry.link[b].rel == 'alternate') {
+        posturl = entry.link[b].href;
+        break;
+      }
+    }
+    if (window.location.href == posturl) continue;
+    if (postTitle.toLowerCase().startsWith("draft")) continue;
+    weightedPosts.add({
+      post: postTitle.link(posturl),
+      weight: totalCount - count
+    });
+  }
+  return weightedPosts;
+}
+
+function pickOne(weightedPosts) {
+  var totalWeight = 0;
+  for (let post of weightedPosts) {
+    totalWeight += post.weight;
+  }
+  var randomWeight = Math.random() * totalWeight;
+  var currWeight = 0;
+  for (let post of weightedPosts) {
+    currWeight += post.weight;
+    if (currWeight > randomWeight) {
+      return post;
+    }
+  }
+}
+
+function series(json){
+  seriesImpl(json);
+}
+function seriesImpl(json, publisedSeries) {
+  var weightedPosts = new Set();
+  var totalCount = json.feed.entry.length;
+  for (var count = 0; count < totalCount; count++) {
+    var entry = json.feed.entry[count];
+    var postTitle = entry.title.$t;
+    var posturl;
+    for (var b = 0; b < entry.link.length; b++) {
+      if (entry.link[b].rel == 'alternate') {
+        posturl = entry.link[b].href;
+        break;
+      }
+    }
+    if (postTitle.toLowerCase().startsWith("draft")) continue;
+    var finalUrl = postTitle.link(posturl);
+    if (publisedSeries && publisedSeries.has(finalUrl)) continue;
+    if(publisedSeries) publisedSeries.add(finalUrl);
+    document.write('<li>', finalUrl, '</li>');
+  }
+}
+</script>

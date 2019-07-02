@@ -1,6 +1,4 @@
----
-baseurl: https://lifelongprogrammer.blogspot.com/2019/07/how-to-show-post-excerpts-on-blogger-when-writing-with-markdown-pandoc-and-minify.html
----
+<!-- ![](https://raw.githubusercontent.com/jefferyyuan/blog/master/images/How%20To%20Show%20Post%20Excerpts%20on%20Blogger%20when%20Writing%20with%20Markdown%2C%20Pandoc%20and%20Minify.png){.hide} -->
 
 ##### [Awesome Tips Series about Blogger](https://lifelongprogrammer.blogspot.com/search/label/Blogger_Series){target="blank"}
 <details><summary>CLICK ME to EXPAND</summary>
@@ -67,10 +65,27 @@ $table-of-contents$
 $endif$
 ```
 
-#### Add Base Tag in Pandoc Template
+#### Fix the Relative Toc Link in Index Page
 Last but not least, there is one problem in the generate TOC, it uses relative url: `<a href=#the_anchor_id>the_text</a>`, but it will not work when it shows in  label page, search page etc, as the base url is (for example <https://lifelongprogrammer.blogspot.com/2019/07>), not the url of the post.
 
-Simply adding the base tag in the Markdown file: `<base href = "the_post_url" />`{.html} would not work, as TOC is generated first, the then body content.
+Base tag would not work: as only the first base tag works, and it affects all relative links.
+
+We can use javascript to iterate all TOC links: find its post title, and change tTOC link's base to the post title's url.
+```javascript
+// index page
+if (!window.location.pathname.endsWith(".html")) {
+  var links = document.querySelectorAll("#TOC a")
+  links.forEach(function (link) {
+    var post = link.closest(".post.hentry.uncustomized-post-template")
+    var base = post.querySelector("h3>a").href;
+    var parts = link.href.split('#');
+    var anchor = parts[parts.length-1];
+    link.href= base+'#'+anchor
+  });
+}
+```
+
+<!-- Simply adding the base tag in the Markdown file: `<base href = "the_post_url" />`{.html} would not work, as TOC is generated first, the then body content.
 
 Luckily we can change Pandoc template to add base tag before TOC:
 ```html
@@ -89,7 +104,7 @@ $endif$
 - If **baseurl** variable exists, create a base tag with **href="$baseurl$"**
 - We add the baseurl tag in the yaml meta block in the Markdown file.
 ---
-baseurl: the_url
+baseurl: the_url -->
 ---
 
 #### Bonus: [Blogger Conditional Tags for different page types](https://ultimatebloggerguide.blogspot.com/2016/07/blogger-conditional-tags-for-page-types.html)
@@ -97,6 +112,10 @@ baseurl: the_url
 <b:if cond='data:blog.pageType == "item"'>
 </b:if>
 ```
+##### Minifier
+- [Online Html Minifier](https://www.willpeavy.com/tools/minifier/)
+  - Minify HTML and any CSS or JS included in your markup
+- Command Line: [HTML minifier](http://minifycode.com/html-minifier/)
 
 [minify]: https://github.com/tdewolff/minify
 [Atom Editor]: https://lifelongprogrammer.blogspot.com/2017/10/awesome-tips-about-atom-editor.html
