@@ -4,6 +4,12 @@
 <script src="/feeds/posts/default/-/Atom_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
+#### Install
+- Install Atom from [here](https://atom.io/packages)
+- [Install Shell Commands](https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x)
+  - Go to Atom -> **Install Shell Commands**, this will install shell commands: atom and apm or atom-beta, apm-beta depended on we choose to install atom or atom-beta.
+- Install Packages at Settings -> Packages
+  - Check here for all [must-have atom editor packages](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html)
 
 ### Settings
 #### Core Settings
@@ -72,8 +78,6 @@
   - `cmd++Shift+click`: add new cursors
 - [Fold](https://flight-manual.atom.io/using-atom/sections/folding/){target="blank"}
 - [Pending Pane Items](https://flight-manual.atom.io/using-atom/sections/pending-pane-items/){target="blank"}
-- [Open Atom in command line](https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x){target="blank"}
-  - Atom >> Install Shell Commands
 
 ---
 

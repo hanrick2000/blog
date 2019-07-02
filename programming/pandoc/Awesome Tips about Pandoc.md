@@ -4,7 +4,7 @@ date: 6/7/2019
 description: How to use Pandoc to convert files, Pandoc's Markdown syntax and more tips.
 ---
 
-### [Series: Awesome Tips about Pandoc](/search/label/Pandoc_Series){target="blank"}
+##### [Series: Awesome Tips about Pandoc](/search/label/Pandoc_Series){target="blank"}
 <script src="/feeds/posts/default/-/Pandoc_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 

@@ -11,6 +11,9 @@ How to Speed up Google Chrome, free up its memory usage and stay productivity at
 ### How To Reduce Chrome Memory Usage
 - `Cmd+Shift+A` to suspend all tabs in current window, `Cmd+Shift+R` to open the current tab in `Reader View`.
 
+#### AdBlock
+
+
 #### [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/){target="blank"}
 - Use [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/) together with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html), the Suspender reduces the memory usage, use [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html) to find and go to specific tab quickly.
 - After restart Chrome, the suspended pages remain suspended, Great!

@@ -103,18 +103,19 @@ Chrome uses `published data` to decide where the post is shown in `Blog Archive`
 - [Generate Sitemap html page including all labels](https://www.howbloggerz.com/2017/03/generate-html-sitemap-page-blogger.html)
 - [Generate Sitemap html page including (multiple) specific labels](https://mybloggeraide.blogspot.com/2017/07/create-html-sitemap-for-specific-label.html)
 
-### [search-console](search.google.com/search-console)
+#### [search-console](search.google.com/search-console)
 - Add your post to [search-console](search.google.com/search-console) by manually requesting indexing
 - Check `Coverage -> Excluded` and request indexing posts for `Discovered - currently not indexed` and `Crawled - currently not indexed`
 
+#### Can improve
+- Search function sucks: bloggerx
 <!-- ### Advanced
 #### XML Code -->
 
-### CSS
+<!-- ### CSS
 <style>
-
 .columns-inner { margin-left: -20px }
-</style>
+</style> -->
 <!-- .main-inner .column-left-outer { margin-left: -180px } -->
 
 ---

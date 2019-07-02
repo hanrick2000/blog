@@ -1,3 +1,7 @@
+---
+description: How to create a custom "Page Not Found" to promote posts and maintain our own custom redirects in Blogger.
+---
+
 #### Check Null
 - Check Method Arguments for null early and throw exception (IllegalArgumentException) with meaningful error message
   - `Objects.requireNonNull(arg, "arg must not be null");`{.java}
@@ -6,7 +10,7 @@
   - For example `file.listFiles()`{.java} can return null if it's not a folder or doesn't exist
 - If not sure whether the method may return null or nor, be defensive: check null.
 
-#### Detect NPE (and other Bugs) in IDE or Maven/Gradle
+##### Detect NPE (and other Bugs) in IDE or Maven/Gradle
 - \@NonNull and \@CheckForNull with SpotBugs
 
 #### Use Null-Safe Methods and Libraries
@@ -24,6 +28,9 @@ CollectionUtils.is(Not)Empty(col);
 
 #### Avoid returning null, instead return empty collection/array
 - `return Collections.EMPTY_LIST`{.java}
+
+<script>inlineAds=true</script>
+<script src="//ap.lijit.com/www/delivery/fpi.js?z=332935&width=728&height=90"></script>
 
 #### Unboxing and NullPointerException
 When mix wrapper class and primitive type, Java will auto unbox the wrapper class to primitive type(**boolean**, int, long, etc), if the wrapper class is Null, then it would throw NullPointerException.
@@ -96,6 +103,6 @@ In the above code, when map doesn't contain the key, or its value is null, it wo
 >
 >> <cite>[Alibaba Java Coding Guidelines](https://alibaba.github.io/Alibaba-Java-Coding-Guidelines/#2-exception-and-logs)</cite>
 
-#### Other NullPointerException Cases
+##### Other NullPointerException Cases
 - Using synchronized on a null object
 - Throwing an exception which is Null

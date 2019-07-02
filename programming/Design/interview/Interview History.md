@@ -8,14 +8,20 @@
     while (l1 != null || l2 != null || carry != 0) {}
   ```
 4. [the backend key value db server is slow, how to solve it?](https://lifelongprogrammer.blogspot.com/2018/08/when-it-goes-wrong-how-to-ace-system.html)
-5.
+5. Forgot, but its simple
+
+#### Long time ago
+phone interview at Google: [LeetCode 287 - Find the Duplicate Number](http://massivealgorithms.blogspot.com/2015/09/leetcode-find-duplicate-number-eason-liu.html), failed.\
+- [LeetCode 280 Wiggle Sort](http://massivealgorithms.blogspot.com/2014/07/leetcode-280-wiggle-sort.html)\
+- [LeetCode 324 - Wiggle Sort II](http://massivealgorithms.blogspot.com/2015/12/leetcode-324-wiggle-sort-ii.html)
+
+
 
 #### Interview at Facebook
 1. Work experience at your last company
 2.
 
 
-Long time ago: phone interview at Google: [LeetCode 287 - Find the Duplicate Number](http://massivealgorithms.blogspot.com/2015/09/leetcode-find-duplicate-number-eason-liu.html), failed.
 
 
 then [LeetCode 445 - Add Two Numbers II](http://massivealgorithms.blogspot.com/2016/10/leetcode-445-add-two-numbers-ii.html)

@@ -105,8 +105,6 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 <!--
 https://github.com/zhaoolee/ChineseBQB
 
-
-
  -->
 
 ---

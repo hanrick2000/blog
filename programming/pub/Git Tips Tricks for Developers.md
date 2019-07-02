@@ -4,6 +4,14 @@ date: 6/10/2019
 description: Everyday's Git Tips and Tricks for Developers.
 ---
 
+#### [Install Bash git completion](https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion)
+- `brew install git bash-completion`{.bash}
+
+#### [Caching GitHub password in Git](https://help.github.com/en/articles/caching-your-github-password-in-git)
+- `git config --global credential.helper 'cache --timeout 72000'`{.bash}
+- Remove cached password (to reenter new password when it's changed)
+  - `git credential-osxkeychain erase`{.bash}
+
 #### Temporarily ignoring files
 - `git update-index --assume-unchanged file-path`{.bash}
 - `git update-index --no-assume-unchanged file-path`{.bash}

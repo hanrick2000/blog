@@ -13,15 +13,24 @@ var array = new Array();
 ```
 
 ### Check undefined
+- [How to set defaults values](https://www.codereadability.com/javascript-default-parameters-with-or-operator/)
 ```javascript
-myVar === undefined
-if (typeof variableA === "undefined") {}
+if (typeof variableA === "undefined") { variableA = defaultValue}
 if(typeof variableA !== "undefined") {}
 ```
 
 #### [JavaScript Window Location](https://www.w3schools.com/js/js_window_location.asp){target="blank"}
 - window.location.href/pathname/hostname
 - window.location.assign loads a new document
+- [Set location.pathname and location.search together?](https://stackoverflow.com/questions/33938178/set-location-pathname-and-location-search-together)
+  - Just set the location (or location.href): `location = "/abc?name=test";`{.javascript}
+- [Get last part of URI](https://stackoverflow.com/questions/16237780/get-last-part-of-uri/16237825)
+  - `var action = window.location.pathname.split("/").slice(-1)[0];`{.javascript}
+
+```JavaScript
+var urlParams = new URLSearchParams(window.location.search);
+urlParams.get('page')
+```
 
 ### iframe
 - [Access a variable of iframe from parent](https://stackoverflow.com/questions/13757943/access-a-variable-of-iframe-from-parent){target="blank"}

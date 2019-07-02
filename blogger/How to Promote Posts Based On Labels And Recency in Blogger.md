@@ -2,10 +2,11 @@
 description: How to promote posts based on labels and recency to recommend popular posts, related posts, series.
 ---
 
-### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
-<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+##### [Awesome Tips Series about Blogger](https://lifelongprogrammer.blogspot.com/search/label/Blogger_Series){target="blank"}
+<script src="/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
+
 
 <!-- Boost in-depth posts based on Labels and recency: Weighted Random Sampling -->
 #### The Goal

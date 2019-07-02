@@ -4,7 +4,7 @@ description: How to save energy and keep your mac from overheating.
 
 ---
 
-### [Series: Awesome Tips about Mac](https://lifelongprogrammer.blogspot.com/search/label/Mac_Series){target="blank"}
+##### [Series: Awesome Tips about Mac](https://lifelongprogrammer.blogspot.com/search/label/Mac_Series){target="blank"}
 <script src="/feeds/posts/default/-/Mac_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
@@ -29,7 +29,7 @@ description: How to save energy and keep your mac from overheating.
 
 #### [How to Reduce Chrome Memory Usage](https://lifelongprogrammer.blogspot.com/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
 - Read [here](https://lifelongprogrammer.blogspot.com/2019/03/how-to-speed-up-google-chrome.html){target="blank"} to learn how to free up Chrome's memory usage and still stay productivity.
-  - Use [The Great Suspender, Chrome Vimium and Reader View](https://lifelongprogrammer.blogspot.com/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
+  - Use [AdBlock, The Great Suspender, Chrome Vimium and Reader View](https://lifelongprogrammer.blogspot.com/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
   - <kbd>Cdm</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> to suspend all tabs in current window, <kbd>Cdm</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> to open the current tab in **Reader View**.
 
 #### Use Chrome Search History to find recently read or closed pages

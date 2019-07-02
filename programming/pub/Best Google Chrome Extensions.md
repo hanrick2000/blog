@@ -1,6 +1,10 @@
 ---
+toc-depth: 4
+---
 
-### [Awesome Tips Series about Chrome](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
+---
+
+##### [Awesome Tips Series about Chrome](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
 <script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
@@ -9,12 +13,12 @@
 The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and Tab Management, and How to Reduce the Memory Usage.
 -->
 
-#### Must-Have Chrome Extensions
+### Must-Have Chrome Extensions
 - Use [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/) together with [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html), the Suspender reduces the memory usage, use [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html) to find and go to specific tab quickly.
 <!-- - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/)
 - [Chrome Vimium](https://chrome.google.com/webstore/search/Vimium?_category=extensions) -->
 
-#### Chrome Extensions for Tabs
+### Chrome Extensions for Tabs
 - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/){#suspender target="blank"}
   - Force suspend all other tabs in this window
   - Restore session
@@ -26,6 +30,10 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 
 - **[Tab Position Customizer 2](https://chrome.google.com/webstore/detail/tab-position-customizer-2/jglbflnkbgbklegdblkohbbbheeeklej)**
   - Open new tab/link on the right of the current tabs
+  - Activate Tab After Tab Closing: Left tab
+  - Open pop-up window as new tab
+    - This can be useful when you want to take a screenshot of the pop-up window
+    - We can also set exceptions for some website (if it doesn't work for them)
 - [Tab Scissors - split tabs into 2 windows](https://chrome.google.com/webstore/detail/tab-scissors/cdochbecpfdpjobpgnacnbepkgcfhoek/related)
 - [Tab Modifier](https://chrome.google.com/webstore/detail/tab-modifier/hcbgadmbdkiilgpifjgcakjehmafcjai)
 - [OneTab - save memory](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall/)
@@ -33,6 +41,12 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 ### Chrome Extensions for Reading<a name="read"></a>
 #### [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
 - Also enable Mac's dark mode at Preferences -> General
+
+#### Ad Blocker
+- [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+  - Able to enable/disable on sit
+- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
+- [BlockAdblock](https://blockadblock.com/)
 
 #### [Reader View](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)<a name="reader_view"></a>
 - This opens the page in chrome-extension:// and we have to wait until (at least) the main content of the page is loaded.
@@ -74,7 +88,7 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 #### [Mercury Reader](https://chrome.google.com/webstore/detail/mercury-reader/oknpjjbmpnndlpmnhmekjpocelpnlfdi/)
 - can't change width
 
-#### Summary
+##### Summary
 - Use [Reader View](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh) when the page(website) is slow: load lots of ads, flash, uses a lot of memory and you will take time(2+ mins) to read it.
 - Use [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod) in other case.
 - Use [Clearly](https://chrome.google.com/webstore/detail/clearly/odfonlkabodgbolnmmkdijkaeggofoop) to check the outline.
@@ -96,7 +110,7 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
   - Also install the mobile apps, so we can save to pocket everywhere.
 - [Evernote Web Clipper](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
 
-#### Chrome Extensions For Developer
+### Chrome Extensions For Developer
 - [Chrome Regex Search](https://chrome.google.com/webstore/detail/chrome-regex-search/bpelaihoicobbkgmhcbikncnpacdbknn)
 - [Sight - Syntax Highlighter](https://chrome.google.com/webstore/search/Sight?_category=extensions)
 - [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj)
@@ -142,8 +156,8 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - [Floating for YouTube™ Extension](https://chrome.google.com/webstore/detail/floating-for-youtube-exte/egncdnniomonjgpjbapalkckojhkfddk)
 
 ### Hacking
-- [Unblock Youku](https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk)
-  - Helps users access their web services while traveling outside mainland China.
+#### [Unblock Youku](https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk)
+- Helps users access their web services while traveling outside mainland China.
 
 #### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * Find user scrips at [openuserjs](https://openuserjs.org/) or [greasyfork](https://greasyfork.org/en/scripts)
@@ -168,7 +182,7 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 <!-- ### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 - [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads) -->
 
-### Change/Assign extension's shortcuts
+##### Change/Assign extension's shortcuts
 - chrome://extensions/shortcuts
 - `Ctrl+Shift+S` to `The Great Suspender > Suspend selected tabs`
 - `Ctrl+Shift+A` to `The Great Suspender > Suspend all other tabs in active window`
@@ -183,5 +197,6 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 ### [How To Reduce Chrome Memory Usage](https://lifelongprogrammer.blogspot.com/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
 
 ---
-#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Chrome)
+
+##### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Chrome)
 <script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

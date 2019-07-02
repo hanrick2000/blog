@@ -42,6 +42,8 @@
 - [Do Not Disturb at Bedtime](https://www.macrumors.com/how-to/enable-ios-12-bedtime-feature/)
 - unclutter your mind
 - When fee tired, not in a good state, take a rest or go to sleep, otherwise may waste time to read news or watch TV.
+- Sleep early
+  - Don't have to finish all tasks right now at midnight, leave something to do tomorrow on purpose: so we are motivated to wake up early snad start to work tomorrow.
 
 #### Music
 - to wake up

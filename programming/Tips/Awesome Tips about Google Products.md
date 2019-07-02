@@ -108,12 +108,20 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 ### Google Maps<a name="google_maps"></a>
 - [Share a map or directions with others by using the `share` function](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DiOS)
 - [Show others where you are directly within iMessage](https://support.google.com/maps/answer/7300880)
-- Add custom search engine to Chrome
-  - Go to chrome://settings/searchEngines and add the following
 
-| Name                   | keyword | URL                                                                                                 |
-|:---------------------- |:------- | --------------------------------------------------------------------------------------------------- |
-| **Google maps Search** | gm      | https://www.google.com/maps?q=%s                                                                    |
+#### Search for Places on Your Route
+It's very common we want to search a place between the source and the destination: for example, search the Spring Store between the home and work office.
+- Add the destination in the Google Maps
+- Click **Directions** and then add the source
+- Click the add button, them move it into the middle of the source and destination
+- Search your places, the first one is usually the most convenient one, in most cases, we can just click enter.
+
+#### Add custom search engine to Chrome
+- Go to [chrome://settings/searchEngines](chrome://settings/searchEngines) and add the following
+
+| Name                   | keyword | URL                              |
+|:---------------------- |:------- | -------------------------------- |
+| **Google maps Search** | gm      | https://www.google.com/maps?q=%s |
 - Type `gm` in Chrome address bar, then `type home to here` etc
 - Query:
   - here, home,

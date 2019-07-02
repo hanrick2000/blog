@@ -1,0 +1,63 @@
+<script type="text/javascript">
+  //<![CDATA[
+
+  window.onload = function () {
+    // use left/right key to go to newer/older post
+    document.onkeyup = function (e) {
+      if (document.activeElement.nodeName == "TEXTAREA" || document.activeElement.nodeName == "INPUT") return;
+      e = e || window.event;
+      switch (e.keyCode) {
+      case 37:
+        var t = document.getElementById("Blog1_blog-pager-newer-link");
+        if (t != null) window.location.href = t.href;
+        break;
+      case 39:
+        var n = document.getElementById("Blog1_blog-pager-older-link");
+        if (n != null) window.location.href = n.href
+      }
+    }
+  }
+
+  if (!document.getElementById("related-posts") && (!document.title.toLowerCase().startsWith("home page") && !document.title.toLowerCase().endsWith("archives"))) {
+    var labels = document.querySelectorAll(".post-labels a");
+    var candidates = new Array();
+    for (var i = 0; i < labels.length; i++) {
+      var innerText = labels[i].innerText;
+      if (innerText == 'From_Github') continue;
+      if (innerText.toLowerCase().endsWith("series")) continue;
+      candidates.push(innerText);
+    }
+    var pos = Math.floor(Math.random() * candidates.length);
+    var finalLabel = candidates[pos];
+
+    var postBody = document.getElementsByClassName("post hentry")[0];
+    var postFooter = document.getElementsByClassName("post-footer")[0];
+    var relatedPostsHeader = document.createElement("h4");
+    relatedPostsHeader.id = "related-posts";
+    relatedPostsHeader.innerHTML = "<br><a href='/search/label/" + finalLabel + "' target='blank'>Related Posts</a>"
+    postFooter.before(relatedPostsHeader)
+
+    var related_posts_content = document.createElement("div");
+    related_posts_content.id = "related_posts_content";
+    postFooter.before(related_posts_content)
+
+    document.write('<script type="text/javascript" src="/feeds/posts/default/-/' + finalLabel + '?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPostsAddToParent&amp;max-results=20"><\/script>');
+
+    document.write('<script type="text/javascript" src="/feeds/posts/default/-/Trending?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPostsAddToParent&amp;max-results=20"><\/script>');
+  }
+
+  publisedPopulars.clear();
+  publisedRelateds.clear();
+  publisedTrednings.clear();
+  window.addEventListener("load", function () {
+    // left side bar
+    removeNotLoadedAds(332930, 332931, 332932);
+    // right top
+    removeNotLoadedAds(333321);
+    // right bottom
+    removeNotLoadedAds(344251, 333324, 615867);
+    // inline ads
+    removeNotLoadedAds(332935);
+  });
+  //]]>
+</script>

@@ -1,0 +1,27 @@
+<script src="/feeds/posts/default/-/Must Read?orderby=updated&alt=json-in-script&callback=weightedRandomPopularPosts&max-results=40">
+<script src="//ap.lijit.com/www/delivery/fpi.js?z=344251&width=336&height=280">
+</script>
+<script src="//ap.lijit.com/www/delivery/fpi.js?z=333324&width=300&height=250"></script>
+<script src="//ap.lijit.com/www/delivery/fpi.js?z=615867&width=300&height=600"></script>
+<script>
+  function removeNotLoadedAds(...adsIds) {
+    adsIds.forEach(adsId => {
+      var sovrn_ad_unit = document.getElementById("sovrn_ad_unit_${adsId}_async");
+      if (sovrn_ad_unit) {
+        var servedTag = sovrn_ad_unit.contentWindow["served${adsId}"];
+        if (typeof servedTag !== "undefined") {
+          sovrn_ad_unit.parentNode.removeChild(sovrn_ad_unit);
+        }
+      }
+    });
+  }
+  window.addEventListener("load", function () {
+    // left side bar
+    removeNotLoadedAds(332930, 332931, 332932);
+    // right top
+    removeNotLoadedAds(333321);
+    // right bottom
+    removeNotLoadedAds(344251, 333324, 615867);
+    // inline ads
+  });
+</script>
