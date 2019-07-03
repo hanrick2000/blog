@@ -3,7 +3,7 @@ description: How to promote posts based on labels and recency to recommend popul
 ---
 
 ##### [Awesome Tips Series about Blogger](https://lifelongprogrammer.blogspot.com/search/label/Blogger_Series){target="blank"}
-<script src="/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -24,11 +24,11 @@ description: How to promote posts based on labels and recency to recommend popul
 ##### Related Posts
 - We can also add `Related Post` to current page to promote posts with same label.
   - We don't have to manually add or update the related posts.
-  - [demo link](/2019/03/how-to-promote-posts-based-on-label-and-recency-in-blogger.html#related){target="blank"}
+  - [demo link](https://lifelongprogrammer.blogspot.com/2019/03/how-to-promote-posts-based-on-label-and-recency-in-blogger.html#related){target="blank"}
   - I use markdown to write post.
 ```markdown
-#### [Related Posts](/search/label/Blogger)
-<script src="/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Blogger)
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
 ```
 
 ##### Series
@@ -161,23 +161,23 @@ function seriesImpl(json, publisedSeries) {
   }
 }
 </script>
-<script src="/feeds/posts/default/-/Must Read?orderby=updated&alt=json-in-script&callback=weightedRandomPopularPosts&max-results=60">
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Must Read?orderby=updated&alt=json-in-script&callback=weightedRandomPopularPosts&max-results=60">
 ```
 
 ---
 
-#### [Demo](/2019/03/how-to-promote-posts-based-on-label-and-recency-in-blogger.html)
+#### [Demo](https://lifelongprogrammer.blogspot.com/2019/03/how-to-promote-posts-based-on-label-and-recency-in-blogger.html)
 - the `Popular Posts` on the right sidebar.
-- [ex2](/2017/10/awesome-tips-about-atom-editor.html#related-posts){target="blank"}
+- [ex2](https://lifelongprogrammer.blogspot.com/2017/10/awesome-tips-about-atom-editor.html#related-posts){target="blank"}
   - Get posts randomly weighted from label Atom Editor first, then Markdown, Dev Tips, max: maxRelatedPostsCount=10
   ```js
   // Get posts randomly weighted from label Atom Editor first, then Markdown, Dev Tips, max: maxRelatedPostsCount=10
-  <script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-  <script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-  <script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+  <script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+  <script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+  <script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
   ```
 ---
 
-#### [Related Posts](/search/label/Blogger)<a name="related"></a>
-<script src="/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Blogger)<a name="related"></a>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

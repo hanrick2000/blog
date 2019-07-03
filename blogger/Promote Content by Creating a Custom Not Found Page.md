@@ -4,7 +4,7 @@ description: How to create a custom "Page Not Found" to promote posts and mainta
 ---
 
 ##### [Awesome Tips Series about Blogger](https://lifelongprogrammer.blogspot.com/search/label/Blogger_Series){target="blank"}
-<script src="/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -66,10 +66,13 @@ redirectMap.set("/2008/07/graph-algorithms.html", "/2018/02/graph-algorithm-how-
 redirectMap.set("/2008/07/bit-algorithm.html", "/2017/12/bit-algorithm-how-to-succeed-in-algorithms-interview-series.html");
 redirectMap.set("/2019/01/best-way-to-style-markdown-with-pandoc.html", "/2019/01/how-to-style-markdown-with-css.html");
 redirectMap.set("/2014/09/java-using-sublist.html", "/2018/08/java-sublist-tips-and-traps.html");
+redirectMap.set("/2019/07/best-google-chrome-extensions.html", "/2019/05/best-google-chrome-extensions.html");
+redirectMap.set("/2017/10/tips-and-tricks-for-atom-editor.html", "/2019/04/awesome-tips-about-atom-editor.html");
+redirectMap.set("/2017/10/awesome-tips-about-atom-editor.html", "/2019/04/awesome-tips-about-atom-editor.html");
+redirectMap.set("/2019/05/home.html", "/p/home.html");
+
 
 -->
-<script>inlineAds=true</script>
-<script src="//ap.lijit.com/www/delivery/fpi.js?z=332935&width=728&height=90"></script>
 
 #### Redirect to Archives Page
 Be default, if there is no custom redirect defined for the missing page, it will redirect to the archives page. As we want
@@ -118,6 +121,6 @@ Also fix css and add the title: paste the above HTML code and add the following 
 ```
 - ex: [/2019/opps](https://lifelongprogrammer.blogspot.com/2019/opps){target="blank"}
 
-##### [Related Posts](/search/label/Blogger)<a name="related"></a>
-<script src="/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+##### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Blogger)<a name="related"></a>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

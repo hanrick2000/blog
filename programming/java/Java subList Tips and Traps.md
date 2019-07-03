@@ -17,7 +17,7 @@ baseurl: https://lifelongprogrammer.blogspot.com/2018/08/java-sublist-tips-and-t
 - subList remembers the modCount at creation time, in methods like **get, size, add, remove**, it compares its modCount with the original list's modCount. If it changes, it would throws ConcurrentModificationException.
 
 ##### How subList is Implemented?
-<details><summary>Click Me for Source Code of Sublist</summary>
+<details><summary>Source Code of Sublist</summary>
 ```java
 public List<E> subList(int fromIndex, int toIndex) {
     subListRangeCheck(fromIndex, toIndex, size);
@@ -185,8 +185,10 @@ There are some other views in java, like `Arrays.asList`{.java}, `Map.keySet()/v
 
 `Arrays.asList`{.java} is backed by one array, so there is no concept like modCount.
 
-### The Complete Code {.unnumbered}
-<details><summary>Click Me for The Complete Code</summary>
+<details><summary>
+
+#### The Complete Code
+</summary>
 ```java
 public class TestSubList {
 	public static void main(String[] args) {

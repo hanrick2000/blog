@@ -1,24 +1,24 @@
 ---
 
-### [Series: Awesome Tips about Markdown](/search/label/Markdown_Series){target="blank"}
-<script src="/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+### [Series: Awesome Tips about Markdown](https://lifelongprogrammer.blogspot.com/search/label/Markdown_Series){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
 ### TL;DR
-- How to write a blog faster in [Atom](/2017/10/awesome-tips-about-atom-editor.html) with [Markdown Syntax](/2018/05/awesome-tips-about-markdown.html)
+- How to write a blog faster in [Atom](https://lifelongprogrammer.blogspot.com/2017/10/awesome-tips-about-atom-editor.html) with [Markdown Syntax](https://lifelongprogrammer.blogspot.com/2018/05/awesome-tips-about-markdown.html)
 - Publish it with [Pandoc](https://pandoc.org) to Github.
 
 ### Why Blogger with Markdown
 - Focus on the content, easy to store/edit/read the content locally
-  - Use plaintext to write rich formatted content with [atom](/2017/10/awesome-tips-about-atom-editor.html){target="blank"}
+  - Use plaintext to write rich formatted content with [atom](https://lifelongprogrammer.blogspot.com/2017/10/awesome-tips-about-atom-editor.html){target="blank"}
 - Flexible: easy to hide(Cmd+/) text, draft, or the text/explanation for you.
   - [HTML minifier](http://minifycode.com/html-minifier/) will remove the commented text for you.
 
 - We can export the markdown files to html, pdf, ppt(Powerpoint or Google Sides), html slides(reveal.js)
 
-### [Writing in Atom with Markdown](/2019/03/must-have-atom-editor-packages.html){target="blank"}
-- Check [here](/2019/03/must-have-atom-editor-packages.html){target="blank"} for [must-have atom editor packages](/2019/03/must-have-atom-editor-packages.html){target="blank"}
+### [Writing in Atom with Markdown](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"}
+- Check [here](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"} for [must-have atom editor packages](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"}
 
 #### Atom Packages for Writing
 - [Spell Check: Cmd+Shift+:](https://atom.io/packages/spell-check)
@@ -80,7 +80,7 @@
 ### Call Commands Faster
 - Select [```Preserve Last Search```](https://github.com/atom/atom/issues/16097){target="blank"} at `Packages -> Command Palette`.
   - As we usually call same functions multiple times.
-- Use shortcut, check the [awesome tips about atom editor](/2017/10/awesome-tips-about-atom-editor.html){target="blank"} to learn commonly used shortcuts in Atom.
+- Use shortcut, check the [awesome tips about atom editor](https://lifelongprogrammer.blogspot.com/2017/10/awesome-tips-about-atom-editor.html){target="blank"} to learn commonly used shortcuts in Atom.
 - Use `Command Palette` or `Cmd+Shift+? - Help > Search` to find command and learn its shortcut.
 - In `Command Palette`, use abbreviation
   - type `etc[Editor: Title Case]` in command palette to format title: from package [title-case](https://atom.io/packages/title-case).
@@ -96,7 +96,7 @@
 - Install [Change Case](https://atom.io/packages/change-case), it adds: `kebab/upperFirst/snake/constant`
 - Install [title-case](https://atom.io/packages/title-case) which solve the issue in `change-case:title`
 - `change-case:title` from [Change Case](https://atom.io/packages/change-case) will remove characters like -, It's -> `It S`, but it can be used to get the title form url.
-  - e.g. to get the lower case title [awesome tips about chrome](/2018/06/awesome-tips-about-chrome.html){target="blank"} from `awesome-tips-about-chrome.html`:
+  - e.g. to get the lower case title [awesome tips about chrome](https://lifelongprogrammer.blogspot.com/2018/06/awesome-tips-about-chrome.html){target="blank"} from `awesome-tips-about-chrome.html`:
   -  `change-case:title` converts it to `Awesome Tips About Chrome Html`, then `lc: Editor:lower case` to lower case.
 - [kebab command](https://en.wikipedia.org/wiki/Letter_case#Special_case_styles) to create url.
 
@@ -120,8 +120,8 @@
     'prefix': 'related'
     'body': """
     ---
-    #### [Related Posts](/search/label/Chrome)
-    <script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+    #### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Chrome)
+    <script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
     """
 ```
 
@@ -130,7 +130,7 @@
 - [go get github.com/tdewolff/minify/cmd/minify](https://github.com/tdewolff/minify/tree/master/cmd/minify)
 - `export "md=the_md_file""`
 - `pandoc -f markdown -t html5 -c style.css -s --highlight-style espresso "${md}" | bash ~/scripts/rmheadbody.sh | minify --type=html | pbcopy`
-  - Use `Cmd+Shift+;` in [iTerm](/2018/06/working-effectively-with-iterm.html){target="blank"} to quickly [find and execute the command](/2018/06/working-effectively-with-iterm.html){target="blank"}.
+  - Use `Cmd+Shift+;` in [iTerm](https://lifelongprogrammer.blogspot.com/2018/06/working-effectively-with-iterm.html){target="blank"} to quickly [find and execute the command](https://lifelongprogrammer.blogspot.com/2018/06/working-effectively-with-iterm.html){target="blank"}.
 
 ##### rmheadbody.sh
 ```bash
@@ -175,7 +175,7 @@ printf '</div></div>'
 #### [How to Building Presentations with Reveal.js, Markdown and Github Pages](https://lifelongprogrammer.blogspot.com/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html)
 
 ---
-#### [Related Posts](/search?q=label:Markdown|label:"Atom Editor")
-<script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Markdown|label:"Atom Editor")
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

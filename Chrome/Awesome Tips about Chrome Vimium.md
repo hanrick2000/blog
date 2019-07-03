@@ -5,7 +5,7 @@
 ---
 
 ### [Awesome Tips about Chrome Series](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
-<script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -83,8 +83,10 @@
 map <left> goPrevious
 map <right> goNext
 map i focusInput
-map .. nextTab
+map <c-,> previousTab
+map <c-.> nextTab
 map ,, previousTab
+map .. nextTab
 map h goBack
 map l goForward
 map o Vomnibar.activateInNewTab
@@ -104,9 +106,20 @@ unmap K
 unmap t
 ```
 
+
 ### Tips
 - `i or gi` to focus to the first text input box, when there are multiple input areas, use `f or F`: the LinkHints feature.
 - [Don't let pages steal the focus on load](https://superuser.com/questions/692960/how-to-disable-auto-input-focus-in-vimium)
+
+- We can use **Command+L** then **Command+C** to copy url in Chrome, but its better to  
+
+#### Use **yy** to copy current url, not **Command+L** then **Command+C**
+We can use **Command+L** then **Command+C** to copy url in Chrome, but it actually copies whatever in the address bar, NOT always the current url.
+
+If we type any character in the address bar, Chrome will fill and change the address bar which we may be not aware, now if we **Command+L** then **Command+C**, it will copy a totally different url.
+
+- We may share a different, wrong url to others: it would cause awkward, or share some secret files to wrong persons.
+- For example, Chrome may change the url to some google doc we frequently access.
 
 #### Customize Previous(Next) patterns
 - We can use **[[ or ]]** to go to next previous(next) page.
@@ -141,4 +154,4 @@ Open the New Tab page
   - Vimium C is controlling this setting -->
 
 #### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Chrome){target="blank"}
-<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

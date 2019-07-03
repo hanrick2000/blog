@@ -1,4 +1,17 @@
+<!-- brew install kubernetes-cli
+brew cask install minikube
+By default, Minikube uses a virtual machine manager. If you do not need VirtualBox, install hyperkit, which provides a minimal virtual machine manager.
 
+brew install hyperkit
+To install Helm with Homebrew, run this command in a terminal window:
+
+brew install kubernetes-helm
+To install Skaffold with Homebrew, run this command in a terminal window:
+
+brew install skaffold
+
+
+-->
 
 ### Troubleshooting
 |                       |                                          |

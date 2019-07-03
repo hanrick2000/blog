@@ -1,5 +1,5 @@
 ### [How to Land Your Dream Job Series](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
-<script src="/feeds/posts/default/-/Interview_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Interview_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 

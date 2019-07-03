@@ -1,8 +1,5 @@
----
-
-### [Series: Awesome Tips about Atom](/search/label/Atom_Series){target="blank"}
-<script src="/feeds/posts/default/-/Atom_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
-
+##### [Series: Awesome Tips about Atom](https://lifelongprogrammer.blogspot.com/search/label/Atom_Series){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Atom_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 ---
 
 <!-- SD:
@@ -10,6 +7,25 @@ The Must Have Atom Packages for Productivity, Developers, Writing, Writing with 
 -->
 
 #### Packages for Everyday's Productivity
+- [Fuzzy Finder](https://atom.io/packages/fuzzy-finder)\
+  - Select **Preserve Last Search** in the package's settings
+- [AutoSave](https://atom.io/packages/autosave)\
+- Select "enabled" in the package's settings
+- [Tree View](https://atom.io/packages/tree-view)\
+  - Cmd+\\ to toggle tree view.
+- [Command Palette](https://atom.io/packages/command-palette)
+  - [Select ```Preserve Last Search```](https://github.com/atom/atom/issues/16097)
+  - Tune settings
+    - Enable **Auto Reveal**: link tree view with editor
+    - Enable [Hide Ignored Names](https://discuss.atom.io/t/a-way-to-hide-the-ds-store-files-in-the-tree-view/1431), Hide VSS Ignored Files
+  - ```cmd-\``` to open/close the tree view, ```ctrl-0``` to focus it
+  - a, shift-a, m, or delete to add, move or delete files and folders
+  - [up/down arrow keys to preview files](https://github.com/atom/tree-view/issues/834)
+    - need reload the window
+  - [toggle focus between the tree view and the editor panes by pressing Ctrl+0](https://discuss.atom.io/t/toggle-tree-view-lose-focus/10055)
+- [Whitespace](https://atom.io/packages/whitespace)
+  - uncheck "Ensure Single Trailing Newline" option
+    * [remove trailing whitespace doesn't work for markdown file](https://github.com/atom/whitespace/issues/68) <!-- - Change the file suffix then change it back -->
 - [project-manager](https://atom.io/packages/project-manager)
 - [open-recent](https://atom.io/packages/open-recent)
 - [fuzzy-finder](https://atom.io/packages/fuzzy-finder)
@@ -17,21 +33,29 @@ The Must Have Atom Packages for Productivity, Developers, Writing, Writing with 
 - [Hyperlink Hyperclick: Cmd+click to open link](https://atom.io/packages/hyperlink-hyperclick)
   - Need also install [Hyperlink](https://atom.io/packages/hyperclick)
 - [Delete Whitelines: Option+Shift+D](https://atom.io/packages/delete-whitelines)
-- [keybinding-cheatsheet](https://atom.io/packages/keybinding-cheatsheet)
-  - Ctrl+Option+/: quickly find keybindings
 - [Maximize active pane](https://atom.io/packages/maximize-panes)
   - **cmd-shift-enter** to mix/max current pane
   - used together with preview package.
+
+<details><summary>Click to Expand for More Packages</summary>
+
+- [zentabs](https://atom.io/packages/zentabs)
+  - Keep your opened tabs below a maximum limit, closing the oldest one first.
+  - Temp tabs:
+    - The temp tab will kind of conflict with zentabs: we don't want to close unsaved tabs, but they are also counted, if we have too many unsaved tabs, then after a while, only unsaved tabs will be left open.
+    - One approach is to use only a few (<2) temp unsaved tabs, put temp content into tmep files like tmp.txt etc.
+    - Reason: (1) project find(Command+Shift+F) will not search for temp tabs; (2) temp tabs would get lost when Atom crashes (like open a big file accidentally).
+- [keybinding-cheatsheet](https://atom.io/packages/keybinding-cheatsheet)
+  - Ctrl+Option+/: quickly find keybindings
 - [Jumpy: shortcut-shift + enter](https://atom.io/packages/jumpy)
 - [pinned-tabs](https://atom.io/packages/pinned-tabs){target="blank"}: pin tabs to save context
 - [bracket-matcher](https://atom.io/packages/bracket-matcher)
   - **ctrl-m** to jump to the bracket matching the one adjacent to the cursor
   - **ctrl-cmd-m** to select all the text inside the current brackets
-- [zentabs](https://atom.io/packages/zentabs)
-  - Keep your opened tabs below a maximum limit, closing the oldest one first.
+</details>
+
 
 #### Packages for Writing
-
 - [Spell Check: Cmd+Shift+:](https://atom.io/packages/spell-check)
 - [Change Case](https://atom.io/packages/change-case)
   - change-case:kebab/upperFirst/snake/constant
@@ -85,10 +109,15 @@ The Must Have Atom Packages for Productivity, Developers, Writing, Writing with 
   - support pandoc syntax
 - [atom-csv-markdown](https://atom.io/packages/atom-csv-markdown)
 
+<!--
+tidy-markdown: not work
+beautifier: not work: script tag
+-->
+
 ---
 
-#### [Awesome Tips about Markdown](/search/label/Markdown_Series){target="blank"}
-<script src="/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+#### [Awesome Tips about Markdown](https://lifelongprogrammer.blogspot.com/search/label/Markdown_Series){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -101,6 +130,10 @@ The Must Have Atom Packages for Productivity, Developers, Writing, Writing with 
 - [Git-Plus](https://atom.io/packages/git-plus)
   - Add All Commit And Push
   - Useful for blog repo etc.
+- [escape-utils: encode/decode URLs, Base64 or escape HTML entites](https://atom.io/packages/escape-utils)
+
+<details><summary>Click to Expand for More Packages</summary>
+
 - [atom-runner: run javascript, python, go, bash etc directly in atom](https://atom.io/packages/atom-runner)
 - [atom-ternjs: JavaScript code intelligence](https://atom.io/packages/atom-ternjs)
 <!-- - [Sync-on-Save](https://atom.io/packages/sync-on-save) -->
@@ -119,10 +152,13 @@ The Must Have Atom Packages for Productivity, Developers, Writing, Writing with 
   'atom-text-editor.vim-mode-plus.insert-mode':
     'cmd ^cmd ^ctrl': 'vim-mode-plus:activate-normal-mode'
   ```
+- [emmet-simplified](https://atom.io/packages/emmet-simplified)
+  - Not [emmet](https://atom.io/packages/emmet) which defines a lot of default keys and conflict with atom.
+</details>
+
 #### Other Packages
 - [**Advanced Open File**](https://atom.io/packages/advanced-open-file)
   - Cmd-Alt-O: used to get the directory path we want move a file to
-- [escape-utils: encode/decode URLs, Base64 or escape HTML entites](https://atom.io/packages/escape-utils)
 - [language-log: Log syntax highlighting and filtering](https://atom.io/packages/language-log)
 - [dictionary: shortcut-Ctrl+Cmd+K](https://atom.io/packages/dictionary)
 <!-- - [ide-bash](https://atom.io/packages/ide-bash) -->
@@ -133,44 +169,9 @@ The Must Have Atom Packages for Productivity, Developers, Writing, Writing with 
 <!-- - [teletype: collaborate on code in real time](https://atom.io/packages/teletype) -->
 <!-- - [ide-bash](https://atom.io/packages/ide-bash) -->
 
-#### Core Packages
-##### Tree View
-##### Command Palette
-- [Select ```Preserve Last Search```](https://github.com/atom/atom/issues/16097)
-- Tune settings
-  - Enable **Auto Reveal**: link tree view with editor
-  - Enable [Hide Ignored Names](https://discuss.atom.io/t/a-way-to-hide-the-ds-store-files-in-the-tree-view/1431), Hide VSS Ignored Files
-- ```cmd-\``` to open/close the tree view, ```ctrl-0``` to focus it
-- a, shift-a, m, or delete to add, move or delete files and folders
-- [up/down arrow keys to preview files](https://github.com/atom/tree-view/issues/834)
-  - need reload the window
-- [toggle focus between the tree view and the editor panes by pressing Ctrl+0](https://discuss.atom.io/t/toggle-tree-view-lose-focus/10055)
+<!-- #### Tips
+- `apm list --installed --enabled`{.bash} -->
 
-##### Fuzzy Finder
-- Select **Preserve Last Search**
-
-##### AutoSave
-  - select "enabled".
-
-##### Whitespace package
-- uncheck "Ensure Single Trailing Newline" option
-  * [remove trailing whitespace doesn't work for markdown file](https://github.com/atom/whitespace/issues/68)
-    - Change the file suffix then change it back
-
-<!--
-#### Tried
-- zentabs
-  - don't want to close unsaved tabs,
-  - but the count contains unsaved tabs
-- tidy-tabs?
-
--->
-
-#### Tips
-- `apm list --installed --enabled`{.bash}
----
-
-#### [Related Posts](/search?q=label:Markdown|label:"Atom Editor")
-<script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+##### [Related Posts](/search?q=label:Markdown|label:"Atom Editor")
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Atom Editor?orderby=updated&alt=json-in-script&callback=weightedRandomRelatedPosts&max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

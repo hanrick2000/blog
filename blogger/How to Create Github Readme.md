@@ -20,5 +20,5 @@ function outputMarkdown(json) {
   }
 }
 </script>
-<script src="/feeds/posts/default/-/From_Github?orderby=updated&alt=json-in-script&callback=outputMarkdown&max-results=60"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/From_Github?orderby=updated&alt=json-in-script&callback=outputMarkdown&max-results=60"></script>
 ```

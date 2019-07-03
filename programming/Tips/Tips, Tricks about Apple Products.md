@@ -31,7 +31,7 @@
 - [Share a map or directions with others by using the `share` function](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DiOS)
 - [Show others where you are directly within iMessage](https://support.google.com/maps/answer/7300880)
 
-#### [Chrome in Mobile/iPhone](/2018/06/awesome-tips-about-chrome.html)
+#### [Chrome in Mobile/iPhone](https://lifelongprogrammer.blogspot.com/2018/06/awesome-tips-about-chrome.html)
 - [Read it later (only) in iPhone/iPad](https://support.google.com/chrome/answer/7343019?co=GENIE.Platform%3DiOS&hl=en&oco=2)
 - Long press the history button(<-, ->) to show history of current tab to quickly go to the specific page
 

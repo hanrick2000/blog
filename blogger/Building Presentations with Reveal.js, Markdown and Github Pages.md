@@ -3,8 +3,8 @@
 - We can export it as html presentation, ppt, Google Slides, pdf and other formats.
 - Write Once, Share Anywhere.
 
-### [Demo](/2019/06/how-to-improve-problem-solving-skills-developer-guide.html)
-- [How to Improve Problem Solving Skills - Developer Guide](/2019/06/how-to-improve-problem-solving-skills-developer-guide.html)
+### [Demo](https://lifelongprogrammer.blogspot.com/2019/06/how-to-improve-problem-solving-skills-developer-guide.html)
+- [How to Improve Problem Solving Skills - Developer Guide](https://lifelongprogrammer.blogspot.com/2019/06/how-to-improve-problem-solving-skills-developer-guide.html)
 - [The Published Html Slides - Github Page](https://jefferyyuan.github.io/how_to_improve_problem_solving_skills)
 - Source code:
   - [The Markdown File](https://github.com/jefferyyuan/blog/blob/master/programming/presentation/How%20to%20Improve%20Problem%20Solving%20Skills%20-%20Developer%20Guide.md)
@@ -93,7 +93,7 @@ echo ${result} | minify --type=html | pbcopy
 | ESC, O         | **Slide overview**     |
 | S              | **Speaker notes view** |
 
-#### [Work together with Chrome Vimum](/2019/06/awesome-tips-about-chrome-vimium.html){target="blank"}
+#### [Work together with Chrome Vimum](https://lifelongprogrammer.blogspot.com/2019/06/awesome-tips-about-chrome-vimium.html){target="blank"}
 - [reveal.js uses F for Fullscreen and some other shortcuts which conflicts with Vimium](https://github.com/hakimel/reveal.js/wiki/Keyboard-Shortcuts)
 - So add the following at `Excluded URLs and keys` at `Vimium Options`.
 
@@ -189,5 +189,5 @@ font-size: 1.4em;
 
 ---
 
-#### [Related Posts](/search?q=markdown)
-<script src="/feeds/posts/default/?q=markdown&orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=markdown)
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/?q=markdown&orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

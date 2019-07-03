@@ -1,0 +1,119 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<div class='cse'>
+<form action='#' id='cse-search-box'>
+  <table>
+    <tr>
+    <td><input id="searchInput" type='text' name='q' size='80' /></td>
+    <td><input type="submit" name="submit" value="Search" /></td>
+    </tr>
+  </table>
+<input name='cx' type='hidden' value='000071145641082027410:gevdvccqhjc'/>
+<input name='ie' type='hidden' value='ISO-8859-1'/>
+</form>
+<script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+</div>
+<script>
+  var urlParams = new URLSearchParams(window.location.search);
+  var q = urlParams.get('q');
+  if(q) {
+    document.getElementById("searchInput").value = q;
+  }
+  function removeGSCAds() {
+    var ads = document.querySelector(".gsc-adBlock");
+    ads.parentNode.removeChild(ads);
+  };
+
+  window.addEventListener?window.addEventListener("load",removeGSCAds,false) :
+  window.attachEvent && window.attachEvent("onload",removeGSCAds);
+
+</script>
+
+<script async src="https://cse.google.com/cse.js?cx=000071145641082027410:gevdvccqhjc"></script>
+<div class="gcse-searchresults-only"></div>
+
+<script type="text/javascript">
+  //<![CDATA[
+  const newPublishedPosts = new Set();
+
+  function showNewPosts(json) {
+    var toIgnoreSet = new Set();
+    showPostsImpl(json, 20, toIgnoreSet, newPublishedPosts)
+  }
+  function showUpdatedPosts(json) {
+    var toIgnoreSet = newPublishedPosts;
+    showPostsImpl(json, 10, toIgnoreSet);
+  }
+  function showPosts(json, totalposts, toIgnoreSet, addedSet) {
+    showPostsImpl(json, 1000);
+  }
+  function showPostsImpl(json, totalposts, toIgnoreSet, addedSet) {
+    for (var count = 0, publishedCount=0; publishedCount < totalposts && count< json.feed.entry.length ; count++) {
+      var entry = json.feed.entry[count];
+      var postTitle = entry.title.$t;
+      var posturl;
+      // if (count == json.feed.entry.length) break;
+      for (var b = 0; b < entry.link.length; b++) {
+        if (entry.link[b].rel == 'alternate') {
+          posturl = entry.link[b].href;
+          break;
+        }
+      }
+      //
+      if(postTitle.toLowerCase() == "home page") continue;
+      if(postTitle.toLowerCase() == "tcp/ip miscs") continue;
+      if(postTitle.toLowerCase().startsWith("draft")) continue;
+      if(toIgnoreSet && toIgnoreSet.has(postTitle)) continue;
+      if(addedSet) addedSet.add(postTitle)
+      publishedCount++;
+      document.write('<li>');
+      document.write(postTitle.link(posturl));
+      document.write('</li>');
+    }
+  }
+  //]]>
+</script>
+
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/2019/06/archives.html">Archives</a></h3>
+<li><a href="https://lifelongprogrammer.blogspot.com/2019/06/archives.html">Archives</a></li>
+<br/>
+
+<h3>
+New Posts</h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/?orderby=published&amp;alt=json-in-script&amp;callback=showNewPosts&amp;max-results=21"></script>
+<h3>
+Updated Posts</h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/?orderby=updated&amp;alt=json-in-script&amp;callback=showUpdatedPosts&amp;max-results=31"></script>
+<h2>
+Soft Skills</h2>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Troubleshooting">Troubleshooting</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Troubleshooting?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Problem%20Solving">Problem Solving</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Problem Solving?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Soft%20Skills">Soft Skills</a><a href="https://www.blogger.com/null"></a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Soft Skills?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h2>
+Development</h2>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Dev%20Tips">Dev Tips</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=20"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Eclipse">Eclipse</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Eclipse?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Testing">Testing</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Testing?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Java">Java</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Java?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h2>
+Design Skills</h2>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/System%20Design">System Design</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/System Design?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>
+<h3>
+<a href="https://lifelongprogrammer.blogspot.com/search/label/Design">Design</a></h3>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Design?orderby=updated&amp;alt=json-in-script&amp;callback=showPosts&amp;max-results=10"></script>

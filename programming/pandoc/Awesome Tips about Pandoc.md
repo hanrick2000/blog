@@ -4,12 +4,12 @@ date: 6/7/2019
 description: How to use Pandoc to convert files, Pandoc's Markdown syntax and more tips.
 ---
 
-### [Series: Awesome Tips about Pandoc](/search/label/Pandoc_Series){target="blank"}
-<script src="/feeds/posts/default/-/Pandoc_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+##### [Series: Awesome Tips about Pandoc](https://lifelongprogrammer.blogspot.com/search/label/Pandoc_Series){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Pandoc_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 #### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Chrome|label:Google){target="blank"}
-<script src="/feeds/posts/default?q=label:Chrome|label:Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default?q=label:Chrome|label:Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
 
 ### [What Pandoc can Do?](https://pandoc.org/)
 - convert files from one format into another: markdown to html/pdf/word/ppt, vice verse and many other types.

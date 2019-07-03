@@ -1,6 +1,10 @@
 
 
 
+details
+open
+var tocDetails = document.querySelector("#TOC details");
+if(tocDetails) tocDetails.removeAttribute("open");
 
 
 - [em vs pixel](https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent)

@@ -1,5 +1,9 @@
+<!-- https://lifelongprogrammer.blogspot.com/2017/10/bash-scripting-essentials.html -->
 #### Debug script
 - bash -x the_command
+
+#### Bash Basic
+- `variable=$(command)`{.bash}
 
 #### Math
 - var=$(( var+1 ))
@@ -11,11 +15,14 @@ ${PARAMETER:-WORD}
 # the default value is only used when the parameter was unset, not when it was empty
 ${PARAMETER-WORD}
 ```
-- Assign a default value
+- [Assign a default value](https://stackoverflow.com/questions/2013547/assigning-default-values-to-shell-variables-with-a-single-command-in-bash/25895084)
 ```bash
-${PARAMETER:=WORD}
-${PARAMETER=WORD}
+# If variable not set or null, use default.
+variable=${PARAMETER:=default}
+# If variable not set or null, set it to default.
+variable=${PARAMETER:-default}
 ```
+
 #### [Manipulating Strings](https://www.tldp.org/LDP/abs/html/string-manipulation.html)
 - String length:
   - ${#string}
@@ -51,6 +58,13 @@ ${string/substring/replacement}
 
 # Replace all matches of $substring with $replacement.
 ${string//substring/replacement}
+```
+
+##### [Extract filename and extension](https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash)
+```bash
+filename=$(basename -- "$fullfile")
+extension="${filename##*.}"
+filename="${filename%.*}"
 ```
 
 #### [if - Comparison](http://tldp.org/LDP/abs/html/comparison-ops.html)
@@ -136,4 +150,4 @@ done
   * Example: ./gradlew integrationTest || copyLogsToWorkspaceOnError(this function should exit with error code)
 
 #### References
-- [Bash Scripting Essentials](/2017/10/bash-scripting-essentials.html)
+- [Bash Scripting Essentials](https://lifelongprogrammer.blogspot.com/2017/10/bash-scripting-essentials.html)

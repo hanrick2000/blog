@@ -124,10 +124,11 @@ blockquote p::after {content: '\201D';} */
 .post-body table {
   border-collapse: collapse;
 }
-.post-body table, th, td {
+.post-body th, td {
   border: 1px solid black;
 }
 ```
+- [center a table](https://stackoverflow.com/questions/24127507/is-it-possible-to-center-tables-in-a-markdown-file) by adding `<center> markdown_table_here </center>`
 
 #### [Themes](https://github.com/jgm/pandoc/wiki/User-contributed-templates#html){target="blank"}
 - We can also add our own css or change the existing one.

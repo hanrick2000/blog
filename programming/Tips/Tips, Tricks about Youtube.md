@@ -1,5 +1,5 @@
 ### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
-<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -42,6 +42,8 @@ frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ### Shortcuts
+- These shortcuts also work when play videos in Google Drive or embedded videos from Youtube or Google Drive.
+- When use together with [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html), we need exclude keys like "<,>,1,2".
 
 |                  |                                                                         |
 |:---------------- |:----------------------------------------------------------------------- |
@@ -192,5 +194,5 @@ One workaround is:
 - <https://support.google.com/youtube/community>
 
 #### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Google)<a name="related"></a>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

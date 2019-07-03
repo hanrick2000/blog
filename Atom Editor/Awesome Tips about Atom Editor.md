@@ -1,37 +1,46 @@
----
-
-### [Awesome Tips about Atom Series](https://lifelongprogrammer.blogspot.com/search/label/Atom_Series){target="blank"}
-<script src="/feeds/posts/default/-/Atom_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
-### Settings
-#### Core Settings
+<details open><summary>
+[Awesome Tips about Atom Series](https://lifelongprogrammer.blogspot.com/search/label/Atom_Series){target="blank"}
+</summary>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Atom_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+</details>
+
+#### Install Atom Editor
+- Install Atom from [here](https://atom.io/packages)
+- [Install Shell Commands](https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x)
+  - Go to Atom -> **Install Shell Commands**, this will install shell commands: atom and apm or atom-beta, apm-beta depended on we choose to install atom or atom-beta.
+- Install Packages at Settings -> Packages
+  - Check here for all [must-have atom editor packages](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html)
+
+#### Atom Editor Settings
+##### Core Settings
 - Show/Hide files/folders ignored by .gitignore
   - (un)check "Hide VCS Ignored Files" in Tree View package
 - Make files/folders ignored by .gitignore searchable or not
   - (un)check "Exclude VCS Ignored Paths" in Settings
 
-#### Atom -> Preference -> Editor -> Enable soft wrap
+##### Atom -> Preference -> Editor -> Enable soft wrap
 
-### Tune Package Configuration
+#### Tune Package Configuration
 - After install a new package, read its settings page to configure it, learn its Keybindings etc.
 - Find the package in "Preference -> Packages"
 
-#### Tree View
-#### Command Palette
+##### Command Palette
 - Select [```Preserve Last Search```](https://github.com/atom/atom/issues/16097){target="blank"} at `Packages -> Command Palette`
   - As we usually call same functions multiple times.
-- Tune settings
-  - Enable **Auto Reveal**: link tree view with editor
-  - Enable [Hide Ignored Names](https://discuss.atom.io/t/a-way-to-hide-the-ds-store-files-in-the-tree-view/1431){target="blank"}, Hide VSS Ignored Files
+
+##### Tree View
+- Enable **Auto Reveal**: link tree view with editor
+- Enable [Hide Ignored Names](https://discuss.atom.io/t/a-way-to-hide-the-ds-store-files-in-the-tree-view/1431){target="blank"}, Hide VSS Ignored Files
 - ```cmd-\``` to open/close the tree view, ```ctrl-0``` to focus it
 - a, shift-a, m, or delete to add, move or delete files and folders
 - [up/down arrow keys to preview files](https://github.com/atom/tree-view/issues/834){target="blank"}
   - need reload the window
 - [toggle focus between the tree view and the editor panes by pressing Ctrl+0](https://discuss.atom.io/t/toggle-tree-view-lose-focus/10055)
 
-#### Fuzzy Finder
+##### Fuzzy Finder
 - Select **Preserve Last Search**
 
 |                |                                                   |
@@ -41,24 +50,22 @@
 | cmd-shift-b    | open the list of Git modified and untracked files |
 
 
-#### AutoSave
+##### AutoSave
   - select "enabled".
 
-#### Whitespace package
+##### Whitespace package
 - uncheck "Ensure Single Trailing Newline" option
   * [remove trailing whitespace doesn't work for markdown file](https://github.com/atom/whitespace/issues/68){target="blank"}
     - Change the file suffix then change it back
 
-<!-- #### Show or edit config at: Atom -> Config
+<!-- ##### Show or edit config at: Atom -> Config
 -: link with editor: autoReveal from tree-view package
 ```yaml
 "tree-view":
   autoReveal: true
 ``` -->
 
----
-
-### How To Explore and Learn Atom Functions<a name='explore'></a>
+#### How To Explore and Learn Atom Functions<a name='explore'></a>
 - [Command Palette](https://atom.io/packages/command-palette){target="blank"}
   - Find all commands from one package by starting with the package name: e.g. Type `Change Case` to know all functions provided
 - Use `Cmd+Shift+?: Search -> Help` to find/explore/call command.
@@ -67,45 +74,42 @@
   - By using `Key Binding Resolver` which shows which package responds to your typing or shortcut.
 
   <!-- LC -> lower case, UP -> change-case:UpperFirst -->
-### Functions
+#### Functions
 - **Multiple cursors**
   - `cmd++Shift+click`: add new cursors
 - [Fold](https://flight-manual.atom.io/using-atom/sections/folding/){target="blank"}
 - [Pending Pane Items](https://flight-manual.atom.io/using-atom/sections/pending-pane-items/){target="blank"}
-- [Open Atom in command line](https://stackoverflow.com/questions/22390709/how-to-open-atom-editor-from-command-line-in-os-x){target="blank"}
-  - Atom >> Install Shell Commands
 
 ---
 
-### [Must-Have Atom Editor Packages](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"}
+#### [Must-Have Atom Editor Packages](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"}
 - [The Must Have Atom Packages for Productivity, Developers, Writing, Writing with Markdown and etc.](https://lifelongprogrammer.blogspot.com/2019/03/must-have-atom-editor-packages.html){target="blank"}
 
 ---
 
-### [Shortcuts](https://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#atom){target="blank"}
+#### [Atom Editor Shortcuts](https://lifelongprogrammer.blogspot.com/2018/05/keyboard-shortcuts-for-developers.html#atom){target="blank"}
 - Search shortcut at Settings -> Keybindings
 - Shortcuts from [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus){target="blank"}
 - New File under current folder when select the folder or a file in project panel:  **A**
 
-|     |     |
-| --- | --- |
-**Command+P**|**Switch to File**
-**Command+Shift+P**|**Command Palette**
-**Command+\\** | **Toggle Tree View**
-**Command+Enter** |**Replace all**
-**Ctrl+Shift+C** | **Copy full path**
-**Cmd+Option++(-)** |  **Increase(decrease) active panel size**
-Cmd+Ctrl+G|Select all matching characters
-Shift+Ctrl+M|Markdown Preview
-Cmd+R|File symbol navigation
-Ctrl + g| Go to Line
-**Ctrl+m** | **Go to Matching Bracket**
-**Cmd+Shift+t** | **Bring up the list of corrections (with spell-check extension)**
-**Ctrl+Shift+left(or right)** | **move tab to left(or right)**
+|                               |                                                                   |
+| ----------------------------- | ----------------------------------------------------------------- |
+| **Command+P**                 | **Switch to File**                                                |
+| **Command+Shift+P**           | **Command Palette**                                               |
+| **Command+\\**                | **Toggle Tree View**                                              |
+| **Command+Enter**             | **Replace all**                                                   |
+| **Ctrl+Shift+C**              | **Copy full path**                                                |
+| **Cmd+Option++(-)**           | **Increase(decrease) active panel size**                          |
+| Cmd+Ctrl+G                    | Select all matching characters                                    |
+| Shift+Ctrl+M                  | Markdown Preview                                                  |
+| Cmd+R                         | File symbol navigation                                            |
+| Ctrl + g                      | Go to Line                                                        |
+| **Ctrl+m**                    | **Go to Matching Bracket**                                        |
+| **Cmd+Shift+t**               | **Bring up the list of corrections (with spell-check extension)** |
+| **Ctrl+Shift+left(or right)** | **move tab to left(or right)**                                    |
 
----
 
-#### Shortcut for Moving/Selection
+##### Shortcut for Moving/Selection
 |                          |                                        |
 |:------------------------ |:-------------------------------------- |
 | Option+left(right)       | Move to beginning/end of word          |
@@ -115,9 +119,8 @@ Ctrl + g| Go to Line
 | Cmd+up(down)             | Move to top(bottom)                    |
 | Shift+Cmd+up(down)       | Select to top(bottom)                  |
 
----
 
-#### Shortcut for Writing
+##### Shortcut for Writing
 
 |              |                       |
 |:------------ |:--------------------- |
@@ -125,9 +128,9 @@ Ctrl + g| Go to Line
 | Cmd+k+l      | Convert to Lower Case |
 | Ctrl+Shift+k | Delete Line           |
 | Ctrl+K       | Cut to End of Line    |
-|              |                       |
 
-##### New Line Above
+
+###### New Line Above
 - Space and new line are important when we write with markdown and use Pandoc to convert it to HTML.
 - So we need insert a new line above to fix the format issue: the default `cmd-shift-enter` confits with `maximize-panels:maxmize`
 - To assign `alt-enter` to `newline-above`, add the following in keymap.cson:
@@ -141,9 +144,10 @@ Ctrl + g| Go to Line
 
 ---
 
-### Keymap
-#### Shortcut doesn't work
+#### Atom Editor Keymap
+##### When Shortcut Doesn't Work
 Example: `Ctrl+e` doesn't work: not go to end of line
+
 - Use `Cmd+.` to open `Key Binding Resolver`
 - Type the shortcut, the `Key Binding Resolver` will show what commands this keybinding resolves to, and which one wins
 - In my case, `Ctrl+e` conflicts with `Emmet: expand abbreviation`
@@ -155,17 +159,17 @@ Example: `Ctrl+e` doesn't work: not go to end of line
   'ctrl-e': 'editor:move-to-end-of-line'
 ```
 
-#### [How to disable key binding](https://stackoverflow.com/questions/33023349/atom-disable-single-key-binding){target="blank"}
+##### [How to disable key binding](https://stackoverflow.com/questions/33023349/atom-disable-single-key-binding){target="blank"}
 - Click the clipboard to copy the shortcut definition in **Keybindings** settings
 - replace the function to **unset!** to remove it or change it to another function
 
-#### Solve the conflict between jumpy:toggle and markdown-preview-enhanced:run-code-chunk
+##### Solve the conflict between jumpy:toggle and markdown-preview-enhanced:run-code-chunk
 ```cson
 '.editor[data-grammar*="gfm"], .editor[data-grammar*="md"], .editor[data-grammar*="markdown"]':
   'shift-enter': 'jumpy:toggle'
 ```
 
-### Moving in Atom without Mouse or Trackpad
+#### Moving in Atom Editor without Mouse or Trackpad
 - `Fn+up/down` for page up/down
 - [After highlight and select multiple same words, `Cmd+d: find-and-replace:select-next` to choose all words what to change, then replace it or use left, right arrow to append words](https://daijiang.name/en/2015/04/10/useful-atom-shortcuts/){target="blank"}
 - `Cmd+U` to `Unselect the next matching characters`
@@ -177,32 +181,25 @@ Example: `Ctrl+e` doesn't work: not go to end of line
 | cmd+F2  | create bookmark     |
 | cmd+R   | toggle file symbols |
 
-### Tabs
+#### Tabs
 - In command palette: Tabs: close other tabs, close tabs to left/right etc
 - `Pane: Move item left/right`(ctrl+shift+left/right) to move tab to the left/right
 
-### [Snippets](https://flight-manual.atom.io/using-atom/sections/snippets/){target="blank"}
+#### [Atom Editor Snippets](https://flight-manual.atom.io/using-atom/sections/snippets/){target="blank"}
 - [using """ for Multi-line Snippet Body](https://flight-manual.atom.io/using-atom/sections/snippets/#multi-line-snippet-body){target="blank"}
 ```cson
 '.source.gfm':
   'TL;DR':
     'prefix': 'tldr'
-    'body': '### TL;DR'
+    'body': '#### TL;DR'
 ```
 
-### Find Replace with regex
-- Add `|` at the beginning (to fix markdown table)
-  - Search for `^(.*)$` and replace with `|$1`
-- find all links that doesn't start with http in markdown: `\]\([^h]`
-- `Only in Selection`
-
-### [Pending Pane Items](https://flight-manual.atom.io/using-atom/sections/pending-pane-items/){target="blank"}
+#### [Pending Pane Items](https://flight-manual.atom.io/using-atom/sections/pending-pane-items/){target="blank"}
 - single-clicking a file will open it in pending state
 - use this to open files that we don't want to keep and avoid open too many files
 - `Cmd+Shift+F: project find` opens files in pending state.
----
 
-### Tips
+#### More Atom Editor Tips
 - Open link in Atom
   - [ctrl-shift-o	from Atom core](https://github.com/atom/atom/tree/master/packages/link){target="blank"}
   - Cmd+click from [Hyperlink Hyperclick](https://atom.io/packages/hyperlink-hyperclick){target="blank"} which requires [Hyperclick](https://atom.io/packages/hyperclick){target="blank"}
@@ -213,18 +210,24 @@ Example: `Ctrl+e` doesn't work: not go to end of line
 - Use Settings -> Updates to update all extensions
 - [Reset to Factory Defaults](https://flight-manual.atom.io/hacking-atom/sections/debugging/#reset-to-factory-defaults): `mv ~/.atom ~/.atom-backup`
 
-#### [File/Directory Pattern Syntax](https://flight-manual.atom.io/using-atom/sections/find-and-replace/){target="blank"}
+##### Find Replace with regex
+- Add `|` at the beginning (to fix markdown table)
+  - Search for `^(.*)$` and replace with `|$1`
+- find all links that doesn't start with http in markdown: `\]\([^h]`
+- `Only in Selection`
+
+##### [File/Directory Pattern Syntax](https://flight-manual.atom.io/using-atom/sections/find-and-replace/){target="blank"}
 - Use [minimatch](https://github.com/isaacs/minimatch){target="blank"} and [glob patterns](https://en.wikipedia.org/wiki/Glob_%28programming%29){target="blank"}
 - "globstar" pattern (\*\*) can be used to match arbitrarily many subdirectories: docs/\*\*/\*.md
 - Exclude file types or paths: !
 - Search only java source (exclude test) code: \*\*/src/main/\*\*/\*.java or \*.java,!\*Test.java(this also works in Eclipse)
 
-### Limitation
-- [Can't print directly](https://github.com/atom/atom/issues/3525){target="blank"}
-  - Open it in Chrome
-  - For markdown, use [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced){target="blank"} to open it in browser then print.
+##### Hot to Print in Atom Editor
+- [We can't print a file directly in Atom Editor](https://github.com/atom/atom/issues/3525){target="blank"}
+- To print the, we can open the in Chrome, then print in Chrome.
+- For markdown, use [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced){target="blank"} to open it in browser then print.
 
-### apm
+##### apm
 ```bash
 apm list --installed --enabled
 apm list --installed --bare
@@ -232,11 +235,9 @@ apm upgrade --no-confirm
 apm uninstall ${packagename}
 ```
 
-### Resources
+##### Resources
 - [Atom Flight Manual](https://flight-manual.atom.io/){target="blank"}
 
----
-#### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Markdown|label:"Atom Editor"){target="blank"}
-<script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+##### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Markdown|label:"Atom Editor"){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

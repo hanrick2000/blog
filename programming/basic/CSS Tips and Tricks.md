@@ -1,3 +1,5 @@
+#### [A nice color palette for the web](https://clrs.cc)
+
 #### [CSS Selectors](https://www.w3schools.com/cssref/css_selectors.asp)
 
 |                 |                                          |                                                                               |
@@ -6,6 +8,8 @@
 | .class1 .class2 | `<div class="name1"><div class="name2">` | Selects all elements with name2 that is a descendant of an element with name1 |
 | element,element | div, p                                   | `Selects all <div> elements and all <p> elements`                             |
 | element element | div p                                    | `Selects all <p> elements inside <div> elements`                              |
+| #id1,#id2,#ID3  |                                          | apply style to Multiple IDs                                                   |
+
 
 
 #### Background Images

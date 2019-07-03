@@ -1,5 +1,5 @@
 ### [Series: How to Succeed in Algorithms Interview](https://lifelongprogrammer.blogspot.com/search/label/Algorithm Series){target="blank"}
-<script src="/feeds/posts/default/-/Algorithm Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Algorithm Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 

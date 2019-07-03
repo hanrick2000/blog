@@ -8,7 +8,7 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
   - also in iOs, pretty amazing -->
 
 ### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
-<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -108,12 +108,26 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 ### Google Maps<a name="google_maps"></a>
 - [Share a map or directions with others by using the `share` function](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DiOS)
 - [Show others where you are directly within iMessage](https://support.google.com/maps/answer/7300880)
-- Add custom search engine to Chrome
-  - Go to chrome://settings/searchEngines and add the following
 
-| Name                   | keyword | URL                                                                                                 |
-|:---------------------- |:------- | --------------------------------------------------------------------------------------------------- |
-| **Google maps Search** | gm      | https://www.google.com/maps?q=%s                                                                    |
+- print directions
+  - click details then print including image or print text only
+- [Measure distance between two locations](https://support.google.com/maps/answer/1628031?co=GENIE.Platform%3DDesktop)
+  - Right-click on your starting point then "Choose Measure distance".
+  - Use cases: how far is your place from the forest fire or earthquake.
+
+#### Search for Places on Your Route
+It's very common we want to search a place between the source and the destination: for example, search the Spring Store between the home and work office.
+- Add the destination in the Google Maps
+- Click **Directions** and then add the source
+- Click the add button, them move it into the middle of the source and destination
+- Search your places, the first one is usually the most convenient one, in most cases, we can just click enter.
+
+#### Add custom search engine to Chrome
+- Go to [chrome://settings/searchEngines](chrome://settings/searchEngines) and add the following
+
+| Name                   | keyword | URL                              |
+|:---------------------- |:------- | -------------------------------- |
+| **Google maps Search** | gm      | https://www.google.com/maps?q=%s |
 - Type `gm` in Chrome address bar, then `type home to here` etc
 - Query:
   - here, home,
@@ -127,7 +141,7 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 - [Tips, Tricks about Youtube](https://lifelongprogrammer.blogspot.com/2019/06/tips-tricks-about-youtube.html){target="blank"}
 - [Awesome Tips, Tricks about Gmail](https://lifelongprogrammer.blogspot.com/2019/06/awesome-tips-tricks-about-gmail.html){target="blank"}
 - [Awesome Tips About Google Blogger](https://lifelongprogrammer.blogspot.com/2019/06/awesome-tips-about-google-blogger.html){target="blank"}
-
+- [Google Drive Tips and Tricks](https://lifelongprogrammer.blogspot.com/2019/07/google-drive-tips-and-tricks.html)
 ---
 
 ### Keep
@@ -173,5 +187,5 @@ Tips about how to effectively use Google products: like Chrome, Gmail, GBoard, Y
 ---
 
 #### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Google)<a name="related"></a>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

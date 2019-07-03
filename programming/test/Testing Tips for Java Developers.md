@@ -62,8 +62,8 @@ doReturn(null).doReturn(anotherInstance).when(mock).method();
 ##### Invalid use of argument matchers!
 - When using matchers, all arguments have to be provided by matchers.
 ```java
-//incorrect: 
-someMethod(anyObject(), "raw String"); 
+//incorrect:
+someMethod(anyObject(), "raw String");
 // Should be
 someMethod(anyObject(), eq("raw String"));
 ```
@@ -119,14 +119,18 @@ public @Rule ExternalResource rule = new ExternalResource() {};
 - [run a JUnit test multiple times until failure](https://stackoverflow.com/questions/1835523/is-there-a-way-to-make-eclipse-run-a-junit-test-multiple-times-until-failure)
   - [RunUntilFailure](https://www.codeaffine.com/2013/04/10/running-junit-tests-repeatedly-without-loops/)
   - @Rule public SimpleRepeatRule repeatRule = new SimpleRepeatRule();
----
+
+#### Use Assert.assertThrows
+```java
+Assert.assertThrows()
+```
 
 ### [TestNG]
-  - [Testing with TestNG](/2016/05/testing-with-testng.html)
+  - [Testing with TestNG](https://lifelongprogrammer.blogspot.com/2016/05/testing-with-testng.html)
 
 #### [Spring + JUnit](https://www.mkyong.com/unittest/junit-spring-integration-example/)
 - [docs](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#integration-testing)
-- [JUnit 4.11 does not work with Spring Test framework](/2016/09/initializationerror-when-use-spring.html)
+- [JUnit 4.11 does not work with Spring Test framework](https://lifelongprogrammer.blogspot.com/2016/09/initializationerror-when-use-spring.html)
 
 #### Using REST Assured to test http APIs
 ```java
@@ -145,7 +149,7 @@ assertThat(Boolean.valueOf(importResult.get("success").toString()), is(true));
 ---
 
 ### Eclipse
-- [Eclipse Tips](/2016/02/eclipse-tips-trick-2016.html)
+- [Eclipse Tips](https://lifelongprogrammer.blogspot.com/2016/02/eclipse-tips-trick-2016.html)
 
 #### Plugins
 - [MoreUnit](https://marketplace.eclipse.org/content/moreunit)
@@ -172,7 +176,7 @@ io.restassured.RestAssured
 ```
 
 #### Run Tests across Multiple Projects
-- [Eclipse Tips + Tricks - 2016](/2016/02/eclipse-tips-trick-2016.html)
+- [Eclipse Tips + Tricks - 2016](https://lifelongprogrammer.blogspot.com/2016/02/eclipse-tips-trick-2016.html)
 - <https://github.com/takari/takari-cpsuite>
 
 Create a maven project depending on all the projects you want to test.\

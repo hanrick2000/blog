@@ -3,7 +3,7 @@ description: Best Chrome Reader Extensions to Optimize Reading Experience: Dark 
 ---
 
 ##### [Awesome Tips about Chrome Series](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
-<script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 ---
 
 ### Why Use Chrome Reader Extension for Reading?
@@ -11,10 +11,15 @@ description: Best Chrome Reader Extensions to Optimize Reading Experience: Dark 
 - Make the content much easier to read
 - Reduce memory and other resources (network, CPU)
   - [Reader View](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh) opens the webpage in extension mode, so javascript and ads in original webpage will not be loaded and running.
+
+#### Copy Text
 - Copy text from copy-protected webpages
   - Some websites disabled copy completely, or in some websites, the copied text only includes raw text (no formatting, no images) and add extra texts. There are many ways to fix it, one simple way is to just open it in reader view mode using extensions mentioned here.
-- Copy text when it's not easy to copy
   - For example: [techiedelight](https://www.techiedelight.com)
+- Copy text when it's not easy to copy
+  - For example, we need copy text of the links repeatedly and don't want to click the url by accidental, or want to copy part of text of the url
+- When the original copied text is not good
+  <!-- - For example, -->
 <!--  - For example, to copy text from title  -->
 
 ### Chrome Extensions for Reading
@@ -39,9 +44,6 @@ Read here for more [must-have google chrome extensions](https://lifelongprogramm
   - Copy the url `Ctrl+l then Ctrl+c` or `yy` from [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
   - `Cmd+down` to scroll to the end of page first to make sure the page load completes.
 - **[It adds the page url to the first line from there we can copy the page url](https://github.com/rNeomy/reader-view/issues/41)**
-
-<script>inlineAds=true</script>
-<script src="//ap.lijit.com/www/delivery/fpi.js?z=332935&width=728&height=90"></script>
 
 #### [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)
 - Able to change theme(dark or light), width, font size and save the config.

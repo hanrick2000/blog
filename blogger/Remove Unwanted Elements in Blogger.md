@@ -4,7 +4,7 @@ description: Remove Unwanted Elements in Blogger Such as Attribution, Header, Na
 ---
 
 ##### [Awesome Tips Series about Blogger](https://lifelongprogrammer.blogspot.com/search/label/Blogger_Series){target="blank"}
-<script src="/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -19,11 +19,10 @@ To improve the performance (page load speed) of the blogger, we can remove all e
 #### Remove Navbar
 We can turn the Navbar off in **Layout**. Blogger will not load Navbar related code at all.
 
+Then how we can access blog admin page to create a new post etc? Just create a bookmark for the admin page: "https://www.blogger.com/blogger.g?blogID=${BLOG_ID}#allposts". :smile:
+
 <!-- #### Remove "Subscribe to: Posts (Atom)"
 - Find `<b:include data='feedLinks' name='feedLinksBody'/>` in the template and remove the block -->
-
-<script>inlineAds=true</script>
-<script src="//ap.lijit.com/www/delivery/fpi.js?z=332935&width=728&height=90"></script>
 
 #### Bonus
 ##### Minify CSS and HTML

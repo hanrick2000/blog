@@ -7,7 +7,7 @@
 - Dedup
   - [history | grep kubectl | awk '{$1="";print}' | sort -u](https://stackoverflow.com/questions/7110119/bash-history-without-line-numbers)
 
-#### [iTerm2](/2018/06/working-effectively-with-iterm.html)
+#### [iTerm2](https://lifelongprogrammer.blogspot.com/2018/06/working-effectively-with-iterm.html)
 - **Show/Search Command History: Cmd+Shift+;**
 
 #### grep

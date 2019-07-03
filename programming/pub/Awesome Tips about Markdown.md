@@ -1,7 +1,7 @@
 ---
 
 ### [Series: Awesome Tips about Markdown](https://lifelongprogrammer.blogspot.com/search/label/Markdown_Series){target="blank"}
-<script src="/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -197,6 +197,8 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 Here is an inline note.^[Inlines notes...]
 [^1]: This is the first footnote.
 [^bignote]: Here's one with multiple paragraphs and code.
+^[Inlines notes are easier to write, since you don't have to pick an
+identifier and move down to type the note.](the_url)
 ```
 
 #### [Open link in a new window](https://stackoverflow.com/a/50499778/753352)
@@ -207,7 +209,7 @@ Here is an inline note.^[Inlines notes...]
 ```
 
 #### Emoji
-- Check [emoji-cheat-sheet](http://emoji-cheat-sheet.com/) for a full list of available emoji.
+- Check [emoji-cheat-sheet](http://emoji-cheat-sheet.com/) to search or check a full list of available emojis.
 - [`-f markdown+emoji` when use Pandoc](https://pandoc.org/MANUAL.html#extension-emoji)
 ```markdown
 :cat:  :smile: :bear:
@@ -351,6 +353,6 @@ Type `echo 'Hello World'`
 
 ---
 #### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Markdown|label:"Atom Editor")
-<script src="/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Atom Editor?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

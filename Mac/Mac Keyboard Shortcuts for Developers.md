@@ -1,24 +1,38 @@
-### TL;DR
-- Most commonly used shortcut keys for developers in Mac, Chrome, Chrome Vimium, iTerm, Atom Editor, Eclipse, Slack and etc.
+<!-- - Most commonly used shortcut keys for developers in Mac, Chrome, Chrome Vimium, iTerm, Atom Editor, Eclipse, Slack and etc.
 - Use Mac without a mouse
- <!-- and fewer fingers -->
-- My fingers burn when using mac trackpad or touch bar, so try to use the keyboard as much as I can.
-- Some shortcuts are supported by multiple applications, or we can customize them to use the same shortcuts.
+- My fingers hurts when using trackpad , so try to use the keyboard as much as I can. -->
 
----
+##### Why Use Keyboard Shortcuts?
+We can use these frequently used keyboard shortcuts to expedite common operations.
 
-### [Awesome Tips About Mac](/2019/02/awesome-tips-about-mac.html){target="blank"}
+- In most cases, we use Mac without a Mouse, and it's hard to move the pointer to the menu.
+- Also [my fingers hurt/burn after use Trackpad of the MacBook Pro](https://lifelongprogrammer.blogspot.com/2019/06/how-to-use-less-trackpad-more-key-board.html), so try to use the keyboard as much as possible.
+  - Maybe it's because the Mac gets too hot, or due to the heat issue of [the butterfly keyboard](https://www.reddit.com/r/macbookpro/comments/bb2bqi/2018_macbook_pro_keyboard_issues_related_to_heat/)
+  - Generally, I don't like the Trackpad, not good for the fingers, especially when it gets hot. So try to use less trackpad, check [here for more tips about how to use less trackpad](https://lifelongprogrammer.blogspot.com/2019/06/how-to-use-less-trackpad-more-key-board.html)
 
-#### Common Shortcuts
-<!-- may work in multiple applications. -->
-- ? to check keyboard shortcuts.
-  - Work in YouTube, GMail, Github
+<!-- - Some shortcuts are supported by multiple applications, or we can customize them to use the same shortcuts. -->
 
-#### Turn on Full Keyboard Access
-- Keyboard > Shortcuts > All Controls
-- Control + F7 to switch the modes
+##### [Series: Awesome Tips about Mac](https://lifelongprogrammer.blogspot.com/search/label/Mac_Series){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Mac_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
-<!-- #### [Mouse Keys](https://support.apple.com/kb/ph25642?locale=en_US)
+#### Configuration of Mac
+##### [Turn on Full Keyboard Access](https://support.apple.com/en-us/HT204434#fullkeyboard)
+We can turn it on: go to Preferences -> Keyboard > Shortcuts > select **All Controls**.
+
+|                                                        |                 |
+|:------------------------------------------------------ |:--------------- |
+| Move to the next control                               | Tab             |
+| Move to the previous control                           | Shift-Tab       |
+| Choose the selected menu item                          | Space bar       |
+| Click the default button or perform the default action | Return or Enter |
+
+##### Use F1, F2, etc. keys as standard function keys
+By default, Fn keys are mapped to change brightens, volumes etc. But we only use these function occasionally, so let's change it:
+- Go to Preferences -> Keyboard -> Select "Use F1, F2, etc. keys as standard function keys".
+- Change this behavior for specific applications like Chrome
+  - o to Preferences -> Keyboard -> Shortcuts -> click on the Function Keys entry at the bottom to add any apps.
+
+<!-- ##### [Mouse Keys](https://support.apple.com/kb/ph25642?locale=en_US)
 - Command+Option+F5 > Open Accessibility Option
 - Enable Press Option key five times to toggle Mouse Keys
 - Move pointer: 7, 8, 9, 4, 6, 1, 2, 3
@@ -26,58 +40,65 @@
 - Press and hold the mouse button: M
 - Release the mouse button: . -->
 
-#### Right Click
-- When Mouse key is on, Fn-Ctrl-I
-  <!-- - Maybe useful in very limit -->
-- Control + Click
+<!-- ##### Right Click
+- Control + Click -->
 
-#### Switch input source
-- Keyboard > Shortcuts > Input Sources
+<!-- - When Mouse key is on, Fn-Ctrl-I -->
+  <!-- - Maybe useful in very limit -->
+
+##### Shortcut to Switch Input Source
+- Go to Preferences -> Keyboard > **Shortcuts** > Input Sources
 - Select the previous input source: ctrl+space
 
-#### Shortcuts<a name="mac-shortcuts"></a>
+#### KeyBoard Shortcuts at Mac{#mac-shortcuts}
+- Right Click: Control + Click
 - Customize at Preferences > Keyboard > Shortcuts > Keyboard
 
-|                                 |                                                                     |
-|:--------------------------------|:--------------------------------------------------------------------|
-|      / or Command+Shift+G       |                            Go to Folder                             |
-|             **F11**             |                          **Show Desktop**                           |
-|         Command+Shift+3         |                      Capture the entire screen                      |
-|         Command+Shift+4         |                       Capture a selected area                       |
-|          Control + a/e          |          Got to head/end - work in Terminal, Chrome, Atom           |
-|           Command+\`            |         cycle between open windows in selected application          |
-|        Command+Option+D         |                          show or hide dock                          |
-|    Command + Option + Escape    |                       Force Quit Applications                       |
-|           **Ctrl+F2**           |   **Access menu, enable it at Keyboard -> Shortcuts -> Keyboard**   |
-|         **Cmd+Shift+?**         |                   **Open Help menu and navigate**                   |
-|              ^+F3               |                         Move focus to dock                          |
-|            **^+F8**             |      **Move focus to status menu, search all actions in menu**      |
-|            Command+q            |                            Quit the app                             |
-|         Command+shift+w         |                          Close the window                           |
-|           Command + ,           |                          Open Preferences                           |
-|            Command+~            | Switch windows for same application(Command-Shift-~, reverse order) |
-|           Command + X           |                      Cut the highlighted text                       |
-|     **Shift+Alt+Command+V**     |    paste the highlighted text and matches the destination style     |
-|       **Cmd+Shift++(-)**        |                          Zoom in(out) text                          |
-|         Command + B/I/U         |                  make text bold/italic/underlined                   |
-|           Shift+Arrow           |                             Select text                             |
-| **(Shift+)Option+Left(Right)**  |                      **(Select)Jump by word**                       |
-|         **Cmd+Shift+Z**         |                              **Redo**                               |
-|        **Fn + up(down)**        |                          **Page up(down)**                          |
-|      **Fn + Left(right)**       |                              Home(end)                              |
-|          **Cmd+1..8**           |                            **Move tab**                             |
-|            **Cmd+9**            |                        **Move to last tab**                         |
-|          **Cmd++(-)**           |                  **Increase(Decrease) Font Size**                   |
-|         **Cmd+Shift+F**         |                     **Enter full screen mode**                      |
-|        **Cmd+Space bar**        |                         **Open Spotlight**                          |
-| Move to first character of line |                         Ctrl+A or Cmd+Left                          |
-|       Move to end of line       |                               Ctrl+E                                |
+<!--
+important: Shift–Command–Question mark (?): Open the Help menu.
 
-##### v(visual), c(caret mode), /(find mode)
-##### vi mode movement
+ -->
+
+|                                 |                                                                     |
+|:-------------------------------:|:------------------------------------------------------------------- |
+|      / or Command+Shift+G       | Go to Folder                                                        |
+|           **Fn+F11**            | **Show Desktop**                                                    |
+|         Command+Shift+3         | Capture the entire screen                                           |
+|         Command+Shift+4         | Capture a selected area                                             |
+|          Control + a/e          | Got to head/end - work in Terminal, Chrome, Atom                    |
+|           Command+\`            | cycle between open windows in selected application                  |
+|        Command+Option+D         | show or hide dock                                                   |
+|    Command + Option + Escape    | Force Quit Applications                                             |
+|           **Ctrl+F2**           | **Access menu, enable it at Keyboard -> Shortcuts -> Keyboard**     |
+|         **Cmd+Shift+?**         | **Open Help menu and navigate**                                     |
+|              ^+F3               | Move focus to dock                                                  |
+|            **^+F8**             | **Move focus to status menu, search all actions in menu**           |
+|            Command+q            | Quit the app                                                        |
+|         Command+shift+w         | Close the window                                                    |
+|           Command + ,           | Open Preferences                                                    |
+|            Command+~            | Switch windows for same application(Command-Shift-~, reverse order) |
+|           Command + X           | Cut the highlighted text                                            |
+|     **Shift+Alt+Command+V**     | paste the highlighted text and matches the destination style        |
+|       **Cmd+Shift++(-)**        | Zoom in(out) text                                                   |
+|         Command + B/I/U         | make text bold/italic/underlined                                    |
+|           Shift+Arrow           | Select text                                                         |
+| **(Shift+)Option+Left(Right)**  | **(Select)Jump by word**                                            |
+|         **Cmd+Shift+Z**         | **Redo**                                                            |
+|        **Fn + up(down)**        | **Page up(down)**                                                   |
+|      **Fn + Left(right)**       | Home(end)                                                           |
+|          **Cmd+1..8**           | **Move tab**                                                        |
+|            **Cmd+9**            | **Move to last tab**                                                |
+|          **Cmd++(-)**           | **Increase(Decrease) Font Size**                                    |
+|         **Cmd+Shift+F**         | **Enter full screen mode**                                          |
+|        **Cmd+Space bar**        | **Open Spotlight**                                                  |
+| Move to first character of line | Ctrl+A or Cmd+Left                                                  |
+|       Move to end of line       | Ctrl+E                                                              |
+
+###### v(visual), c(caret mode), /(find mode)
+###### vi mode movement
 - h(move left), l(right), j(down), k(up), w(move to right one word), b(move to left one word)
 
-### Safari<a name="safari"></a>
+#### Safari Keyboard Shortcuts
 
 |                        |                             |
 |:-----------------------|:----------------------------|
@@ -86,7 +107,7 @@
 |   Duplicating a Tab    | Command + L and then Return |
 
 
-### Finder
+#### Finder Keyboard Shortcuts
 
 |                |                                             |
 |:---------------|:--------------------------------------------|
@@ -105,7 +126,7 @@
     - Use tab to switch between the dialog box
     - Use space(instead of enter) to trigger
 
-### Mac Mail<a name="mac-mail"></a>
+#### Mac Mail Keyboard Shortcuts
 
 |                     |                                |
 |:--------------------|:-------------------------------|
@@ -116,7 +137,7 @@
 |      Command+1      |          Go to inbox           |
 | Command+1 or +2 etc | Go to other items in favorites |
 
-### Chrome<a name="chrome"></a>
+#### Chrome Keyboard Shortcuts
 
 |                           |                                                         |
 |:--------------------------|:--------------------------------------------------------|
@@ -133,12 +154,12 @@
 - Use `Cmd+shift+:` to fix spelling and grammer.
 <br/>
 
-#### Change/Assign extension's shortcuts
+##### Change/Assign extension's shortcuts
 - chrome://extensions/shortcuts
 
-#### Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and then install the ["Auto Close YouTube Ads" script](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
+##### Install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) and then install the ["Auto Close YouTube Ads" script](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
 
-### Chrome Vimium<a name="vimium"></a>
+#### Chrome Vimium Keyboard Shortcuts
 - [Install from Chrome Webstore](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 - [How to use Vimium](https://github.com/philc/vimium/wiki)
 - [All commands and shortcuts](https://github.com/philc/vimium/blob/master/background_scripts/commands.coffee)
@@ -166,7 +187,7 @@
 |    **gu(or U)**     |               **Go up the URL hierarchy or Go to root of current URL hierarchy**                |
 |          ?          |                                              help                                               |
 
-#### Customize keys
+##### Customize keys
 - [source 1](https://avilpage.com/2014/04/useful-custom-key-maps-for-vimium-to.html)
 ```text
 map i focusInput
@@ -191,7 +212,7 @@ unmap t
 ```
 <br/>
 
-### iTerm<a name="iterm"></a>
+#### iTerm Keyboard Shortcuts
 
 |                  |                               |
 |:-----------------|:------------------------------|
@@ -206,8 +227,8 @@ unmap t
 | **Cmd+Option+/** | **Recent Directories popup**  |
 
 
-### Atom<a name="atom"></a>
-- [More Atom Tips](/2017/10/tips-and-tricks-for-atom-editor.html)
+#### Atom Keyboard Shortcuts
+- [More Atom Tips](https://lifelongprogrammer.blogspot.com/2017/10/tips-and-tricks-for-atom-editor.html)
 - Search shortcut at Settings -> Keybindings
 
 |                               |                                                                   |
@@ -232,8 +253,8 @@ unmap t
 
 - Shortcuts from [vim-mode-plus](https://github.com/t9md/atom-vim-mode-plus)
 
-### Eclipse
-- [More Eclipse Tips](/2016/02/eclipse-tips-trick-2016.html)
+#### Eclipse Keyboard Shortcuts
+- [More Eclipse Tips](https://lifelongprogrammer.blogspot.com/2016/02/eclipse-tips-trick-2016.html)
 
 |                                                                                 |                                                           |
 |:--------------------------------------------------------------------------------|:----------------------------------------------------------|
@@ -256,7 +277,7 @@ unmap t
 |   Ctrl+J (From [More Unit](https://marketplace.eclipse.org/content/moreunit))   |                    jump to test method                    |
 
 
-### [Slack](https://www.shortcutfoo.com/app/dojos/slack-mac/cheatsheet)<a name="slack"></a>
+#### [Slack Keyboard Shortcuts](https://www.shortcutfoo.com/app/dojos/slack-mac/cheatsheet)<a name="slack"></a>
 
 |                       |                                                      |
 |:----------------------|:-----------------------------------------------------|
@@ -277,7 +298,7 @@ unmap t
 |          ⌘U           |                    Upload a file                     |
 | Option+Shift+Up(Down) |         Previous(Next) unread channel or DM          |
 
-### Quip
+#### Quip Keyboard Shortcuts
 
 |                      |                            |
 |:---------------------|:---------------------------|
@@ -289,7 +310,7 @@ unmap t
 |      Command+/       |     Keyboard shortcuts     |
 
 
-### [Youtube](https://support.google.com/youtube/answer/7631406)
+#### [Youtube Keyboard Shortcuts](https://support.google.com/youtube/answer/7631406)
 
 |                  |                                                                         |
 |:-----------------|:------------------------------------------------------------------------|
@@ -303,7 +324,7 @@ unmap t
 | Left/Right arrow |                    Seek backward/forward 5 seconds.                     |
 |      **m**       |                             **mute on/off**                             |
 
-### VLC Player
+#### VLC Player Keyboard Shortcuts
 - Preferences > HotKeys
 
 |                              |                                     |
@@ -316,9 +337,17 @@ unmap t
 |        Cmd + Up(down)        |           Volume up(down)           |
 |         Cmd+Option+P         |              Playlist               |
 
-### Bonus
+##### More Tips
 - Use Search to quick find info instead of using the trackpad to scroll
+- ? to check keyboard shortcuts: works at YouTube, Gmail, Github etc.
+- Special Keyboard Symbols
+  -  ⌘(command) ⌥(option) ⌃(control ) ⇧(shift ) ⇪(caps lock ) ← → ↑ ↓ ⇥(tab ( )⇤(backtab )
 
-#### [Related Posts](/search/label/Mac){target="blank"}
-<script src="/feeds/posts/default/-/Mac?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<!-- ##### Common Shortcuts
+- ? to check keyboard shortcuts.
+  - Work in YouTube, GMail, Github -->
+
+
+##### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Mac){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Mac?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

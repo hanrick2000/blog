@@ -1,5 +1,15 @@
-<script type="text/javascript">
+<script>
   //<![CDATA[
+  if (!window.location.pathname.endsWith(".html")) {
+    var links = document.querySelectorAll("#TOC a")
+    links.forEach(function (link) {
+      var post = link.closest(".post.hentry.uncustomized-post-template")
+      var base = post.querySelector("h3>a").href;
+      var parts = link.href.split('#');
+      var anchor = parts[parts.length-1];
+      link.href= base+'#'+anchor
+    });
+  }
 
   window.onload = function () {
     // use left/right key to go to newer/older post
@@ -18,7 +28,8 @@
     }
   }
 
-  if (!document.getElementById("related-posts") && (!document.title.toLowerCase().startsWith("home page") && !document.title.toLowerCase().endsWith("archives"))) {
+  var noNeedRelated = document.getElementById("related-posts") || document.title.toLowerCase().startsWith("home page") || document.title.toLowerCase().endsWith("archives") || document.location.pathname == "/p/search-results.html" ;
+  if (!noNeedRelated) {
     var labels = document.querySelectorAll(".post-labels a");
     var candidates = new Array();
     for (var i = 0; i < labels.length; i++) {
@@ -53,11 +64,27 @@
     // left side bar
     removeNotLoadedAds(332930, 332931, 332932);
     // right top
-    removeNotLoadedAds(333321);
+    removeNotLoadedAds(333324, 333326);
     // right bottom
-    removeNotLoadedAds(344251, 333324, 615867);
-    // inline ads
-    removeNotLoadedAds(332935);
+    removeNotLoadedAds(333321,615867);
+    // inline page head, tail and ads
+    removeNotLoadedAds(332933, 332942, 332935);
   });
+
+  if(document.location.href.endsWith(".html")) {
+    var tocDetails = document.querySelector("#TOC details");
+    if(tocDetails) tocDetails.removeAttribute("open");
+  }
+
+  var titleEl = document.querySelector(".post-title");
+  if(titleEl && !titleEl.innerHTML.startsWith("<a")) {
+    titleEl.innerHTML = "<a href='"+window.location.href+"'>"+titleEl.innerHTML+"</a>";
+  }
   //]]>
 </script>
+<!--
+<script type="text/javascript">
+served333326=false
+</script>
+ -->
+ <!-- <script src="//ap.lijit.com/www/delivery/fpi.js?z=333326&width=300&height=250"></script> -->

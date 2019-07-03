@@ -32,16 +32,9 @@
 #### Be concise
 - to-the-point,
 
-### Writing
-#### Spell Check
-- Check text in both [Atom](http://massivetechinterview.blogspot.com/2016/01/atom-github-editor.html)
-  - Atom can detect some errors **Grammarly** can't like wrong cases: ABle
-- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
-    - [Also a standalone Mac App](https://app.grammarly.com/)
-    - Use this together with Chrome's native spell checker
-    - Check on demand: Change "Site access" to "On Click"
+#### Don't make assumption, at least verify it
 
-### [Ask](https://medium.com/swlh/my-productivity-life-mega-list-29-strategies-243f1b017600)
+#### [Ask](https://medium.com/swlh/my-productivity-life-mega-list-29-strategies-243f1b017600)
 <!-- Ask. Ask to create your own options, to uncover solutions, and to learn
 An extension of the last point but a whole point on its own. Just ask. Ask for a little extra, ask for an alternative, ask for an exception, ask the dumb question. If you don’t ask, you won’t know and won’t receive -->
 
@@ -54,3 +47,13 @@ An extension of the last point but a whole point on its own. Just ask. Ask for a
 ### Topics: What to talk
 - Something you don't understand, you want to learn and know
 - Something you can share: your idea, experience
+
+
+### Writing
+#### Spell Check
+- Check text in both [Atom](http://massivetechinterview.blogspot.com/2016/01/atom-github-editor.html)
+  - Atom can detect some errors **Grammarly** can't like wrong cases: ABle
+- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
+  - [Also a standalone Mac App](https://app.grammarly.com/)
+  - Use this together with Chrome's native spell checker
+  - Check on demand: Change "Site access" to "On Click"

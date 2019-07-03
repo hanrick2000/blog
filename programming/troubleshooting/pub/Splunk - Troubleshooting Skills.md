@@ -51,5 +51,5 @@ eval cluster=app+"-"+partition | top 100 cluster, ttl
 - Use util class (or) to help implement this
 
 ---
-#### [Related Posts](/search/label/Troubleshooting)
-<script src="/feeds/posts/default/-/Troubleshooting?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Troubleshooting)
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Troubleshooting?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

@@ -29,7 +29,7 @@
     - Alternatives: 0-1 Trie
 
 
-- [Union Find](/2008/07/using-union-find-algorithm.html)
+- [Union Find](https://lifelongprogrammer.blogspot.com/2008/07/using-union-find-algorithm.html)
     - Used to connect/join/group things
     - Maintain knowledge of the connected components of a graph
     - Use Array: when we know the size

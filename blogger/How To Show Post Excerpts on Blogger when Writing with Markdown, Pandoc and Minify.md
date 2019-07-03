@@ -1,10 +1,7 @@
 <!-- ![](https://raw.githubusercontent.com/jefferyyuan/blog/master/images/How%20To%20Show%20Post%20Excerpts%20on%20Blogger%20when%20Writing%20with%20Markdown%2C%20Pandoc%20and%20Minify.png){.hide} -->
 
 ##### [Awesome Tips Series about Blogger](https://lifelongprogrammer.blogspot.com/search/label/Blogger_Series){target="blank"}
-<details><summary>CLICK ME to EXPAND</summary>
-<script src="/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
-</details>
----
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 #### The Problem
 I want to show partial posts in homepage, label page, search page or index pages.
@@ -12,7 +9,6 @@ I want to show partial posts in homepage, label page, search page or index pages
 I write posts with [Markdown](https://lifelongprogrammer.blogspot.com/2018/05/awesome-tips-about-markdown.html){target="blank"} using [Atom Editor], then use [Pandoc](https://lifelongprogrammer.blogspot.com/2019/01/awesome-tips-about-pandoc.html){target="blank"} to convert it to HTML, then use [minify] to remove commented draft content and minified the html and CSS to reduce the html size.
 
 #### [How to Add a Read More Link in Blogger](https://support.google.com/blogger/answer/154172?hl=en&visit_id=636976000454748450-3484624752&rd=1)
-
 We can do this by add **insert jump break** button in Blogger:\
 ![](https://lh3.googleusercontent.com/C4s6ErlSQwAhFQni2n9mimN8zHv7GKQulU-RL6ACSkUQMZ4T_z9rXgpzg-eQCIbO7v-EMnEoVwY63Clj-ZYwDlrNWAtyCSGf7BO7PKuzkL9hPafRJ1etQo4JYnrUlngAOkX52CSrcQ=w2400)
 
@@ -99,19 +95,20 @@ $table-of-contents$
 </nav>
 <!--[if !XYZ]><!--more-->
 <!--<![endif]-->
-$endif$
+<!-- $endif$
 ```
 - If **baseurl** variable exists, create a base tag with **href="$baseurl$"**
 - We add the baseurl tag in the yaml meta block in the Markdown file.
 ---
 baseurl: the_url -->
----
+
 
 #### Bonus: [Blogger Conditional Tags for different page types](https://ultimatebloggerguide.blogspot.com/2016/07/blogger-conditional-tags-for-page-types.html)
 ```html
 <b:if cond='data:blog.pageType == "item"'>
 </b:if>
 ```
+
 ##### Minifier
 - [Online Html Minifier](https://www.willpeavy.com/tools/minifier/)
   - Minify HTML and any CSS or JS included in your markup

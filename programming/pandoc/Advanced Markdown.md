@@ -9,6 +9,9 @@ hidden by default
 hidden by default
 </details>
 
+we can use markdown syntax in summary and detail selections,
+- but to avoid error: there should be one empty line before `<details>` tag and one empty line after `</summary>`.
+
 ### Badges
 - Resources: [Naereen/badges](https://github.com/Naereen/badges), [forthebadge.com](https://forthebadge.com/images/badges/not-an-issue.svg)
 - GitHub forks/stars/watchers/followers
@@ -21,4 +24,4 @@ hidden by default
 
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-#### MindMap 
+#### MindMap

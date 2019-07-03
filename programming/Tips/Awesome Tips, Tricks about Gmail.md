@@ -1,18 +1,7 @@
 ##### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
-<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
-
-<style>
-blockquote {
-  font: 14px/22px normal helvetica, sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  padding-left: 15px;
-  border-left: 3px solid #ccc;
-}
-</style>
 
 #### **Dark Mode**
 - After enable dark mode in MacOS Mojave, It would be a little bit difficult to figure out which emails are new: not read yet.
@@ -47,9 +36,13 @@ blockquote {
 
 ---
 
-#### Categories and Filters
+#### Categories
 - We can move emails to categories like **Promotions** or **Social** categories and teach Gmail to **Do this for future messages from this sender**.
-- We cam create filters: has these specific words like **coupon** or **credit card +activate 0% +APR** then mark it as Important or categorize as Primary.
+
+#### Filters
+- We cam create filters, we can start it, mark it as important, set category(Primary or Promotions), apply the label, and on't forget check the option: also apply this rule to the existing conversations.
+  - When the email contains these specific words like **coupon** or **credit card +activate 0% +APR** then mark it as Important or categorize as Primary.
+  - when the email comes from your company (hr, onboard) etc, apply the label, etc.
 - Maintain these filters: when the filter doesn't apply any more, delete it.
  - For example, the store(like Google Express) once offered some coupon code we are interested, but they changed the practice or we you are not interested any more,, we can/should change it accordingly or just delete it.
 
@@ -110,4 +103,4 @@ Select all conversations that match this search`
 
 
 #### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Google)<a name="related"></a>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

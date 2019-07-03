@@ -12,6 +12,16 @@ var myMap = new Map();
 var array = new Array();
 ```
 
+### [Vargs and spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+> Spread syntax allows an iterable such as an array expression or string to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected, or an object expression to be expanded in places where zero or more key-value pairs (for object literals) are expected.
+
+```JavaScript
+function func(...args) {
+  args.forEach(arg => console.log(arg))
+}
+```
+
+
 ### Check undefined
 - [How to set defaults values](https://www.codereadability.com/javascript-default-parameters-with-or-operator/)
 ```javascript
@@ -90,6 +100,12 @@ head.appendChild(script);
 
 ### [Create/Read/Delete Cookie](https://www.tutorialrepublic.com/javascript-tutorial/javascript-cookies.php)
 
+### [Don't Use window.onload](https://stackoverflow.com/questions/2810825/javascript-event-window-onload-not-triggered)
+```javascript
+window.addEventListener?window.addEventListener("load",yourFunction,false) :
+window.attachEvent && window.attachEvent("onload",yourFunction);
+```
+
 ### Timer
 ```javascript
 setTimeout(function(){window.location.pathname='/p/archives.html' }, 5000);
@@ -101,6 +117,9 @@ setTimeout(function(){window.location.pathname='/p/archives.html' }, 5000);
 window.location.search
 var urlParams = new URLSearchParams(window.location.search);
 ```
+
+### Online Tools
+- [convert HTML code into document.write()](http://www.andrewdavidson.com/convert-html-to-javascript/)
 
 <!-- == is a loose or abstract equality comparison
 === is a strict equality comparison -->

@@ -10,10 +10,12 @@ description: How to create a custom "Page Not Found" to promote posts and mainta
   - For example `file.listFiles()`{.java} can return null if it's not a folder or doesn't exist
 - If not sure whether the method may return null or nor, be defensive: check null.
 
-##### Detect NPE (and other Bugs) in IDE or Maven/Gradle
-- \@NonNull and \@CheckForNull with SpotBugs
+##### Detect NPE and other bugs in IDE or Maven/Gradle
+<!-- - \@NonNull and \@CheckForNull with SpotBugs -->
+- \@NonNull and \@Nullable with Checker Framework
 
-#### Use Null-Safe Methods and Libraries
+
+#### Use null safe methods and libraries
 - Call methods on known literal rather unknown object
   - `"constant".equals(object);`{.java} instead of `object.equals("constant");`{.java}
 - Use `java.util.Objects#equals`{.java}
@@ -26,11 +28,13 @@ StringUtils.IsEmpty/IsBlank()
 CollectionUtils.is(Not)Empty(col);
 ```
 
-#### Avoid returning null, instead return empty collection/array
+#### Return empty collection/array, instead returning null
+- Effective Java Item 54: Return empty collections or arrays, not nulls
+- As client would usually forget the null check.
 - `return Collections.EMPTY_LIST`{.java}
 
-<script>inlineAds=true</script>
-<script src="//ap.lijit.com/www/delivery/fpi.js?z=332935&width=728&height=90"></script>
+#### Throw exceptions instead return a null or an empty string
+<!-- exceptions are a much better way to handle errors than returning a null or an empty string -->
 
 #### Unboxing and NullPointerException
 When mix wrapper class and primitive type, Java will auto unbox the wrapper class to primitive type(**boolean**, int, long, etc), if the wrapper class is Null, then it would throw NullPointerException.
@@ -75,29 +79,30 @@ In the above code, when map doesn't contain the key, or its value is null, it wo
 
 
 #### Use Optional Class
-- Define instance variables, parameters of function as Optional
-- Return Optional
+<!-- - Define instance variables, parameters of function as Optional -->
+- Return Optional<Bar> instead of a nullable Bar
+- We can still use nullable references for instance variables or parameters of function.
 
 ##### [Check null for a chain of method calls](https://winterbe.com/posts/2015/03/15/avoid-null-checks-in-java/)
-- Use Optional
-  ```java
-  Optional.of(new Outer())
-      .map(Outer::getNested)
-      .map(Nested::getInner)
-      .map(Inner::getFoo);
-  ```
-- Use a supplier function
-  ```java
-  public static <T> Optional<T> resolve(Supplier<T> resolver) {
-    try {
-        T result = resolver.get();
-        return Optional.ofNullable(result);
-    }
-    catch (NullPointerException e) {
-        return Optional.empty();
-    }
+Use Optional
+```java
+Optional.of(new Outer())
+    .map(Outer::getNested)
+    .map(Nested::getInner)
+    .map(Inner::getFoo);
+```
+Use a supplier function
+```java
+public static <T> Optional<T> resolve(Supplier<T> resolver) {
+  try {
+      T result = resolver.get();
+      return Optional.ofNullable(result);
   }
-  ```
+  catch (NullPointerException e) {
+      return Optional.empty();
+  }
+}
+```
 #### [Check Null explicitly, don't catch NullPointerException](https://alibaba.github.io/Alibaba-Java-Coding-Guidelines/#2-exception-and-logs)
 > Do not catch Runtime exceptions defined in JDK, such as NullPointerException and IndexOutOfBoundsException. Instead, pre-check is recommended whenever possible.
 >
@@ -105,4 +110,4 @@ In the above code, when map doesn't contain the key, or its value is null, it wo
 
 ##### Other NullPointerException Cases
 - Using synchronized on a null object
-- Throwing an exception which is Null
+- Throwing an exception which is null

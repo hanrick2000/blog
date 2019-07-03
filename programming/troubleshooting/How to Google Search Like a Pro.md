@@ -4,8 +4,8 @@ description: Google Search Tips, How to Create Custom Search Engines in Chrome, 
 
 ---
 
-### [Awesome Tips Series about Google Products](/search/label/Google_Series){target="blank"}
-<script src="/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+### [Awesome Tips Series about Google Products](https://lifelongprogrammer.blogspot.com/search/label/Google_Series){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -13,7 +13,7 @@ description: Google Search Tips, How to Create Custom Search Engines in Chrome, 
 <!-- ### Google Search Settings
 - `Where results open`
   - Unselect `Open each selected result in a new browser window`
-  - Previously , I choose yes, but now, I choose no, and use [chrome vimium extension](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"} to decide I want to open in new tab or current tab. -->
+  - Previously , I choose yes, but now, I choose no, and use [chrome vimium extension](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"} to decide I want to open in new tab or current tab. -->
 
 ### Search to find info first
 - Try search first instead of scroll or skew it first.
@@ -132,5 +132,5 @@ description: Google Search Tips, How to Create Custom Search Engines in Chrome, 
   - [This always work](https://travishorn.com/link-directly-to-googles-i-m-feeling-lucky-feature-65ebe7b552bd)
 
 #### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Blogger|label:Google){target="blank"}
-<script src="/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Blogger?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Google?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

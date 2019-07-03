@@ -1,6 +1,6 @@
 #### Throw Exception
 ##### Include descriptive contextual messages in the exception
-##### Throw specific checked exceptions, don't not RuntimeException, Exception, or Throwable
+##### Throw specific checked exceptions, don't throw RuntimeException, Exception, or Throwable
 - The checked exception is part of the contract of the method, so client knows what exceptions it can catch and handle.
 - If one method throws both base exception and one of its sub-class exception, we should declare both (the base and the specific sub-class) exception not just the base exception.
 
@@ -16,6 +16,9 @@ catch (SomeException e) {
    throw new MyServiceException("Some information: " , e);
 }
 ```
+
+##### Throw Exception Misc
+- Can't happen? Throw AssertionError.
 
 
 #### [Throw early catch late](https://softwareengineering.stackexchange.com/questions/231057/exceptions-why-throw-early-why-catch-late)

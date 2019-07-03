@@ -15,8 +15,8 @@ Awesome Tips about GitHub Shortcuts, Search Syntax, Wide Github Chrome Extension
   | l       | Jump to a line in your code                                                      |
 
 
-##### `Excluded URLs and keys` in [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
-- Some shortcuts from Github conflicts with [Chrome Vimium](/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
+##### `Excluded URLs and keys` in [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
+- Some shortcuts from Github conflicts with [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
 - So add the following at `Excluded URLs and keys` at `Vimium Options`.
 
   | Patterns                         | Keys          |
@@ -72,8 +72,8 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 <!-- - We can use `t` to find files quickly, just one caveat: the first one maybe not one you are looking for, even you use the exact file name.  when the file path is too long, we can't really see  -->
 
 #### [Github Pages](https://pages.github.com/)
-- We can use GitHub Pages to host web sites, [presentation](/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html){target="blank"}
-- [How to Build Presentations with reveal.js, Markdown and Github Pages](/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html){target="blank"}
+- We can use GitHub Pages to host web sites, [presentation](https://lifelongprogrammer.blogspot.com/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html){target="blank"}
+- [How to Build Presentations with reveal.js, Markdown and Github Pages](https://lifelongprogrammer.blogspot.com/2019/03/building-presentations-with-reveal-js-markdown-and-github-pages.html){target="blank"}
 - [Github pages are not updating](https://help.github.com/en/articles/troubleshooting-github-pages-builds)
   - Check `GitHub Pages` section at settings of your Github project. There would be some error that explains why and fix it.
   - Github also sends emails with title `Page build failure`.
@@ -82,7 +82,7 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 - https://api.github.com/repos/apache/lucene-solr/git/refs/heads/branch_7x -->
 
 #### Markdown
-- Use Markdown in PR, comments, check here about some [awesome tips about markdown](/2018/05/awesome-tips-about-markdown.html){target="blank"}
+- Use Markdown in PR, comments, check here about some [awesome tips about markdown](https://lifelongprogrammer.blogspot.com/2018/05/awesome-tips-about-markdown.html){target="blank"}
 - **Quote reply** to get the markdown source of PRs and comments
 - To type long markdown: PR template, use [Atom](https://atom.io/) with [markdown-writer](https://atom.io/packages/markdown-writer) [Markdown Enhanced Preview](https://atom.io/packages/markdown-preview-enhanced).
   - check more
@@ -90,8 +90,8 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 
 ---
 
-### [Awesome Tips about Markdown](/search/label/Markdown_Series){target="blank"}
-<script src="/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+### [Awesome Tips about Markdown](https://lifelongprogrammer.blogspot.com/search/label/Markdown_Series){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Markdown_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
 ---
 
@@ -99,16 +99,20 @@ javascript:Array.from(documentP.getElementsByClassName('outdated-comment'))
 - [Use Gist to host code](https://gist.github.com)
 - [Pin repos](https://help.github.com/en/articles/pinning-items-to-your-profile)
 - [Emoji in github](https://www.webfx.com/tools/emoji-cheat-sheet/)
-- :+1:, :thumbsup:, :bug:
+  - :+1:, :thumbsup:, :bug:
 - Saved replies
-
+- Check whether project is still alive?
+  - Check history of commit, release and contributors at Code tab.
+  - Check **Insights** tab: how many contributors, code frequency, commits history etc.
+  - Check issues tab: check the closed issues, how they are closed: some may be closed without any reply or auto closed.
+  - For example [emmet-atom](https://github.com/emmetio/emmet-atom/graphs/contributors) looks like not maintained any more.
 <!--
 https://github.com/zhaoolee/ChineseBQB
 
  -->
 
 ---
-#### [Related Posts](/search?q=label:Github|label:Markdown){target="blank"}
-<script src="/feeds/posts/default?q=label:Github|label:Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search?q=label:Github|label:Markdown){target="blank"}
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default?q=label:Github|label:Markdown?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Dev Tips?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
 

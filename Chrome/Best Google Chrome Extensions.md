@@ -1,24 +1,17 @@
 ---
 toc-depth: 4
+description: The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and Tab Management, and How to Reduce the Memory Usage.
 ---
 
 ---
 
 ##### [Awesome Tips Series about Chrome](https://lifelongprogrammer.blogspot.com/search/label/Chrome_Series){target="blank"}
-<script src="/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Chrome_Series?orderby=updated&amp;alt=json-in-script&amp;callback=series&amp;max-results=20"></script>
 
----
-
-<!-- SD:
-The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and Tab Management, and How to Reduce the Memory Usage.
--->
-
-### Must-Have Chrome Extensions
+#### Must-Have Chrome Extensions
 - Use [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/) together with [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html), the Suspender reduces the memory usage, use [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html) to find and go to specific tab quickly.
-<!-- - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/)
-- [Chrome Vimium](https://chrome.google.com/webstore/search/Vimium?_category=extensions) -->
 
-### Chrome Extensions for Tabs
+#### Chrome Extensions for Tabs
 - [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg/){#suspender target="blank"}
   - Force suspend all other tabs in this window
   - Restore session
@@ -27,10 +20,8 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
     - `Ctrl+Shift+S` to `Suspend/Unsuspend active tabs`
     - `Ctrl+Shift+A` to `Suspend all other tabs in active window`
     - `Ctrl+Shift+K` to `Suspend all tabs in all windows`
-
 - **[Tab Position Customizer 2](https://chrome.google.com/webstore/detail/tab-position-customizer-2/jglbflnkbgbklegdblkohbbbheeeklej)**
-  - Open new tab/link on the right of the current tabs
-  - Activate Tab After Tab Closing: Left tab
+  - Open new tab/link on the right of the current tabs <!-- - Activate Tab After Tab Closing: Left tab -->
   - Open pop-up window as new tab
     - This can be useful when you want to take a screenshot of the pop-up window
     - We can also set exceptions for some website (if it doesn't work for them)
@@ -38,17 +29,16 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - [Tab Modifier](https://chrome.google.com/webstore/detail/tab-modifier/hcbgadmbdkiilgpifjgcakjehmafcjai)
 - [OneTab - save memory](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall/)
 
-### Chrome Extensions for Reading<a name="read"></a>
-#### [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+#### Chrome Extensions for Reading<a name="read"></a>
+##### Ad Blocker
+- [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+  - Able to enable/disable ads on specific sites
+- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
+
+##### [Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)
 - Also enable Mac's dark mode at Preferences -> General
 
-#### Ad Blocker
-- [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
-  - Able to enable/disable on sit
-- [AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)
-- [BlockAdblock](https://blockadblock.com/)
-
-#### [Reader View](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)<a name="reader_view"></a>
+##### [Reader View](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)
 - This opens the page in chrome-extension:// and we have to wait until (at least) the main content of the page is loaded.
 - The greatest thing is it **reduces the memory usage a LOT** for pages that load a lot of flashes, ads.
   - e.g. reduces this [page](https://www.macworld.co.uk/how-to/mac/should-i-log-out-my-mac-or-just-shut-down-3623615/){target="blank"} from around 450+ mb to 87mb.
@@ -59,14 +49,13 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - The Cron is it doesn't work with other extensions, e.g., [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html)
   - as It opens the page in chrome-extension.
 
-##### Tips
+##### Tips about [Reader View](https://chrome.google.com/webstore/detail/reader-view/ecabifbgmdmgdllomnfinbmaellmclnh)
 - Before `Ctrl+Shift+R` to enter reader view:
   - Copy the url `Ctrl+l then Ctrl+c` or `yy` from [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
   - `Cmd+down` to scroll to the end of page first to make sure the page load completes.
 - **[It adds the page url to the first line from there we can copy the page url](https://github.com/rNeomy/reader-view/issues/41)**
 
-
-#### [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)
+##### [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod)
 - Able to change theme(dark or light), width, font size and save the config.
 - [Assign `Ctrl+Shift+L` to `Open the Just Read format for the current page`](https://github.com/ZachSaucier/Just-Read/blob/master/manifest.json)
 - Assign `Ctrl+Shift+K` to `Enable user text selection mode using Just Read`, then choose which part you want to select then enter (it will automatically try best to choose), it will show the section in read mode.
@@ -77,7 +66,7 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
   - The upgrade remainder is a little annoying (frequently). -->
   <!-- - Doesn't work in some websites. -->
 
-#### [Clearly](https://chrome.google.com/webstore/detail/clearly/odfonlkabodgbolnmmkdijkaeggofoop)
+##### [Clearly](https://chrome.google.com/webstore/detail/clearly/odfonlkabodgbolnmmkdijkaeggofoop)
 - Assign shortcut `Ctrl+Shift+C` to `Toggle Clearly`
 - Make `not easy to copy text` easier to copy
 - Support outline, different themes, fullscreen, text-to-voice
@@ -85,7 +74,7 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - [Distill Page from Chrome](https://lifehacker.com/how-to-install-google-chrome-s-experimental-reader-mode-1834171339)
 - the result is not that good, and hard to run the command.
 
-#### [Mercury Reader](https://chrome.google.com/webstore/detail/mercury-reader/oknpjjbmpnndlpmnhmekjpocelpnlfdi/)
+##### [Mercury Reader](https://chrome.google.com/webstore/detail/mercury-reader/oknpjjbmpnndlpmnhmekjpocelpnlfdi/)
 - can't change width
 
 ##### Summary
@@ -93,7 +82,7 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - Use [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod) in other case.
 - Use [Clearly](https://chrome.google.com/webstore/detail/clearly/odfonlkabodgbolnmmkdijkaeggofoop) to check the outline.
 
-### Chrome Extensions for Writing
+#### Chrome Extensions for Writing
 - [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)
     - Add `contenteditable="true"` to div(`div class="post-outer" in blogger`) to make Grammarly work anywhere.
     - [Also a standalone Mac App](https://app.grammarly.com/)
@@ -103,26 +92,27 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - [Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa)
   - Write Email with Markdown.
 
-### Chrome Extensions for Sharing
+#### Chrome Extensions for Sharing
 - [Buffer](https://chrome.google.com/webstore/detail/buffer/noojglkidnpfjbincgijbaiedldjfbhh/)
   - Assign shortcut `Ctrl+Shift+B` to `Buffer -> Activate the extension` at chrome://extensions/shortcuts
 - [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
   - Also install the mobile apps, so we can save to pocket everywhere.
 - [Evernote Web Clipper](https://chrome.google.com/webstore/detail/evernote-web-clipper/pioclpoplcdbaefihamjohnefbikjilc)
 
-### Chrome Extensions For Developer
+#### Chrome Extensions For Developer
 - [Chrome Regex Search](https://chrome.google.com/webstore/detail/chrome-regex-search/bpelaihoicobbkgmhcbikncnpacdbknn)
 - [Sight - Syntax Highlighter](https://chrome.google.com/webstore/search/Sight?_category=extensions)
 - [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj)
     - Example: Set "Content-Type" in response to application/json
 
-### Chrome Extensions for Productivity
+#### Chrome Extensions for Productivity
 - [**Chrome Vimium**](https://chrome.google.com/webstore/search/Vimium?_category=extensions)
   - [Awesome Tips About Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
-- [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-  * [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
-  * [Wide Github]([Wide Github](https://openuserjs.org/scripts/xthexder/Wide_Github)
-  * Find user scrips at [openuserjs](https://openuserjs.org/) or [greasyfork](https://greasyfork.org/en/scripts)
+- [Wide Github from Tampermonkey](https://openuserjs.org/scripts/xthexder/Wide_Github)
+- [I don't care about cookies](https://chrome.google.com/webstore/detail/i-dont-care-about-cookies/fihnjjcciajhdojfnbdddfaoknhalnja)
+
+<details><summary>Click for More Extensions</summary>
+
 - [Search Plus](https://chrome.google.com/webstore/detail/search-plus/cdpohbejnbclggljmoijjcpdhbaaijfm)
   - Search tabs contains specific words
   - Move these tabs into one window
@@ -135,11 +125,15 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 - [Awesome Screenshot: Screen Video Recorder](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj)
 - [Picture-in-Picture Extension](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg)
+</details><p>
 
 <!-- - [Close download bar: Option+W](https://chrome.google.com/webstore/detail/close-download-bar/bkfclmjddajodogcbpohgfpdkgdecgmg) -->
 <!-- - [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod) -->
 <!-- - **[Weava Highlighter - PDF & Web](https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/cbnaodkpfinfiipjblikofhlhlcickei/related)** -->
 
+#### Chrome Extensions for Youtube
+- [Auto Close YouTube Ads from Tampermonkey](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
+- [Video Adblocker for Youtube™ Extension](https://chrome.google.com/webstore/detail/video-adblocker-for-youtu/hflefjhkfeiaignkclmphmokmmbhbhik)
 - [Video Speed Controller](https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk)
   - Change speed up to 16x
   - S - decrease playback speed.
@@ -147,22 +141,18 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
   - R - reset playback speed.
   - V - show/hide controller.
 
-
-### Chrome Extensions for Youtube
-- [Video Adblocker for Youtube™ Extension](https://chrome.google.com/webstore/detail/video-adblocker-for-youtu/hflefjhkfeiaignkclmphmokmmbhbhik)
-
-#### Always on top Floating Mini Player for YouTube™.
+##### Always on top Floating Mini Player for YouTube™.
 - [Floating for YouTube™ Extension](https://chrome.google.com/webstore/detail/floating-for-youtube/jjphmlaoffndcnecccgemfdaaoighkel)
 - [Floating for YouTube™ Extension](https://chrome.google.com/webstore/detail/floating-for-youtube-exte/egncdnniomonjgpjbapalkckojhkfddk)
 
-### Hacking
-#### [Unblock Youku](https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk)
+#### Chrome Extensions for Hacking
+##### [Unblock Youku](https://chrome.google.com/webstore/detail/unblock-youku/pdnfnkhpgegpcingjbfihlkjeighnddk)
 - Helps users access their web services while traveling outside mainland China.
 
-#### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+##### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 * Find user scrips at [openuserjs](https://openuserjs.org/) or [greasyfork](https://greasyfork.org/en/scripts)
 * [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads)
-* [Wide Github]([Wide Github](https://openuserjs.org/scripts/xthexder/Wide_Github)
+* [Wide Github](https://openuserjs.org/scripts/xthexder/Wide_Github)
 * [Endless Google](https://openuserjs.org/scripts/tumpio/Endless_Google)
 * [bye-flash-hello-html5](https://greasyfork.org/en/scripts/30879-bye-flash-hello-html5-%E5%86%8D%E8%A7%81flash-%E4%BD%A0%E5%A5%BDhtml5)
   - Use HTML5 Player instead of flash player
@@ -172,15 +162,10 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 
 -->
 
----
-
-### [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html)
+#### [Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html)
 - [Awesome Tips About Chrome Vimium](https://lifelongprogrammer.blogspot.com/2019/04/awesome-tips-about-chrome-vimium.html){target="blank"}
 
 ---
-
-<!-- ### [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-- [Auto Close YouTube Ads](https://greasyfork.org/en/scripts/9165-auto-close-youtube-ads) -->
 
 ##### Change/Assign extension's shortcuts
 - chrome://extensions/shortcuts
@@ -192,11 +177,7 @@ The Must Have Chrome Extensions for Reading, Writing, Youtube, Productivity and 
 - Assign `Cmd+Shift+C` to `Open the Just Read format for the current page`
 - Assign `Ctrl+Shift+B` to `Buffer -> Activate the extension`
 
----
-
-### [How To Reduce Chrome Memory Usage](https://lifelongprogrammer.blogspot.com/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
-
----
+#### [How To Reduce Chrome Memory Usage](https://lifelongprogrammer.blogspot.com/2019/03/how-to-speed-up-google-chrome.html){target="blank"}
 
 ##### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Chrome)
-<script src="/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Chrome?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>

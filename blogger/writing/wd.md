@@ -81,3 +81,8 @@ Gotchas and troubleshooting
 
 but the second time, I actually got off my ass and investigated.
 How We Automated Our Ebook Builds With Pandoc and KindleGen
+For more information, see
+If That's Not Good Enough
+
+You may follow up on it here
+50 common keyboard shortcuts all Mac users should know

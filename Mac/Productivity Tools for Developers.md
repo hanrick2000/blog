@@ -1,4 +1,4 @@
-#### [Chrome Tips && Tricks](/2018/06/chrome-tips-and-tricks.html)
+#### [Chrome Tips && Tricks](https://lifelongprogrammer.blogspot.com/2018/06/chrome-tips-and-tricks.html)
 
 #### [iTerm2](https://lifelongprogrammer.blogspot.com/2018/06/working-effectively-with-iterm.html){target="blank"}
 

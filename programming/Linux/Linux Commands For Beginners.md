@@ -94,6 +94,6 @@ diff -x '*.foo' -x '*.bar' -x '*.baz' -rq /destination/dir/1 /destination/dir/2
 - `wget -qO - http://ipecho.net/plain; echo`{.bash}
 
 ---
-#### [Related Posts](/search/label/Bash)
-<script src="/feeds/posts/default/-/Bash?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
-<script src="/feeds/posts/default/-/Linux?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+#### [Related Posts](https://lifelongprogrammer.blogspot.com/search/label/Bash)
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Bash?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
+<script src="https://lifelongprogrammer.blogspot.com/feeds/posts/default/-/Linux?orderby=updated&amp;alt=json-in-script&amp;callback=weightedRandomRelatedPosts&amp;max-results=20"></script>
